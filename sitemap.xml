@@ -832,35 +832,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/element-software-123/hccstorage/</loc>
-      
-      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-tw/element-software-123/hardware/</loc>
-      
-      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-tw/element-software-123/esds/</loc>
-      
-      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-tw/element-software-123/api/</loc>
-      
-      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-tw/element-software-123/setup/</loc>
       
       <lastmod>2022-05-16T18:40:30+00:00</lastmod>
       
@@ -875,6 +847,34 @@
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/element-software-123/storage/</loc>
+      
+      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/element-software-123/api/</loc>
+      
+      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/element-software-123/hardware/</loc>
+      
+      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/element-software-123/hccstorage/</loc>
+      
+      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/element-software-123/setup/</loc>
       
       <lastmod>2022-05-16T18:40:30+00:00</lastmod>
       
@@ -4094,14 +4094,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/element-software-123/api/reference_trademark.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/element-software-123/storage/reference_trademark.html</loc>
       
       <lastmod>2022-05-16T18:40:30+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/element-software-123/storage/reference_trademark.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/element-software-123/api/reference_trademark.html</loc>
       
       <lastmod>2022-05-16T18:40:30+00:00</lastmod>
       
@@ -4110,7 +4110,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/element-software-123//search.html</loc>
       
-      <lastmod>2022-05-18T10:55:27+00:00</lastmod>
+      <lastmod>2022-05-19T16:26:02+00:00</lastmod>
       
     </url>
   
@@ -4194,7 +4194,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/element-software-123/storage/task_data_manage_accounts_work_with_accounts_task.html</loc>
       
-      <lastmod>2022-05-16T18:40:30+00:00</lastmod>
+      <lastmod>2022-05-19T16:24:44+00:00</lastmod>
       
     </url>
   
@@ -4934,14 +4934,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/element-software-123/setup/task_post_deploy_access_the_element_software_user_interface.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/element-software-123/storage/task_post_deploy_access_the_element_software_user_interface.html</loc>
       
       <lastmod>2022-05-16T18:40:30+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/element-software-123/storage/task_post_deploy_access_the_element_software_user_interface.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/element-software-123/setup/task_post_deploy_access_the_element_software_user_interface.html</loc>
       
       <lastmod>2022-05-16T18:40:30+00:00</lastmod>
       

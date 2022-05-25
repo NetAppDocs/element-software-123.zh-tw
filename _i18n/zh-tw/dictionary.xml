@@ -12344,4 +12344,8 @@
   <block id="234a1430825055fe25203429facd267e" category="admonition">請勿在NetApp Element 單一vCenter執行個體中登錄多個VMware vCenter供應商。在新增第二NetApp Element 個供應商時、這會使所有VVOL資料存放區無法存取。</block>
   <block id="036988ff4fac899a45c5c90da9729599" category="doc">使用CHAP處理帳戶</block>
   <block id="5f93174c2b6fa00ee106be4342b5fae5" category="paragraph">在功能性儲存系統中、租戶可以使用帳戶來讓用戶端連線至叢集上的磁碟區。SolidFire帳戶包含存取指派給該帳戶的磁碟區所需的挑戰握手驗證傳輸協定（CHAP）驗證。當您建立Volume時、該磁碟區會指派給特定帳戶。</block>
+  <block id="927feedbfb9bbc4a93e285ba9504ab0b" category="inline-link-macro">儲存韌體產品組合2.76注意事項</block>
+  <block id="69b7535618573fd609dc8b4663c8b8c0" category="list-text"><block ref="69b7535618573fd609dc8b4663c8b8c0" category="inline-link-macro-rx"></block></block>
+  <block id="30624e21224d847e1b829641269ffe3c" category="inline-link-macro">儲存韌體產品組合2.27注意事項</block>
+  <block id="656e3f29cbe522931c455a5e233d1c6f" category="list-text"><block ref="656e3f29cbe522931c455a5e233d1c6f" category="inline-link-macro-rx"></block></block>
 </blocks>

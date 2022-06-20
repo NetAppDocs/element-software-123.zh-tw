@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">繁體中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">繁體中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-tw/element-software-123/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/element-software-123/api/reference_element_api_deletesnapshot.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/element-software-123/api/reference_element_api_deletesnapshot.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/element-software-123/api/reference_element_api_deletesnapshot.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/element-software-123/api/reference_element_api_deletesnapshot.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/element-software-123/api/reference_element_api_deletesnapshot.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-tw/element-software-123/api/reference_element_api_deletesnapshot.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/element-software-123/api/reference_element_api_deletesnapshot.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/element-software-123/api/reference_element_api_deletesnapshot.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/element-software-123/api/reference_element_api_deletesnapshot.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/element-software-123/api/reference_element_api_deletesnapshot.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -4226,7 +4218,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/index.html">
         零件與元件軟體12.3.x文件SolidFire
       </a></li><li class="subfolders "><a href="/zh-tw/element-software-123/concepts/concept_rn_relatedrn_element.html">
@@ -4416,11 +4408,11 @@
         元素介面中的圖示
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/storage/task_intro_provide_feedback.html">
         提供意見回饋
-      </a></li></ul></li><li class="subfolders "><a href="/zh-tw/element-software-123/storage/task_data_manage_accounts_work_with_accounts_task.html">
+      </a></li></ul></li><li class="subfolders "><a href="/zh-tw/element-software-123/storage/concept_system_manage_account_management.html">
         <div class="na-navbar-padding"> 管理帳戶</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/storage/task_data_manage_accounts_work_with_accounts_task.html">
-        使用使用者帳戶
+        使用CHAP處理帳戶
       </a></li><li class="subfolders "><a href="/zh-tw/element-software-123/storage/concept_system_manage_manage_cluster_administrator_users.html">
         <div class="na-navbar-padding"> 管理叢集管理員使用者帳戶</div>
       </a>
@@ -5161,7 +5153,7 @@
         SetLicenseKey
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_setloginsessioninfo.html">
         SetLoginSessionInfo
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_shutdown.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_cluster_shutdown.html">
         關機
       </a></li></ul></li><li class="subfolders "><a href="/zh-tw/element-software-123/api/concept_element_api_create_cluster_api_methods.html">
         <div class="na-navbar-padding"> 叢集建立API方法</div>
@@ -5303,7 +5295,7 @@
         GetNetwork介面
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_getnodeactivetlsciphers.html">
         GetNodeActiveTlsCiphers
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_getnodefipsdrivesreport.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_node_getnodefipsdrivesreport.html">
         GetNodeFipsDrivesReport
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_getnodesslcertificate.html">
         GetNodeSSLCertificate
@@ -5347,7 +5339,7 @@
         SetNodeSSLCertificate
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_setnodesupplementaltlsciphers.html">
         SetNodeSupplementalTlsCiphers
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_shutdown.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_node_shutdown.html">
         關機
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_testconnectensemble.html">
         TestConnectEntemble
@@ -5525,7 +5517,7 @@
         GetLldpConfig
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_getlldpinfo.html">
         GetLldpInfo
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_getnodefipsdrivesreport.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_system_configuration_getnodefipsdrivesreport.html">
         GetNodeFipsDrivesReport
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/element-software-123/api/reference_element_api_getntpinfo.html">
         GetNtpInfo
@@ -6216,4 +6208,5 @@
     </script>
     <script src='/zh-tw/element-software-123/js/www-ntap.js'></script>
     <script src='/zh-tw/element-software-123/js/tabbed-blocks.js'></script>
+    <script src='/zh-tw/element-software-123/js/sidebar.js'></script>
   </body></html>

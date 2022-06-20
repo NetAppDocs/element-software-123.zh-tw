@@ -420,7 +420,6 @@
   <block id="1326a41ad4b26f3395b0f54dd9172b2b" category="inline-link-macro">深入瞭解客戶</block>
   <block id="f25165465224e736bc3801bbad7eb5f8" category="list-text"><block ref="f25165465224e736bc3801bbad7eb5f8" category="inline-link-macro-rx"></block></block>
   <block id="7e5784de66821e5068bc24c9a5c6d1d6" category="inline-link-macro">使用使用者帳戶</block>
-  <block id="fe0d0db1949183b4fc769561ae8c3f8a" category="list-text"><block ref="fe0d0db1949183b4fc769561ae8c3f8a" category="inline-link-macro-rx"></block></block>
   <block id="3f9324833c13ae3ed43845b441b05e73" category="summary">您可以在NetApp混合雲控制儀表板上檢視儲存資源。此外、您還可以監控儲存容量和儲存效能。</block>
   <block id="a74d2845bf0214173bedd164f5dc18bc" category="doc">監控混合雲控制儀表板上的儲存資源</block>
   <block id="a916121ffd7a7772d450d2d9b32f3aa2" category="paragraph">透過NetApp混合雲控制儀表板、您可以一目瞭然地檢視所有儲存資源。此外、您還可以監控儲存容量和儲存效能。</block>
@@ -1881,31 +1880,18 @@
   <block id="ff5d4009972b5a994ecb6aa941dafe8d" category="doc">管理SolidFire 功能</block>
   <block id="b708fcb66d2fb4281601a54f0e59184f" category="paragraph">以下是各種儲存管理工作內容的連結：</block>
   <block id="cef2ee48106a0a7790ec9a773798ee14" category="inline-link-macro">在Element軟體UI中使用基本選項</block>
-  <block id="0dafc18315b2055ca29f9f5395b46078" category="list-text"><block ref="0dafc18315b2055ca29f9f5395b46078" category="inline-link-macro-rx"></block></block>
-  <block id="ee345e37fd89921fbb54a89b2fefa229" category="list-text"><block ref="ee345e37fd89921fbb54a89b2fefa229" category="inline-link-macro-rx"></block></block>
   <block id="feabbbf9b5afb31194daf0d8e3ff75dc" category="inline-link-macro">使用Volume</block>
-  <block id="74ebf8ab5e798d0fa568bcd8a71aa242" category="list-text"><block ref="74ebf8ab5e798d0fa568bcd8a71aa242" category="inline-link-macro-rx"></block></block>
   <block id="7b3b3440fb0f7016b1525de95db91e45" category="paragraph">您也可以在這裡找到將QoS原則套用至磁碟區的相關資訊。</block>
   <block id="661a6e0397d4dd97cf4921386753f84c" category="inline-link-macro">使用虛擬磁碟區</block>
-  <block id="6bb10b8c2ec44ff96150cda3829a141f" category="list-text"><block ref="6bb10b8c2ec44ff96150cda3829a141f" category="inline-link-macro-rx"></block></block>
   <block id="ed91772e4e459c956ac7c32367490acf" category="inline-link-macro">使用Volume存取群組和啟動器</block>
-  <block id="016c10d0f18079b72acb6524c57aaee2" category="list-text"><block ref="016c10d0f18079b72acb6524c57aaee2" category="inline-link-macro-rx"></block></block>
   <block id="e5879288a130fbd8d0b8682cfc375c4f" category="inline-link-macro">使用快照</block>
-  <block id="ca94cd46c5b91d8dd88b38cadc1857cd" category="list-text"><block ref="ca94cd46c5b91d8dd88b38cadc1857cd" category="inline-link-macro-rx"></block></block>
   <block id="0c7383db5ca3f34e6352575ba2cbe22c" category="inline-link-macro">開始使用外部金鑰管理</block>
-  <block id="f4a74b3b076b1d462ffa0172857a69aa" category="list-text"><block ref="ca9fbc25825ab8d777cc58150f281e73" category="inline-link-macro-rx"></block> _新增！_</block>
   <block id="7ab27d3dd83b6b8225315ec0073d2ab7" category="inline-link-macro">設定外部金鑰管理</block>
-  <block id="abccea51172d10762d66aadd72d745d4" category="list-text"><block ref="560be90d6081a2a9ff1b510f5605605b" category="inline-link-macro-rx"></block> _新增！_</block>
   <block id="2dac088d1b366882d185fe8aedb97392" category="inline-link-macro">在叢集之間執行遠端複寫</block>
-  <block id="fdf730847afa2142fb1e4ccfa7075c34" category="list-text"><block ref="fdf730847afa2142fb1e4ccfa7075c34" category="inline-link-macro-rx"></block></block>
   <block id="85471e9e15ba31abb79b76ec9e5f23d6" category="inline-link-macro">備份與還原磁碟區</block>
-  <block id="8fd4f5c1d16d7d08b2d74e6e3d77e80f" category="list-text"><block ref="8fd4f5c1d16d7d08b2d74e6e3d77e80f" category="inline-link-macro-rx"></block></block>
   <block id="12f6af3a2ee487909bf552aa36903b29" category="inline-link-macro">使用Element API管理儲存設備</block>
-  <block id="56a5432cb1558dea6f6c8ec0507a8a93" category="list-text"><block ref="56a5432cb1558dea6f6c8ec0507a8a93" category="inline-link-macro-rx"></block></block>
   <block id="f24d37c25de8d6b117bf209733e23fff" category="inline-link-macro">系統疑難排解</block>
-  <block id="c487b4619a6c8cbd207c9a3f233e0681" category="list-text"><block ref="c487b4619a6c8cbd207c9a3f233e0681" category="inline-link-macro-rx"></block></block>
   <block id="19c63df81b4a931980753ca5b4f349e8" category="inline-link">vCenter Server適用的插件概述NetApp Element</block>
-  <block id="c6051cfa3c7828a4f0a2532c70333d32" category="list-text"><block ref="c6051cfa3c7828a4f0a2532c70333d32" category="inline-link-rx"></block></block>
   <block id="cf01dc47ed79267872b62a626969809c" category="paragraph">您可以從「總覽」頁面瀏覽至特定工作。</block>
   <block id="b6da6eab87d65c4c9297f872afd87022" category="section-title">在SolidFire 不穩定的ESDS叢集上使用Element API</block>
   <block id="c08a6bc5249e5f81c4e136382fe69500" category="inline-link">Element API文件</block>
@@ -2879,7 +2865,6 @@
   <block id="c2126f3a9b17d5a8211c213e94697128" category="list-text"><block ref="c2126f3a9b17d5a8211c213e94697128" category="inline-xref-macro-rx"></block></block>
   <block id="c94ac8cbe93bf449753f9e8ed6033da3" category="list-text"><block ref="c94ac8cbe93bf449753f9e8ed6033da3" category="inline-xref-macro-rx"></block></block>
   <block id="e4dfbeb73cec3dae15bbd54d9bab5371" category="inline-xref-macro">GetNodeFipsDrivesReport</block>
-  <block id="aabd1801541ead1bcd1e57ea9a0dc288" category="list-text"><block ref="aabd1801541ead1bcd1e57ea9a0dc288" category="inline-xref-macro-rx"></block></block>
   <block id="c9e9ad5ae5d8e698a9da86cccc39c84c" category="inline-xref-macro">GetNodeSSLCertificate</block>
   <block id="1db0564047982a8703c9d6bcb0d8300d" category="list-text"><block ref="1db0564047982a8703c9d6bcb0d8300d" category="inline-xref-macro-rx"></block></block>
   <block id="f0f30fb5fcf8bce884f79cd5f7a9b3e3" category="inline-xref-macro">GetNodeSupportedTlsCiphers</block>
@@ -2917,7 +2902,6 @@
   <block id="b6f637bbf592431391b96d8af4bcd1cf" category="inline-xref-macro">SetNodeSupplementalTlsCiphers</block>
   <block id="b723139148af832a21c2ecfa3039411b" category="list-text"><block ref="b723139148af832a21c2ecfa3039411b" category="inline-xref-macro-rx"></block></block>
   <block id="1a4ebb180ba59b067782515ffee6e975" category="inline-xref-macro">關機</block>
-  <block id="144d36f45c4e2cbb636347c94accc2c5" category="list-text"><block ref="144d36f45c4e2cbb636347c94accc2c5" category="inline-xref-macro-rx"></block></block>
   <block id="5fa5abbab0427043975f34442f42da9e" category="inline-xref-macro">TestConnectEntemble</block>
   <block id="44e44aac4f85321b1624841afd7d632d" category="list-text"><block ref="44e44aac4f85321b1624841afd7d632d" category="inline-xref-macro-rx"></block></block>
   <block id="91b20c0741eed5c527bff5bdce979363" category="inline-xref-macro">TestConnectMvip</block>
@@ -3856,9 +3840,6 @@
   <block id="1df087dc7a34eab407c5cf522961330b" category="paragraph">您可以使用「停機」方法重新啟動或關閉叢集中的節點。您可以使用此方法來關閉叢集中的單一節點、多個節點或所有節點。</block>
   <block id="f89ab5f3e762382a17a370e3a67bdd6b" category="paragraph">要重新啟動或關閉之節點的NodeID清單。</block>
   <block id="ef3e30e070f70244fd6578d88a6b77ac" category="paragraph">選項</block>
-  <block id="638b8dabf92665cc9997f461c4b0cd5a" category="paragraph">針對叢集採取的行動。可能值：</block>
-  <block id="fa63237d02c5a8971b00d7a32eb429a5" category="list-text">重新啟動：重新啟動叢集。</block>
-  <block id="42a2b1e77ff0004b6a5782be278bc91c" category="list-text">Halt：執行完全關機。</block>
   <block id="8a7ef1c3e82395341b7000b79c239eb4" category="paragraph">重新啟動</block>
   <block id="4f4d5661536c011a5b741adcc4ef375e" category="summary">BulkVolume工作物件包含大量磁碟區讀取或寫入作業的相關資訊、例如複製或建立快照。</block>
   <block id="27dc8ad0ed4686d1401b38ad85126f2f" category="doc">艙壁Volume工作</block>
@@ -7831,7 +7812,6 @@
   <block id="b2dff7fa85ae16d6add42cbf710b33b5" category="inline-link-macro">部署後設定SolidFire 系統選項</block>
   <block id="40fbcf5a102757324058f7fa79b9f9b7" category="list-text"><block ref="40fbcf5a102757324058f7fa79b9f9b7" category="inline-link-macro-rx"></block></block>
   <block id="afa76abc4566eab1fcb19c24508a45f6" category="inline-link-macro">管理帳戶</block>
-  <block id="17c7bc4d0c6040d40f372c983e2ebdfa" category="list-text"><block ref="17c7bc4d0c6040d40f372c983e2ebdfa" category="inline-link-macro-rx"></block></block>
   <block id="734272fbe72b7eacb11bd1d45ed8d64d" category="inline-link-macro">管理您的系統</block>
   <block id="7d3ef918a12e578d9fde14c32bffb81d" category="list-text"><block ref="7d3ef918a12e578d9fde14c32bffb81d" category="inline-link-macro-rx"></block></block>
   <block id="d6615555ed8cd4ed3dcba9b13d892dc3" category="inline-link-macro">管理磁碟區和虛擬磁碟區</block>
@@ -10285,7 +10265,6 @@
   <block id="d3daac97e8c69781f73bcc5512cb5c2a" category="inline-link-macro">升級儲存系統元件</block>
   <block id="ecb20e3ca51440136d042527b042c2ee" category="list-text"><block ref="ecb20e3ca51440136d042527b042c2ee" category="inline-link-macro-rx"></block></block>
   <block id="6038a645307a76874f058ffe322fc4f6" category="list-text"><block ref="6038a645307a76874f058ffe322fc4f6" category="inline-link-macro-rx"></block></block>
-  <block id="4fbd159c0ffeaa8174ace6e07db12ddd" category="list-text"><block ref="4fbd159c0ffeaa8174ace6e07db12ddd" category="inline-link-macro-rx"></block></block>
   <block id="78b427ddfeadab92101bce0e26d2af15" category="list-text"><block ref="78b427ddfeadab92101bce0e26d2af15" category="inline-link-macro-rx"></block></block>
   <block id="b1d9f91038721e8f8e298ac364db6778" category="list-text"><block ref="b1d9f91038721e8f8e298ac364db6778" category="inline-link-macro-rx"></block></block>
   <block id="58a3460b6f080dc34224f11288e2e013" category="list-text"><block ref="58a3460b6f080dc34224f11288e2e013" category="inline-link-macro-rx"></block></block>
@@ -12348,4 +12327,28 @@
   <block id="69b7535618573fd609dc8b4663c8b8c0" category="list-text"><block ref="69b7535618573fd609dc8b4663c8b8c0" category="inline-link-macro-rx"></block></block>
   <block id="30624e21224d847e1b829641269ffe3c" category="inline-link-macro">儲存韌體產品組合2.27注意事項</block>
   <block id="656e3f29cbe522931c455a5e233d1c6f" category="list-text"><block ref="656e3f29cbe522931c455a5e233d1c6f" category="inline-link-macro-rx"></block></block>
+  <block id="372092ac59d2946fc3d092b0e44df82a" category="list-text"><block ref="372092ac59d2946fc3d092b0e44df82a" category="inline-link-macro-rx"></block></block>
+  <block id="26bde7cf1d647a00812ba293427f218c" category="summary">您可以在Element UI中管理帳戶。這包括使用CHAP處理帳戶、以及管理叢集管理員使用者帳戶。</block>
+  <block id="cb7c12b1424a0e6b1be1defaded53de8" category="paragraph">您可以在Element UI中管理系統帳戶。這包括使用挑戰握手驗證傳輸協定（CHAP）來處理帳戶、以及管理叢集管理員使用者帳戶。</block>
+  <block id="0de8022e52b232dc0912129174158b7b" category="list-text"><block ref="0de8022e52b232dc0912129174158b7b" category="inline-link-macro-rx"></block></block>
+  <block id="93b99f5d3cef7af59adc0f899dddf1e1" category="list-text"><block ref="93b99f5d3cef7af59adc0f899dddf1e1" category="inline-link-macro-rx"></block></block>
+  <block id="5ca104d2b413ecd234583f40c3a808b8" category="list-text"><block ref="5ca104d2b413ecd234583f40c3a808b8" category="inline-link-macro-rx"></block></block>
+  <block id="7e33105c99e1040a1b09764052c96bf6" category="list-text"><block ref="7e33105c99e1040a1b09764052c96bf6" category="inline-xref-macro-rx"></block></block>
+  <block id="b9d025f755210db0c30935ae2494f820" category="list-text"><block ref="b9d025f755210db0c30935ae2494f820" category="inline-xref-macro-rx"></block></block>
+  <block id="f79d1130796c00fe9899b2bf889381a3" category="paragraph">針對叢集採取的行動。可能值：*重新啟動：重新啟動叢集。*停止：執行完全關機。</block>
+  <block id="5d037cf826470bedca4705fbb4eb071c" category="paragraph">此方法沒有傳回值。=此方法的Request範例要求與下列範例類似：</block>
+  <block id="9eecd7c0744f77d1f15658bd0a02f1b2" category="list-text"><block ref="9eecd7c0744f77d1f15658bd0a02f1b2" category="inline-xref-macro-rx"></block></block>
+  <block id="482c5ad7089a563e0fe0fbc1a8647e77" category="list-text"><block ref="482c5ad7089a563e0fe0fbc1a8647e77" category="inline-xref-macro-rx"></block></block>
+  <block id="469a9f1899671c0ca6de784494e062fc" category="list-text"><block ref="469a9f1899671c0ca6de784494e062fc" category="inline-link-macro-rx"></block></block>
+  <block id="ec0b9fb2fa43e46443eb0f7087291fb5" category="list-text"><block ref="ec0b9fb2fa43e46443eb0f7087291fb5" category="inline-link-macro-rx"></block></block>
+  <block id="11df4da923543977db2ff7d6c2b87b7c" category="list-text"><block ref="11df4da923543977db2ff7d6c2b87b7c" category="inline-link-macro-rx"></block></block>
+  <block id="2e437e291facb9c9920734e7632e62ad" category="list-text"><block ref="2e437e291facb9c9920734e7632e62ad" category="inline-link-macro-rx"></block></block>
+  <block id="d39f23e3f84c1bd1e144f6fed629b1e4" category="list-text"><block ref="d39f23e3f84c1bd1e144f6fed629b1e4" category="inline-link-macro-rx"></block></block>
+  <block id="b4d3d7a7f19bcfb9d4bcfeca430cfbef" category="list-text"><block ref="b4d3d7a7f19bcfb9d4bcfeca430cfbef" category="inline-link-macro-rx"></block></block>
+  <block id="fb8145a478a8837082d05d97d87dbde5" category="list-text"><block ref="b16f2946d1eb3dd465deb7a9462fd76d" category="inline-link-macro-rx"></block> _新增！_</block>
+  <block id="1f5d8ae290c85b66ea7ecdfae46d7188" category="list-text"><block ref="8393824aba7fe138051cb03400ca7bb6" category="inline-link-macro-rx"></block> _新增！_</block>
+  <block id="fac8ed8d82b59cb855583050cee9cd34" category="list-text"><block ref="fac8ed8d82b59cb855583050cee9cd34" category="inline-link-macro-rx"></block></block>
+  <block id="dcfa4d00c50a08c56e2319fa3f3d1288" category="list-text"><block ref="dcfa4d00c50a08c56e2319fa3f3d1288" category="inline-link-macro-rx"></block></block>
+  <block id="e12535c6360c5dad15589e14aca41e3a" category="list-text"><block ref="e12535c6360c5dad15589e14aca41e3a" category="inline-link-macro-rx"></block></block>
+  <block id="7661478d2706b156c56055536f2e93da" category="list-text"><block ref="7661478d2706b156c56055536f2e93da" category="inline-link-rx"></block></block>
 </blocks>

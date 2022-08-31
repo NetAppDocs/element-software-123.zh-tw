@@ -8481,7 +8481,6 @@
   <block id="390ad22ea22a7a4699d87e2efaa0c84e" category="list-text">關於節點的詳細資料、例如序號、機箱中的插槽位置、模型、NetApp Element 以及儲存節點上執行的版本介紹</block>
   <block id="09bfac84403d33379e533954403b0f94" category="list-text">有關虛擬機器的CPU與儲存相關資訊</block>
   <block id="8f7f4baec8aa05a765ec83446ad7d0c6" category="inline-link">NetApp支援網站&amp;gt；Active IQ 適用於各種功能的工具</block>
-  <block id="a93cab242c29bc1f7ed010aedb157dab" category="list-text"><block ref="1a3a02f863c93340fc1be395cd8c98c0" category="inline-link-rx"></block></block>
   <block id="de38f9b39645a1819eeb7bfcb11bad84" category="summary">管理節點（mNode）是與一或多個元件軟體型儲存叢集平行執行的虛擬機器。它用於升級和提供系統服務、包括監控和遙測、管理叢集資產和設定、執行系統測試和公用程式、以及啟用NetApp支援存取來進行疑難排解。</block>
   <block id="d3df0f25284b2139f704a93fe81001c6" category="doc">Element軟體的管理節點</block>
   <block id="da3b616dfd629624c8720b947d60d3a8" category="inline-link-macro">管理節點（mNode）</block>
@@ -12329,4 +12328,11 @@
   <block id="70659e4f9824d888c2aa77344aaa46c4" category="list-text"><block ref="70659e4f9824d888c2aa77344aaa46c4" category="inline-link-rx"></block></block>
   <block id="0ea391471e626f95079246bfd0ab48f9" category="paragraph">vCenter Server SIOC密碼的「功能」外掛程式也稱為_QoSSIOC密碼。NetApp Element </block>
   <block id="0ba7ef8feca0e0b45134473e9c3182d4" category="paragraph">檢閱｛url-peak｝[Element Plug-In for vCenter Server KB文章]。</block>
+  <block id="ef9cbe434b5f28c847ba96be9c26f253" category="list-text">CPU、記憶體使用量及節點節流的圖形化呈現</block>
+  <block id="7aa85da92a1cd23b2981568643e3da1c" category="inline-link">本文檔SolidFire Active IQ</block>
+  <block id="24cc9a6d809fb5ff41b6660db9cdf022" category="list-text">關於虛擬機器的CPU和儲存相關資訊若要深入瞭解SolidFire Active IQ VMware、請參閱<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>。</block>
+  <block id="1a1a6c5ed33ecaf055e3e38150525306" category="list-text"><block ref="11e28499cd7c9c7d408304fbab2a1320" category="inline-link-rx"></block></block>
+  <block id="469eaba8a7048afa0ba6f8eb91801de9" category="doc">利用SolidFire Active IQ 功能以監控儲存</block>
+  <block id="45f40a7365f71f3eafc4489e01e9aa82" category="sidebar">利用NetApp SolidFire Active IQ 功能監控儲存設備</block>
+  <block id="d8d2cf4b5fd1196b5be39dd3b93ba995" category="sidebar">使用NetApp SolidFire Active IQ 解決方案</block>
 </blocks>

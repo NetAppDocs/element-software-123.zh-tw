@@ -9,8 +9,10 @@ https://activeiq.solidfire.com["SolidFire Active IQ"^] 是一種網路型工具�
 * 節點數量和節點狀態：健全、離線或故障
 * CPU、記憶體使用量及節點節流的圖形化呈現
 * 關於節點的詳細資料、例如序號、機箱中的插槽位置、模型、NetApp Element 以及儲存節點上執行的版本介紹
-* 關於虛擬機器的CPU和儲存相關資訊若要深入瞭解SolidFire Active IQ VMware、請參閱 https://docs.netapp.com/us-en/solidfire-active-iq/index.html["本文檔SolidFire Active IQ"^]。
+* 有關虛擬機器的CPU與儲存相關資訊
 
+
+如需SolidFire Active IQ 瞭解有關資訊、請參閱 https://docs.netapp.com/us-en/solidfire-active-iq/index.html["本文檔SolidFire Active IQ"^]。
 
 
 

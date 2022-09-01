@@ -8477,7 +8477,6 @@
   <block id="7d640bfdd148f102df423b6e94b11571" category="paragraph"><block ref="15098cd863d8945571eb3fa1cb63a7fe" category="inline-link-rx"></block> 是一種網路型工具、可持續更新整個叢集資料的歷史檢視。您可以針對特定事件、臨界值或度量設定警示。利用此功能、您可以監控系統效能與容量、並隨時掌握叢集健全狀況。SolidFire Active IQ</block>
   <block id="841b3da78955b4e942c8bd5ffddca29e" category="paragraph">您可以在SolidFire Active IQ 下列關於您系統的資訊中找到：</block>
   <block id="4cea75009713f3eadbea7bd906d0523e" category="list-text">節點數量和節點狀態：健全、離線或故障</block>
-  <block id="1d60ceb1c0eb7b235010f9d4f656f6d7" category="list-text">CPU與記憶體使用量的圖形化表示</block>
   <block id="390ad22ea22a7a4699d87e2efaa0c84e" category="list-text">關於節點的詳細資料、例如序號、機箱中的插槽位置、模型、NetApp Element 以及儲存節點上執行的版本介紹</block>
   <block id="09bfac84403d33379e533954403b0f94" category="list-text">有關虛擬機器的CPU與儲存相關資訊</block>
   <block id="8f7f4baec8aa05a765ec83446ad7d0c6" category="inline-link">NetApp支援網站&amp;gt；Active IQ 適用於各種功能的工具</block>
@@ -10154,7 +10153,6 @@
   <block id="61619933da68d936343d156cf86fd348" category="list-text">在「*密碼*」和「*確認密碼*」欄位中輸入新的強式密碼。</block>
   <block id="328ec503408d578ee5972945b2b06ae0" category="list-text">按一下頁面底部的*「Save"（儲存）*。</block>
   <block id="c77013b15c47fcdd751ff96ca28cf5ac" category="list-text">對於任何其他使用預設IPMI密碼的H610S節點、請重複此程序。</block>
-  <block id="148fe9926e292adb5c7374ee88fa6651" category="paragraph">您可以在Active IQ 下列關於您系統的資訊中找到：</block>
   <block id="66c36c8b05fe85645ac29ef19ef65fec" category="paragraph">管理節點（mNode）是與一或多個元件軟體型儲存叢集平行執行的虛擬機器。它用於升級和提供系統服務、包括監控和遙測、管理叢集資產和設定、執行系統測試和公用程式、以及啟用NetApp支援存取來進行疑難排解。</block>
   <block id="27784185cf7acffff8c4030234913f4f" category="paragraph">從Element 11.3版本開始、管理節點就能做為微服務主機、以便在主要版本之外更快更新精選軟體服務。這些微服務或管理服務（例如Active IQ ：《Sfatfcollector》（資料收集器）、vCenter外掛程式的QoSSIOC和mNode服務）會隨著服務組合而頻繁更新。管理節點也提供其他服務、包括用於儲存節點軟體升級和支援工具（遠端支援通道）的HealthTools。</block>
   <block id="d27c6f768ef4d7149904862f1a633b7e" category="summary">這個伺服器包含一系列的磁碟機、這些磁碟機透過Bond10G網路介面彼此通訊。SolidFire節點中的磁碟機包含區塊和中繼資料空間、可用於資料儲存和資料管理。</block>
@@ -11126,18 +11124,6 @@
   <block id="18d9baaef37c0db710997a1713f55562" category="paragraph">QoS原則的使用者定義名稱。</block>
   <block id="ce8f7dd1608dc67c9404ff17eac605a7" category="list-text">*磁碟區*</block>
   <block id="7bb6651b24ac622589ee6a2bece471c0" category="paragraph">顯示使用原則的磁碟區數目。此數字會連結至已套用原則的磁碟區表格。</block>
-  <block id="8bc14f0cb78851f59e85c1d447c2c99f" category="doc">服務品質</block>
-  <block id="8525478e88fe768020917024e56b3375" category="list-text">*最低IOPS *</block>
-  <block id="27e38a475d319fbe8808dbde111a71f4" category="paragraph">儲存叢集提供給磁碟區的每秒持續輸入和輸出（IOPS）最小數量。為磁碟區設定的最小IOPS是保證磁碟區效能的等級。效能不會低於此等級。</block>
-  <block id="0eafe666057554f59d8d2c8c24b3e0f3" category="list-text">*最大IOPS *</block>
-  <block id="086078d6e9862aa3229698f9f4ea609d" category="paragraph">儲存叢集提供給磁碟區的持續IOPS上限。當叢集IOPS等級極高時、不會超過此等級的IOPS效能。</block>
-  <block id="6c3439000c562798f2214c4888ab4ed8" category="paragraph">在短時間脈衝案例中允許的IOPS上限。如果某個磁碟區的執行量低於最大IOPS、則會累積大量資源。當效能等級變得非常高、並推升至最大層級時、磁碟區上就會允許短暫的IOPS突發。</block>
-  <block id="21094115b958d315231b910f9b8e8c38" category="paragraph">單一磁碟區可以累積爆發IOPS、並使用這些積分在設定的「爆發期間」內、以超過其最高IOPS的爆發IOPS等級。如果叢集具有容納突發量的容量、則磁碟區最多可暴增60秒。</block>
-  <block id="1d817bd510c09dbc5ee3cf5101fa6e94" category="paragraph">Volume每秒累積一秒的暴增信用額度（最高60秒）、使磁碟區的執行量低於其最大IOPS限制。</block>
-  <block id="4fb6dee19a7208b7558396de228b1c1c" category="list-text">*有效最大頻寬*</block>
-  <block id="248da5ca182c3126378490e07f585f5c" category="paragraph">最大頻寬的計算方法是將IOPS數（根據QoS曲線）乘以IO大小。</block>
-  <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph">範例：</block>
-  <block id="4f88c9126146259f6c0627052d9cda8f" category="paragraph">QoS參數設定為100分鐘IOPS、1000最大IOPS及1500個爆發IOPs、對效能品質有下列影響：</block>
   <block id="a418de238af2e950367eb7c3bf83fe1f" category="summary">一般而言、當您使用SnapMirror從SolidFire 執行NetApp Element 各種功能的支援資料儲存叢集到ONTAP 支援各種功能的軟體進行災難恢復時、元素就是來源ONTAP 、而不只是目的地。不過ONTAP 、在某些情況下、由於來源和元素是目的地、所以不能使用此功能。</block>
   <block id="659c8d4c2c0fc3a73a824fc81bde1e80" category="doc">執行ONTAP 從功能性到元件的傳輸或一次性移轉</block>
   <block id="a955789d7e958f413c05678ed87e5055" category="list-text">存在兩種情況：</block>
@@ -12087,9 +12073,6 @@
   <block id="17d44e89eecd428fa4268b3fa3873164" category="paragraph">最好不要混用未加密和加密的節點。在混合式節點叢集中、任何節點都不能大於叢集總容量的33%。例如、在具有四個SF系列4805節點的叢集中、唯一可新增的最大節點是SF系列9605。叢集容量臨界值是根據這種情況下最大節點可能遺失的情況來計算。</block>
   <block id="dde5a199f31b4af53ccd088330e8314c" category="paragraph">從元件12開始、不支援下列SF系列儲存節點：</block>
   <block id="58432e4b26f0e5c8db86828d17f3a7ba" category="paragraph">如果您將其中一個儲存節點升級至元件12、您將會看到錯誤訊息、指出元素12．0不支援此節點。</block>
-  <block id="05da295a52c5ab8bf219722efcc57625" category="summary">服務品質（QoS）效能曲線顯示區塊大小與IOPS百分比之間的關係。</block>
-  <block id="735a31f1d01fe768279621625e725b79" category="doc">QoS效能曲線</block>
-  <block id="18a66bc3ec4b3669a530ba3c51d026aa" category="paragraph">服務品質（QoS）效能曲線顯示區塊大小與IOPS百分比之間的關係。</block>
   <block id="4cf5f18e32ae2a3ab791ffc90b0c71b8" category="summary">您必須監控系統以進行診斷、並取得各種系統作業的效能趨勢和狀態資訊。您可能需要更換節點或SSD以進行維護。</block>
   <block id="5d275af03802c344792a6765e974ac03" category="list-text"><block ref="5d275af03802c344792a6765e974ac03" category="inline-link-macro-rx"></block></block>
   <block id="b1c9ca707156f02819d3d0e1cc8278ee" category="list-text"><block ref="b1c9ca707156f02819d3d0e1cc8278ee" category="inline-link-macro-rx"></block></block>
@@ -12330,9 +12313,10 @@
   <block id="0ba7ef8feca0e0b45134473e9c3182d4" category="paragraph">檢閱｛url-peak｝[Element Plug-In for vCenter Server KB文章]。</block>
   <block id="ef9cbe434b5f28c847ba96be9c26f253" category="list-text">CPU、記憶體使用量及節點節流的圖形化呈現</block>
   <block id="7aa85da92a1cd23b2981568643e3da1c" category="inline-link">本文檔SolidFire Active IQ</block>
-  <block id="24cc9a6d809fb5ff41b6660db9cdf022" category="list-text">關於虛擬機器的CPU和儲存相關資訊若要深入瞭解SolidFire Active IQ VMware、請參閱<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>。</block>
   <block id="1a1a6c5ed33ecaf055e3e38150525306" category="list-text"><block ref="11e28499cd7c9c7d408304fbab2a1320" category="inline-link-rx"></block></block>
   <block id="469eaba8a7048afa0ba6f8eb91801de9" category="doc">利用SolidFire Active IQ 功能以監控儲存</block>
   <block id="45f40a7365f71f3eafc4489e01e9aa82" category="sidebar">利用NetApp SolidFire Active IQ 功能監控儲存設備</block>
   <block id="d8d2cf4b5fd1196b5be39dd3b93ba995" category="sidebar">使用NetApp SolidFire Active IQ 解決方案</block>
+  <block id="f02632134f46548247abd92a38e5f73e" category="paragraph">如需SolidFire Active IQ 瞭解有關資訊、請參閱<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>。</block>
+  <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">例如、某些功能的功能是服務品質（QoS）、需要元素11.3或更新版本才能正常運作。Active IQ為了確認您有能力使用Active IQ 所有的功能、NetApp建議您：</block>
 </blocks>

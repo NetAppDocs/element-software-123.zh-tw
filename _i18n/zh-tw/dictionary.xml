@@ -1130,13 +1130,11 @@
   <block id="62403656f60d86891c7c9ad1ffa2f44f" category="summary">您可以使用NetApp混合雲控制UI或REST API UI、在管理節點上停用及啟用SSH功能、或使用REST API UI來判斷SSH支援連線功能的狀態。</block>
   <block id="d6ffeb2fc4f82d1d17f906502ee07d86" category="doc">管理管理節點上的SSH功能</block>
   <block id="d1cfb55513d453a2cf4188067d2cf218" category="paragraph">您可以使用REST API在管理節點（mNode）上停用、重新啟用或判斷SSH功能的狀態。提供SSH功能 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 在執行管理服務2.18或更新版本的管理節點上、預設為停用。</block>
-  <block id="de7e6ba1aa5db3f3ecd18e0db7533988" category="paragraph">從管理服務的2.20開始、您可以使用NetApp混合雲控制UI、在管理節點上啟用和停用SSH功能。</block>
   <block id="3c94e6ce915e7526e3d52ade19785a73" category="list-text">* NetApp混合式雲端控制權限*：您擁有系統管理員權限。</block>
   <block id="893af10adfc625cc78ae6b31f194e8e2" category="list-text">*叢集管理員權限*：您具有儲存叢集管理員權限。</block>
   <block id="4a8504402e610045f6f515076b209af8" category="list-text">* Element軟體*：您的叢集執行NetApp Element 的是不支援功能的軟體11.3或更新版本。</block>
   <block id="ac7ca17dbb21ace6afb8d4dca6cabea3" category="list-text">*管理服務更新*：</block>
   <block id="72b0efdaad5d469b43f79c332bb57be4" category="inline-link">管理服務套裝組合</block>
-  <block id="b5fac2f2425ddc92784c5c7e5d8d557e" category="list-text">若要使用NetApp混合雲控制UI、您已更新您的<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 至版本2.20.</block>
   <block id="43fe8cb39bfeedc36b52f882e1fa6566" category="list-text">若要使用REST API UI、您已更新您的<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 至版本2.17。</block>
   <block id="22b10ea78e232391f766c1d30f89f143" category="list-text"><block ref="ceecdddcb31feb92e45b5238bea4a2dd" category="inline-xref-macro-rx"></block></block>
   <block id="4dcaf58a1a6fd3555d9626cfadc42510" category="inline-link-macro">驗證</block>
@@ -7842,7 +7840,6 @@
   <block id="1b4d7862ca62ac0691b197c1c4e48017" category="list-text">您必須先升級至最新的管理服務套裝組合、才能升級Element軟體。</block>
   <block id="a443497b41405480f6755e35166556e7" category="inline-link">管理服務版本說明</block>
   <block id="b142e9d9b67c7c4504bd1ab09fd15db2" category="admonition">如需最新的管理服務版本注意事項、說明各服務套裝組合的主要服務、新功能、錯誤修正及因應措施、請參閱<block ref="51c56ce961e981301a44342800a6fcbd" category="inline-link-rx"></block></block>
-  <block id="573d529ded9f2b66a55c1d25a9498c72" category="paragraph">從管理服務的2.20開始、您必須先接受並儲存終端使用者授權合約（EULA）、才能使用NetApp混合雲控制UI或API來升級管理服務：</block>
   <block id="1f760966967601f6feb32cc62bb11ca3" category="list-text">選取介面右上角附近的*升級*。</block>
   <block id="be441559765f3e52d513b155b4b59981" category="list-text">隨即顯示EULA。向下捲動、選取*我接受目前及所有未來更新*、然後選取*儲存*。</block>
   <block id="06194f109ff7ed4270c1e5f89cbe9e74" category="admonition">當您接受EULA時、系統會記錄所有未來更新、並啟用自動下載功能。您將會收到NetApp軟體更新與升級的更新、您可以自行決定是否安裝、也可以方便地安裝。您可以停用與NetApp線上軟體儲存庫的網路連線、以停用自動下載功能。</block>
@@ -8025,7 +8022,6 @@
   <block id="26db8374256abd97a337e0f9af2f21c8" category="admonition">您必須先升級至最新的管理服務套裝組合、才能升級儲存節點上的韌體。如果您要將Element軟體更新至版本12．2或更新版本、則需要使用管理服務2．14．60或更新版本才能繼續。</block>
   <block id="0a4b0244a62a3d26a27fd761630e0952" category="inline-link-macro">升級儲存設備之前、請先執行Element儲存設備健全狀況檢查</block>
   <block id="736c409b380383ee8843715d26079c63" category="list-text">*叢集健全狀況*：您已執行健全狀況檢查。請參閱 <block ref="bdcf6db43efb3c82b174a0c4c0a65c66" category="inline-link-macro-rx"></block>。</block>
-  <block id="07cc0d856c010a1ee3ff9ee8f5157778" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級儲存韌體：</block>
   <block id="d12abcbed858bffa82e8d643aeac1e4f" category="inline-link-macro">版本說明與升級指示</block>
   <block id="c1b90d32c435bec1bc30056f56581b76" category="list-text">*更新BMC for H610S nodes *：您已升級H610S節點的BMC版本。請參閱 <block ref="c240390f1d50c698cb63f0c07c7d1edd" category="inline-link-macro-rx"></block>。</block>
   <block id="b24f3db75077a578765967e0b8ffa295" category="admonition">如需硬體的韌體和驅動程式韌體完整對照表、請參閱<block ref="54a79ab153742147d13ffd4ac16bf6ba" category="inline-link-rx"></block> （需要登入）。</block>
@@ -8133,7 +8129,6 @@
   <block id="7cccd916bcdac08ea30e7c32df58e516" category="admonition">您必須先升級至最新的管理服務套裝組合、才能將Element軟體升級至12.3.x版如果您要將Element軟體更新至12.3.x版、則需要使用管理服務2.14.60或更新版本才能繼續。</block>
   <block id="eb3ef9d3145086e8447906c0ff28c122" category="list-text">*叢集健全狀況*：您已確認叢集已準備好升級。請參閱 <block ref="bdcf6db43efb3c82b174a0c4c0a65c66" category="inline-link-macro-rx"></block>。</block>
   <block id="536ecfec86f2361139f65f4014b80536" category="list-text">*更新BMC for H610S nodes *：您已升級H610S節點的BMC版本。請參閱 <block ref="c240390f1d50c698cb63f0c07c7d1edd" category="inline-link-macro-rx"></block>。</block>
-  <block id="a3affadb8671444f8e45462ea7a0de50" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級Element軟體：</block>
   <block id="0e7647873b3166c20d4bb762ef96b543" category="paragraph">請選擇下列其中一個元素軟體升級選項：</block>
   <block id="f04c2dffe18d2f3b135204db9355705a" category="list-text"><block ref="d671d4153cf8124770baff9fa1830cd7" category="inline-xref-macro-rx"></block></block>
   <block id="c68d0cefaf6daaa0eddd2f2ab63ba5c8" category="list-text"><block ref="910aaaa5a5f6089f423c0c681bb2f1ce" category="inline-xref-macro-rx"></block></block>
@@ -8265,7 +8260,6 @@
   <block id="f4926605dca5caffd5d52e790b9eb676" category="list-text">*管理服務*：您已更新至最新的管理服務套裝組合（2.10.27或更新版本）。</block>
   <block id="fb7a24d6912e863521bf9df7516e215b" category="list-text">*管理節點*：您執行的是管理節點11.3或更新版本。</block>
   <block id="cd87cb364b82cfd7ff555087f3e88e59" category="list-text">* Element軟體*：您的叢集版本執行NetApp Element 的是功能不全的軟體11.3或更新版本。</block>
-  <block id="84d8587fb67731ba50262a0ffeacb7ac" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來執行元素儲存健全狀況檢查：</block>
   <block id="e8feae6554a0416e918615cc5ee78661" category="paragraph">您可以使用NetApp混合雲控制UI、NetApp混合雲控制API或HealthTools套件執行健全狀況檢查：</block>
   <block id="0096c254c62197f713da16cbb8cf17bf" category="list-text"><block ref="43e2712ac16e77262f42113e91f41bfc" category="inline-xref-macro-rx"></block> （偏好的方法）</block>
   <block id="c0ce03ffdb1b2eaf2997d4b003a6c398" category="list-text"><block ref="33b5a46d5ad547c7160d2877495cd388" category="inline-xref-macro-rx"></block></block>
@@ -8351,7 +8345,6 @@
   <block id="651784e7a6ddc6534201a6e8d1fbf248" category="paragraph">對於已註冊NetApp Element 的VMware vCenter Server更新版現有vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">您可以使用登錄公用程式、在vCenter Server Virtual Appliance（vCSA）或Windows上更新外掛程式登錄。您必須在需要使用外掛程式的每個vCenter Server上變更vCenter外掛程式的登錄。</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">此升級程序涵蓋下列升級案例：</block>
-  <block id="47e9151ac689287505aa641c93450d92" category="list-text">您正在升級NetApp Element 至適用於vCenter Server 4.9、4.8、4.7、4.6、4.5或4.4的VMware vCenter外掛程式。</block>
   <block id="a6a18366932bfeffc2341cc7aa5fe09d" category="list-text">您正在升級至7.0、6.7或6.5 HTML5 vSphere Web Client。</block>
   <block id="8eeabd6de4a231c731b82c27ee25bbdb" category="admonition">外掛程式與VMware vCenter Server 6.5 for Element Plug-in for VMware vCenter Server 4.6、4.7和4.8不相容。</block>
   <block id="f171584692be059c88cbbda35827f299" category="list-text">您正在升級至6.7 Flash vSphere Web Client。</block>
@@ -8830,7 +8823,6 @@
   <block id="c666b8511317763c38467d5251589d5a" category="list-text"><block ref="c666b8511317763c38467d5251589d5a" category="inline-link-rx"></block></block>
   <block id="3b79e75f8bb7342984eec3a3fd95ccf6" category="list-text"><block ref="3b79e75f8bb7342984eec3a3fd95ccf6" category="inline-link-rx"></block></block>
   <block id="c7c27143d481078e23cd4144c0df2f10" category="inline-link">vCenter Plug-in 4.9版本說明</block>
-  <block id="6452d1b3e56fe38fdc537aeb6fe8d1c8" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block>_新_</block>
   <block id="3b34803433d83528840d8e729af0e8bc" category="inline-link">vCenter Plug-in 4.8版本說明</block>
   <block id="c561b7d92736e6c451a661a0a5da7586" category="list-text"><block ref="c561b7d92736e6c451a661a0a5da7586" category="inline-link-rx"></block></block>
   <block id="8cf0a7fd902364db0eaa5ec60ad654f3" category="inline-link">vCenter Plug-in 4.7版本說明</block>
@@ -12323,4 +12315,16 @@
   <block id="c557278939ddfc5c37a8606a5b8bc3d8" category="paragraph">若要深入瞭解vCenter Server的元素外掛程式、請參閱<block ref="4a40fe421733073daff96e428d226590" category="inline-link-rx"></block>。</block>
   <block id="fd0b9b1500c5983ac27a332210ebfe29" category="paragraph">許多NetApp混合雲控制功能都是專為搭配多個儲存叢集使用而設計、但驗證和授權卻有其限制。驗證與授權的限制在於、授權叢集的使用者可以在其他綁定至NetApp混合雲控制的叢集上執行動作、即使他們不是其他儲存叢集的使用者。</block>
   <block id="f0e8a2f025f562374fa58233f9f7cd01" category="sidebar">使用vCenter Server的Element外掛程式來管理儲存設備</block>
+  <block id="cf975bc9efb412ba97aeeb129f06f92a" category="paragraph">從管理服務2.20.69開始、您可以使用NetApp混合雲控制UI在管理節點上啟用和停用SSH功能。</block>
+  <block id="742443519c431a58e3020342bebdad42" category="list-text">若要使用NetApp混合雲控制UI、您已更新您的<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 至版本2.20.69或更新版本。</block>
+  <block id="90e7c2277ee69a3d3ecf30fa1fe61ab1" category="inline-link">vCenter外掛程式4.10版本說明</block>
+  <block id="5c6c5d2c88269bcae97dbd93d213851a" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block> _新_</block>
+  <block id="779aeeb0a67ee84cae70c2361654111d" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block></block>
+  <block id="2394ff28a38b482ef2918be4c8e7540c" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級儲存韌體：</block>
+  <block id="54c78d15a850ddddfc9da22742280908" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來執行元件儲存健全狀況檢查：</block>
+  <block id="62449609bcf95f48fbdbae6dddedcc19" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級Element軟體：</block>
+  <block id="01c72a31a534b06f00c7ab5b05653a0a" category="list-text">您正在升級NetApp Element 至適用於vCenter Server 4.10、4.9、4.8、4.7、4.6的 4.5或4.4。</block>
+  <block id="d6802e127914e53f73aa2f2db8cb5e44" category="paragraph">從管理服務2.20.69開始、您必須先接受並儲存終端使用者授權合約（EULA）、才能使用NetApp混合雲控制UI或API來升級管理服務：</block>
+  <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">管理服務注意事項2.21.61（NetApp Element VMware vCenter Server 4.10.12適用的VMware vCenter外掛程式）</block>
+  <block id="abeecd47abec11fdd3daaa8a3239958a" category="list-text"><block ref="abeecd47abec11fdd3daaa8a3239958a" category="inline-link-macro-rx"></block></block>
 </blocks>

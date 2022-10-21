@@ -891,7 +891,6 @@
   <block id="7eada9b3aeba75afea1bb6e56efd98a1" category="paragraph">您可以使用REST API從管理節點上執行的服務擷取記錄。您可以從所有公有服務提取記錄、或指定特定服務、並使用查詢參數來更妥善定義傳回結果。</block>
   <block id="fc78a25a814125bdaeb01b28be02a19d" category="list-text">您的叢集版本執行NetApp Element 的是更新版本的Software 11.3。</block>
   <block id="d95dde96d5f37c05bba91d1bff6d1a55" category="list-text">您已部署執行11.3版或更新版本的管理節點。</block>
-  <block id="4ac581155f2c6a4a3a056078e2b122a1" category="list-text">在管理節點上開啟REST API UI：</block>
   <block id="1fca2b4a66eca3cc3857ef2cc620c7a4" category="list-text">選取*授權*或任何鎖定圖示、然後完成下列步驟：</block>
   <block id="fe5314e1f2b52008d7c6c1dc49232535" category="list-text">如果尚未填入此值、請將用戶端ID輸入為mnode-Client。</block>
   <block id="09cd4d07205bec65818c2a8ba07333f0" category="list-text">選擇* Get /logs*。</block>
@@ -7824,7 +7823,6 @@
   <block id="2aaad98bfcfbd95f21871cf486a3243c" category="inline-link">升級vSphere、包括vCenter Server、ESXi、VM及其他VMware元件</block>
   <block id="f23d91ab86d1cf2e82bd86fd860c8585" category="list-text"><block ref="f0107c2e24795b3c47b3466dee69927b" category="inline-link-rx"></block>。</block>
   <block id="7389b01d5fe0e17f5523a7fb85295f91" category="inline-link">這篇知識庫文章</block>
-  <block id="38be14292d8d278a5d7b04a84bab839d" category="admonition">當您升級至VMware vCenter Server 7.0 U3時、NetApp Element vCenter Server的所有版本均無法部署。若要解決此問題、請參閱<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
   <block id="0ba7583639a274c434bbe6ef797115a4" category="inline-link">註冊</block>
   <block id="81750b82d55f7148c9a0001ed71e7dd4" category="list-text"><block ref="670ccc28c8c6a3ae1c020a0fa12ec195" category="inline-link-rx"></block> vCenter Server的元件外掛程式與vCenter一起使用。</block>
   <block id="2984cab36bd51d5446963e671e808f5d" category="inline-link">新增叢集</block>
@@ -12327,4 +12325,6 @@
   <block id="d6802e127914e53f73aa2f2db8cb5e44" category="paragraph">從管理服務2.20.69開始、您必須先接受並儲存終端使用者授權合約（EULA）、才能使用NetApp混合雲控制UI或API來升級管理服務：</block>
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">管理服務注意事項2.21.61（NetApp Element VMware vCenter Server 4.10.12適用的VMware vCenter外掛程式）</block>
   <block id="abeecd47abec11fdd3daaa8a3239958a" category="list-text"><block ref="abeecd47abec11fdd3daaa8a3239958a" category="inline-link-macro-rx"></block></block>
+  <block id="5d8cb69408d9a6773459aa0a397a3003" category="list-text">在管理節點上開啟REST API UI。</block>
+  <block id="d7edacc6a8d7390dfd56f74d5b4c58a4" category="admonition">升級至VMware vCenter Server 7.0 U3時、Element外掛程式無法部署。若要解決此問題、請參閱<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>]。</block>
 </blocks>

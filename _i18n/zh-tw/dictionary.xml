@@ -12326,5 +12326,7 @@
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">管理服務注意事項2.21.61（NetApp Element VMware vCenter Server 4.10.12適用的VMware vCenter外掛程式）</block>
   <block id="abeecd47abec11fdd3daaa8a3239958a" category="list-text"><block ref="abeecd47abec11fdd3daaa8a3239958a" category="inline-link-macro-rx"></block></block>
   <block id="5d8cb69408d9a6773459aa0a397a3003" category="list-text">在管理節點上開啟REST API UI。</block>
-  <block id="d7edacc6a8d7390dfd56f74d5b4c58a4" category="admonition">升級至VMware vCenter Server 7.0 U3時、Element外掛程式無法部署。若要解決此問題、請參閱<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>]。</block>
+  <block id="4eed3af07414f10fffdba8a7ff51ca36" category="list-text">從管理服務2.21.61開始：</block>
+  <block id="880c70977a68b1ec897e498bb11c7021" category="list-text">若為管理服務2.20.69或更早版本：</block>
+  <block id="e4eccb810d78b1a07fe7514cdf52eb9f" category="admonition">升級至VMware vCenter Server 7.0 U3時、Element外掛程式無法部署。若要使用Spring Framework 4解決此問題、請參閱<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -1247,7 +1247,6 @@
   <block id="ed4faf2b135a0f2d74eef06f6fd8899e" category="list-text">前往儲存設備MVIP並登入。此動作會在下一個步驟中接受憑證。</block>
   <block id="2d627b2788c609fd6539b2b8370f4c40" category="list-text">從代碼200回應本文中、複製並儲存「id」以供安裝使用、以供後續步驟使用。</block>
   <block id="597135ab4be28d04d311121c3e5ca422" category="list-text">將適用於NetApp混合雲控制的vCenter控制器資產新增至管理節點已知資產：</block>
-  <block id="f9ff4ba30fde92cbf23c00302a8ac526" category="admonition">建議您在vCenter中建立新的NetApp HCC角色、以新增控制器子資產。這項新的NetApp HCC-角色會將管理節點服務檢視限制為僅適用於NetApp的資產。請參閱 <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
   <block id="e2e193a380a16845739e1445cfe23fde" category="list-text">輸入「vCenter」類型和vCenter認證所需的有效負載值。</block>
   <block id="891d7cb5314c1395a5f98467dc959053" category="inline-link-macro">設定儲存NIC</block>
   <block id="a5dabe6d3aebca1d4cd3dc7d091f22a0" category="list-text"><block ref="a5dabe6d3aebca1d4cd3dc7d091f22a0" category="inline-link-macro-rx"></block></block>
@@ -1335,7 +1334,6 @@
   <block id="75be5fb98a5e3aff69e3f0e049934221" category="list-text">（選用）停用 <block ref="b551ebda879d60cf3a0931b9f0e794a7" category="inline-link-macro-rx"></block> 再一次。</block>
   <block id="88d2fa1cb3e06d29219dc8436ebc814c" category="admonition">如果您未停用SSH、SSH仍會保持啟用狀態。啟用SSH的組態會持續在管理節點上進行更新和升級、直到手動停用為止。</block>
   <block id="4ba4ebd212b1cbb6f7f91af40ffdd6dc" category="summary">您必須先在vCenter中建立NetApp HCC角色、才能將vCenter資產新增至管理節點。</block>
-  <block id="d718b24f1548935a3a659c06037a67b3" category="paragraph">建議您在vCenter中建立NetApp HCC角色、以便在安裝後手動將vCenter資產（控制器）新增至管理節點、或是修改現有的控制器。</block>
   <block id="ed06c949c2b36fa4b24f130e5bb1267b" category="paragraph">此NetApp的「高效能」角色會將您的管理節點服務檢視限制在僅適用於NetApp的資產上。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">關於這項工作</block>
   <block id="084f667a768181d2c907c53fa5eba8aa" category="list-text">本程序說明vSphere 6.7版提供的步驟。您的vSphere使用者介面可能與所述內容略有不同、視所安裝的vSphere版本而定。如需其他說明、請參閱VMware vCenter文件。</block>
@@ -1374,7 +1372,6 @@
   <block id="a409b26808477ed8b8f15456cceffd08" category="list-text">頂級vCenter。</block>
   <block id="f461138bedafcfc6a42f52eac66dab8a" category="list-text">您所需的vCenter（如果您處於連結模式）。</block>
   <block id="4c0d90c9ada6ab81f16f3446180ab3a1" category="inline-link-macro">vCenter連結模式</block>
-  <block id="03474279d3fc9d2a56fdc80404029d49" category="admonition">使用NetApp Element vCenter Server的VMware vCenter外掛程式、使用管理其他vCenter Server的叢集資源 <block ref="7b02ca43ff4544fd4c29159c11bae6d5" category="inline-link-macro-rx"></block> 僅限於本機儲存叢集。</block>
   <block id="0086257e9c830b4d9b546228b58d7f0f" category="list-text">在右導覽窗格中、選取*權限*。</block>
   <block id="69361a3d23c9cf0e15a6856bbe2ef16f" category="list-text">選取「*+*」圖示以新增使用者。</block>
   <block id="48be45545aea0a25445232c0107f6449" category="paragraph">在「*新增權限*」視窗中新增下列詳細資料：</block>
@@ -1828,12 +1825,9 @@
   <block id="560d0945440f76a732a9fbcc35180010" category="summary">您可以SolidFire 移除SolidFire 節點上的EESDS、以「重設」安裝了RESEESDS的節點。若要在SolidFire 節點上恢復不完整的ESDS、您應該執行所有安裝步驟。</block>
   <block id="9016f524f2973678d7663aea53bb88b3" category="doc">在SolidFire 節點上解除安裝不完整的功能</block>
   <block id="3b6744c82f649728c504907b57a1055e" category="paragraph">您可以在SolidFire 節點上移除SolidFire 鏡面ESDS、*重設*安裝完SESDS的節點。若要在SolidFire 節點上恢復不完整的ESDS、您應該執行所有安裝步驟。</block>
-  <block id="bfc7399c1c92cf0d90621d6b98ee2e84" category="inline-link-macro">「na_solidfire_SDS解除安裝」</block>
   <block id="68629b26007b6f0d31da5f710865d8c4" category="admonition">您可以使用 <block ref="e21e9b52142fa32fc9f2798e0357c93a" category="inline-link-macro-rx"></block> NetApp提供的執行作業的Ansible角色。如果您想要在SolidFire 節點上手動移除EESDS、請參閱下列步驟。</block>
-  <block id="c97feb073ff79f44cf03a1742a29f033" category="inline-link">「遠端磁碟機」</block>
   <block id="006a2c6366ad86bc1da05db85ff0ff30" category="list-text">使用元素UI或從叢集移除磁碟機<block ref="af8bb9d27ccaccc91f1f8edbd1b2c6cd" category="inline-link-rx"></block> API方法。</block>
   <block id="d25b1313ce24472d1605226c513ef95a" category="paragraph">這會導致系統將資料從節點的磁碟機移轉至叢集中的其他磁碟機。此程序所需的時間取決於必須移轉的資料量。</block>
-  <block id="3a7274d7e44dc3f5bd547cc6bc747d94" category="inline-link">「遠端節點」</block>
   <block id="215a2ff75aaa54f1e5a17125c706bca4" category="list-text">使用元素UI或從叢集移除節點<block ref="b93ddc7d3c2a507b426fba6e07c41251" category="inline-link-rx"></block> API方法。</block>
   <block id="08a481e768a7e6b16029a890ff83c01c" category="list-text">使用SSH連線至從叢集移除的節點。</block>
   <block id="3ef7f9e0aa1c6e4768c8761acab7b60c" category="list-text">從SolidFire 節點移除下列項目：</block>
@@ -1892,16 +1886,11 @@
   <block id="ebcdf1544f3d1837d74ac7935921840f" category="list-text">*列出節點上每個網路介面的統計資料*：元素123採用「listNetworkInterfaceStats」方法、可讓您列出統計資料、例如節點上每個網路介面的丟棄封包數和各種錯誤類型。此API方法適用於個別節點；存取個別節點時、需要使用者ID和密碼驗證。不過、如果方法呼叫中的參數力值為true、您可以在叢集上使用此方法。在叢集上使用此參數時、會列出所有介面的網路統計資料。請參閱<block ref="b3f5ae500a470ff9050f3521cdc793c4" category="inline-link-rx"></block> 以取得詳細資料。</block>
   <block id="b39b4f606b587cbb01f67a7e70186eea" category="list-text">*元素12.2中引入並更新API以支援SolidFire 功能不全的ESDS*：元素12.2中加入了數個新的API、您可以在SolidFire 支援功能不全的ESDS叢集上使用。</block>
   <block id="463224af5ebc7979ed09e40e54613a35" category="paragraph">以下是元素12：2的新API清單：</block>
-  <block id="41773f0138486ec234a35d7b9f9a9fbd" category="inline-link-macro">「GetLicenseKey」</block>
   <block id="234e051281051671e79fd955b3cc36a1" category="list-text"><block ref="234e051281051671e79fd955b3cc36a1" category="inline-link-macro-rx"></block></block>
-  <block id="024825eae18cb8bc988d2efcdf5a78f7" category="inline-link-macro">「etLicenseKey」</block>
   <block id="2107b28d0e666b2c94a8ae5ac00facf7" category="list-text"><block ref="2107b28d0e666b2c94a8ae5ac00facf7" category="inline-link-macro-rx"></block></block>
-  <block id="c465b1888bcc159df3ab3662fac3d576" category="inline-link-macro">"EnablMaintenanceMode"</block>
   <block id="182314039c230eaf0b610ab5336bd944" category="list-text"><block ref="182314039c230eaf0b610ab5336bd944" category="inline-link-macro-rx"></block></block>
-  <block id="00ec9d3f2cdb59b4897d3e3db8e8db80" category="inline-link-macro">"Disable維護 模式"</block>
   <block id="6c8f5d51f9d138086b55a6d2b68f0ba9" category="list-text"><block ref="6c8f5d51f9d138086b55a6d2b68f0ba9" category="inline-link-macro-rx"></block></block>
   <block id="f72e130e78ae2a72c1d8ba0e803f0638" category="paragraph">下列的12.2 API已更新、以支援SolidFire 功能完善的ESDS叢集：</block>
-  <block id="07cacca00a99fbebd82083d61daa7d2f" category="inline-link-macro">《addnodes》</block>
   <block id="34850bd5fb3f2667bbb87db4cffca2ed" category="list-text"><block ref="34850bd5fb3f2667bbb87db4cffca2ed" category="inline-link-macro-rx"></block></block>
   <block id="8404d841c616b784628d5ae406a01813" category="list-text"><block ref="8404d841c616b784628d5ae406a01813" category="inline-link-macro-rx"></block></block>
   <block id="16a30437f029582ce534f35778eac3b5" category="admonition">元素軟體12.2的「建立叢集」方法中新增了「訂單編號」、「週期性編號」和「enableSoftwareEncryptionAtRest」等參數。安裝SolidFire 完EESDS之後、您應該在使用此API方法建立叢集時指定這些參數。</block>
@@ -2122,7 +2111,6 @@
   <block id="9945963a24fd155d6f6f9b3f0f1ed826" category="list-text"><block ref="9945963a24fd155d6f6f9b3f0f1ed826" category="inline-link-macro-rx"></block></block>
   <block id="935bf4b062c3ce99ec15122fe03bd5f8" category="list-text"><block ref="935bf4b062c3ce99ec15122fe03bd5f8" category="inline-link-macro-rx"></block></block>
   <block id="6fc37b544c0c7c6bad6a21c5e2aa379c" category="summary">如果您需要將儲存節點離線以進行軟體升級或主機修復等維護作業、您可以啟用該節點的維護模式、將I/O對儲存叢集其餘部分的影響降至最低。</block>
-  <block id="9a22eba2ac8927a67bb3d8f09e152944" category="inline-link-macro">"listActive節點"</block>
   <block id="e69d07edaa334125aaef7f2094da77a8" category="admonition">如果您要驗證節點上的維護模式目前狀態、請使用 <block ref="04e910fadadbb107f8995814b13ebed5" category="inline-link-macro-rx"></block> API方法。節點物件包含「maintenanceMode」參數、可指出節點上維護模式的目前狀態。</block>
   <block id="cec1e459f131189983c83e13023b4c41" category="admonition">請務必在啟用維護模式後立即進行維護。切勿讓節點處於維護模式、而非必要。</block>
   <block id="b7ca43b9728873986f598048b8cf1944" category="paragraph">只有當節點狀況良好（沒有任何封鎖叢集故障）、而且儲存叢集能夠承受單一節點故障時、您才能將儲存節點轉換為維護模式。在您為健全且容錯的節點啟用維護模式之後、該節點不會立即轉換、除非符合下列條件、否則會加以監控：</block>
@@ -2422,7 +2410,6 @@
   <block id="b1802c77389b4ac3b23faeadf903c049" category="list-text"><block ref="1efdf10dcfe9c2e3a25a8865e617917c" category="inline-xref-macro-rx"></block></block>
   <block id="97b3e300fdc30fec27018f67c316a56f" category="list-text"><block ref="7369d04fe6c601eb40cc8c3814fb604a" category="inline-xref-macro-rx"></block></block>
   <block id="ef5b20c600ed307281dd18a2e008153b" category="list-text"><block ref="c3d184e2b4d651938156eb240caa790b" category="inline-xref-macro-rx"></block></block>
-  <block id="49284958c9d16c4b6d8ee9ddd4ebbca5" category="inline-link-macro">"na_solidfire_cluster組態"</block>
   <block id="bdc50eb6c47970077e948f5bb3f2f8a9" category="admonition">您可以使用 <block ref="66b3dfe54b73a97277e6f9c94606df0e" category="inline-link-macro-rx"></block> NetApp提供的可執行安裝後步驟的角色。如果您想要手動執行、請參閱下列步驟。</block>
   <block id="9130cceb2ee763a25b9513639313012e" category="section-title">設定叢集名稱</block>
   <block id="3b50f0fa5346b2b7a1dbbc42b96fff06" category="paragraph">您應該先在SolidFire 每個EESDS節點上設定叢集名稱、然後才能將節點新增至叢集。您可以使用每個節點的UI或元素API來執行此作業。</block>
@@ -2432,7 +2419,6 @@
   <block id="3b8521cd8c98f1b89d1886e9da53e4c7" category="list-text">開啟每個節點的管理節點UI：「https://&lt;node_mip&gt;:442`」。</block>
   <block id="ecf9269363976c8aa9dfb2d865ab2460" category="list-text">選擇*叢集設定*並輸入叢集名稱。</block>
   <block id="2ce8d1287d5fe484f0fb11eb92e9f79a" category="list-text">選取*套用變更*。</block>
-  <block id="acf00854bc64655927abe2f08f53203f" category="inline-link-macro">《etClusterConfig》</block>
   <block id="cadf3b6311b2a5cd1f2479588b496983" category="list-text">使用 <block ref="ae527e5fc4083ce232328ba1f392402b" category="inline-link-macro-rx"></block> API方法。</block>
   <block id="e802251d4dcfaecfcfd731ece9ad093c" category="paragraph">此方法具有下列輸入參數：</block>
   <block id="65e18a0bb1868a9c1e181302d4733dba" category="paragraph">《叢集》</block>
@@ -2487,7 +2473,6 @@
   <block id="9ec797bc87593a53c946c895e6c29645" category="list-text">使用元素UI：</block>
   <block id="c9347a5a6675f6567839e4fc23da9425" category="list-text">若要新增多個磁碟機、請選取要新增磁碟機的核取方塊、選取*大量動作*、然後選取*新增*。</block>
   <block id="368f584747203782ae3edd4027e4dbb3" category="list-text">確認已新增磁碟機、而且叢集容量符合預期。</block>
-  <block id="775ca0ad68fdedd2fe06eeb23598d120" category="inline-link">"AddDrives"</block>
   <block id="0c6dbcef2d177e85c06897fc358c21b2" category="list-text">使用<block ref="c0d40b2326a5711bff7fb806cc298f7f" category="inline-link-rx"></block> API方法。</block>
   <block id="eba45a3406905c7055cebb16bd953ac4" category="paragraph">《發展》</block>
   <block id="e5cad4cec16acc7173b90f0aba2cb647" category="paragraph">每個要新增至叢集之磁碟機的相關資訊。可能值：</block>
@@ -7890,7 +7875,6 @@
   <block id="5b12e33b072ce8270dc251fa4b789d1a" category="paragraph">不再需要升級管理節點作業系統、即可升級儲存叢集上的Element軟體。如果管理節點為11.3版或更新版本、您只需將管理服務升級至最新版本、即可使用NetApp混合雲控制系統執行元件升級。如果您基於其他理由（例如安全性補救）而想要升級管理節點作業系統、請依照您案例的管理節點升級程序進行。</block>
   <block id="5b6ab4d3c53ec5567002938471c9c120" category="admonition">vCenter外掛程式4.4或更新版本需要以模組化架構建立的管理節點11.3或更新版本、並提供個別的服務。</block>
   <block id="7876c958d2731a283bba894ce3294f21" category="paragraph">請選擇下列其中一個管理節點升級選項：</block>
-  <block id="728469310b9db013f8d3ad56547efdaa" category="list-text">管理節點12.3.2包含已啟用虛擬磁碟區（VVols）功能之儲存叢集的安全防護措施。如果您的儲存叢集已位於元件123、且已啟用VVols功能、強烈建議升級至12.3.2。</block>
   <block id="2c191a2c0c7197808c880518728ba922" category="list-text">管理節點12.3.1中沒有其他功能變更或錯誤修正。如果您已經在執行管理節點123、則不需要將其升級至12.3.1。</block>
   <block id="877752a02a9a723465e45e0699c0408a" category="list-text">如果要從管理節點12．2升級：<block ref="13ca98900fab2e9dc617ec4e80e5ef22" category="inline-xref-macro-rx"></block></block>
   <block id="c385c319a88b75509bcd9e965511f832" category="list-text">如果要從管理節點12升級：<block ref="837fd47411e60554dd964007e7b1f57c" category="inline-xref-macro-rx"></block></block>
@@ -8340,9 +8324,7 @@
   <block id="07eca6a24ab16b00e6321c01370da80b" category="cell">檢查暫掛節點</block>
   <block id="030ad8adc15b38e3dbe32fa700ac2d65" category="cell">驗證叢集上是否沒有擱置的節點。</block>
   <block id="2e78b6f70db7c1550da68540c472fe32" category="summary">在NetApp SolidFire 支援儲存系統升級的過程中、您可以升級vCenter Server的Element外掛程式。</block>
-  <block id="651784e7a6ddc6534201a6e8d1fbf248" category="paragraph">對於已註冊NetApp Element 的VMware vCenter Server更新版現有vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">您可以使用登錄公用程式、在vCenter Server Virtual Appliance（vCSA）或Windows上更新外掛程式登錄。您必須在需要使用外掛程式的每個vCenter Server上變更vCenter外掛程式的登錄。</block>
-  <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">此升級程序涵蓋下列升級案例：</block>
   <block id="a6a18366932bfeffc2341cc7aa5fe09d" category="list-text">您正在升級至7.0、6.7或6.5 HTML5 vSphere Web Client。</block>
   <block id="8eeabd6de4a231c731b82c27ee25bbdb" category="admonition">外掛程式與VMware vCenter Server 6.5 for Element Plug-in for VMware vCenter Server 4.6、4.7和4.8不相容。</block>
   <block id="f171584692be059c88cbbda35827f299" category="list-text">您正在升級至6.7 Flash vSphere Web Client。</block>
@@ -8350,11 +8332,8 @@
   <block id="2acbddec1a60b854691b264d7efa1855" category="admonition">外掛程式相容於vSphere Web Client 6.7 U2 for Flash、6.7 U3（Flash和HTML5）及7.0 U1。外掛程式與版本6.7 U2 build 130074221的HTML5 vSphere Web Client不相容、以及在更新2a（建置13643870）之前發佈的其他6.7 U2組建。如需支援vSphere版本的詳細資訊、請參閱的版本資訊<block ref="52a3661120ba33cd100cafc9c9d568e0" category="inline-link-rx"></block>。</block>
   <block id="d7be3f2367f28daeaac07c2967977074" category="list-text">*管理權限*：您有vCenter管理員角色權限可安裝外掛程式。</block>
   <block id="7df6c84beb4c7f9c0109ea10accef1ed" category="list-text">* vSphere升級*：您在升級NetApp Element 適用於vCenter Server的VMware vCenter外掛程式之前、已執行任何必要的vCenter升級。此程序假設vCenter升級已完成。</block>
-  <block id="4b6a458f5e631f2c6085bd25b3456bdf" category="list-text">* vCenter Server*：您的vCenter外掛程式4.x版已在vCenter Server中註冊。從登錄公用程式（「https://&lt;ManagementNodeIP&gt;:9443`」）選取*登錄狀態*、填寫必要欄位、然後選取*檢查狀態*、以確認vCenter外掛程式已登錄、以及目前安裝的版本編號。</block>
   <block id="a0b278d8005f2dc2b9518ad7c52c1e27" category="list-text">*管理服務更新*：您已更新您的<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 至最新版本。vCenter外掛程式的更新會使用管理服務更新進行發佈、這些更新會在NetApp SolidFire 的主要產品版本之外發佈、以供NetApp整合式All Flash儲存設備使用。</block>
   <block id="4c02ebe342ea429a0d2a2a23be2ddd19" category="inline-link-macro">升級</block>
-  <block id="27c25a67c147529824177fc694e7fd19" category="list-text">*管理節點升級*：您執行的管理節點已經存在 <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> 至版本11.3或更新版本。vCenter外掛程式4.4或更新版本需要11.3或更新版本的管理節點、其模組化架構可提供個別服務。您的管理節點必須以設定的IP位址或DHCP位址來開啟電源。</block>
-  <block id="7d3b6b8e2540bf5435b3b6984ad1f702" category="list-text">* Element儲存升級*：您的叢集執行NetApp Element 的是功能齊全的軟件11.3或更新版本。</block>
   <block id="12a6ece51476e2d3feae5dff01704e58" category="list-text">* vSphere Web Client*：您在開始任何外掛程式升級之前、已登出vSphere Web Client。如果您未登出、Web用戶端將無法辨識在此程序中對外掛程式所做的更新。</block>
   <block id="72b711eab7bf0193b651fa7a07068ae1" category="list-text">在瀏覽器中輸入管理節點的IP位址、包括登錄所需的TCP連接埠：「https://&lt;ManagementNodeIP&gt;:9443`登錄公用程式UI會開啟至外掛程式的「*管理QoSSIOC服務認證*」頁面。</block>
   <block id="26fc450c5cd9b7f28b10cff7659b479d" category="image-alt">說明外掛程式的登錄公用程式UI</block>
@@ -8365,15 +8344,12 @@
   <block id="d5fcc07cbc4a070c18d26103f54f3f58" category="list-text">vCenter管理員使用者名稱。</block>
   <block id="b1e24f0b2fb8f66a9c2444bf0e385f97" category="admonition">您輸入的使用者名稱和密碼認證必須是具有vCenter Administrator角色權限的使用者。</block>
   <block id="c2611280cf76890b83743a67ac6478e2" category="list-text">vCenter管理員密碼。</block>
-  <block id="92d3ac74b6d30f321507464dbfb9220d" category="list-text">（適用於內部伺服器/黑點）外掛程式的自訂URL。</block>
   <block id="daa4768416116e6634bf75e379507244" category="admonition">如果您使用HTTP或HTTPS伺服器（黑網站）或修改了郵遞區號檔案名稱或網路設定、您可以選取*自訂URL*來自訂URL。如需自訂URL的其他組態步驟、請參閱Element Plug-In for vCenter Server文件、瞭解如何修改內部（暗站）HTTP伺服器的vCenter內容。</block>
   <block id="35165f9b14f6cde03fa7f6f9b03732ba" category="list-text">選擇*更新*。</block>
   <block id="14b68e07a69ae90b19c2bd823797ff21" category="paragraph">註冊成功時、註冊公用程式UI會出現橫幅。</block>
   <block id="2bfb7d51aea637d48bf5bca4afcb46a1" category="list-text">以vCenter管理員身分登入vSphere Web Client。如果您已登入vSphere Web Client、則必須先登出、等待兩到三分鐘、然後再次登入。</block>
   <block id="f523905d48a1db956815565365a5a6ad" category="admonition">此動作會建立新的資料庫、並在vSphere Web Client中完成安裝。</block>
   <block id="9b572df8237d34b7c32142ac15f1325f" category="list-text">在vSphere Web Client中、請在工作監控器中尋找下列已完成的工作、以確保安裝完成：「下載外掛程式」和「部署外掛程式」。</block>
-  <block id="c4676996d8b51da422f5ab619c54ae01" category="list-text">確認NetApp Element vSphere Web Client的「*捷徑*」索引標籤和側邊面板中顯示「功能不實的組態與管理」擴充點。</block>
-  <block id="342171073fda0fd2cec612dc41323bdb" category="image-alt">說明成功升級或安裝後的外掛程式擴充點</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server的Element外掛程式</block>
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">如果看不到vCenter外掛程式圖示、請參閱 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 外掛程式疑難排解的相關文件。</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">確認NetApp Element 外掛程式*的「組態*」擴充點*「關於*」索引標籤中的版本變更。</block>
@@ -9831,7 +9807,6 @@
   <block id="2b37faac49da0b7e057e57a2001e532d" category="list-text">在從內部金鑰管理變更為外部金鑰管理的過程中、建立新的金鑰。</block>
   <block id="b58f4eb51d27127044588d81769a043d" category="list-text">建立新的金鑰、做為對安全性相關事件的回應或保護。</block>
   <block id="ff0f319d3e651b401a52ec174aba241a" category="admonition">此程序是非同步的、會在重新輸入作業完成之前傳回回應。您可以使用 <block ref="0ec3280d129d80613fce987917bb0350" category="inline-link-macro-rx"></block> 輪詢系統以查看程序何時完成的方法。</block>
-  <block id="9510c8e68784d05acbae2e947dde3cd8" category="inline-link-macro">「GetSoftwareEncryptionatRestInfo」</block>
   <block id="2f9ac93930569b85149b387a7c125c35" category="list-text">您已使用啟用軟體加密功能 <block ref="3302765abfbbe930557ebd20cdd8d8e8" category="inline-link-macro-rx"></block> 不含磁碟區且沒有I/O的新叢集上的方法使用 <block ref="45a8306c9a5e0c83d4f4c7f381b9868c" category="inline-link-macro-rx"></block> 確認狀態為「已啟用」、然後再繼續。</block>
   <block id="62e528d538c732360863f85252c5d0d9" category="inline-link-macro">建立信任關係</block>
   <block id="11132c180fb32da6e0e1137cce53c559" category="list-text">您有 <block ref="e846b05f100d06ce4cdb56417280cd74" category="inline-link-macro-rx"></block> 在整個叢集與外部金鑰伺服器SolidFire （EKS）之間。執行 <block ref="886b549d5f0bca1725c26591df7dddef" category="inline-link-macro-rx"></block> 驗證是否已建立與金鑰提供者的連線的方法。</block>
@@ -10325,7 +10300,6 @@
   <block id="83d1452b7d5b4bf538f0cb0a274eb95c" category="list-text">在遠端叢集的元素UI中、選取*完整配對*。</block>
   <block id="cd550c7a8266a80d90c125e70af733c0" category="list-text">確認*確認Volume Pair*中的詳細資料。</block>
   <block id="feece79f7bf895bee42f666d960e50bd" category="paragraph">確認配對之後、兩個叢集便會開始連接磁碟區進行配對。在配對過程中、您可以在* Volume Pair*視窗的* Volume Status *（* Volume Pair*）欄中看到訊息。Volume配對會顯示「PausedMisconfigured」、直到指派Volume配對來源和目標為止。</block>
-  <block id="b0b500bb406a434c9eae8c591336355a" category="paragraph">成功完成配對後、建議您重新整理Volumes（磁碟區）表格、從配對磁碟區的* Actions（動作）*清單中移除* Pair*（配對）選項。如果您不重新整理表格、*配對*選項仍可供選擇。如果您再次選取「*配對*」選項、就會開啟新的索引標籤、而且由於磁碟區已配對、系統會在Element UI頁面的「*配對Volume *」視窗中報告「磁碟區配對失敗：xVolume AlreadyPhed」錯誤訊息。</block>
   <block id="ea1d7e73f15535e9f25b1c513fce1d86" category="inline-xref-macro">Volume配對訊息</block>
   <block id="e2706039f694a25bdec461b6da45ba29" category="list-text"><block ref="e2706039f694a25bdec461b6da45ba29" category="inline-xref-macro-rx"></block></block>
   <block id="5cd76fc209216a5fe693c8a8a6f8ce6c" category="inline-xref-macro">Volume配對警告</block>
@@ -12316,17 +12290,61 @@
   <block id="cf975bc9efb412ba97aeeb129f06f92a" category="paragraph">從管理服務2.20.69開始、您可以使用NetApp混合雲控制UI在管理節點上啟用和停用SSH功能。</block>
   <block id="742443519c431a58e3020342bebdad42" category="list-text">若要使用NetApp混合雲控制UI、您已更新您的<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 至版本2.20.69或更新版本。</block>
   <block id="90e7c2277ee69a3d3ecf30fa1fe61ab1" category="inline-link">vCenter外掛程式4.10版本說明</block>
-  <block id="5c6c5d2c88269bcae97dbd93d213851a" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block> _新_</block>
   <block id="779aeeb0a67ee84cae70c2361654111d" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block></block>
   <block id="2394ff28a38b482ef2918be4c8e7540c" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級儲存韌體：</block>
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來執行元件儲存健全狀況檢查：</block>
   <block id="62449609bcf95f48fbdbae6dddedcc19" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級Element軟體：</block>
-  <block id="01c72a31a534b06f00c7ab5b05653a0a" category="list-text">您正在升級NetApp Element 至適用於vCenter Server 4.10、4.9、4.8、4.7、4.6的 4.5或4.4。</block>
   <block id="d6802e127914e53f73aa2f2db8cb5e44" category="paragraph">從管理服務2.20.69開始、您必須先接受並儲存終端使用者授權合約（EULA）、才能使用NetApp混合雲控制UI或API來升級管理服務：</block>
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">管理服務注意事項2.21.61（NetApp Element VMware vCenter Server 4.10.12適用的VMware vCenter外掛程式）</block>
   <block id="abeecd47abec11fdd3daaa8a3239958a" category="list-text"><block ref="abeecd47abec11fdd3daaa8a3239958a" category="inline-link-macro-rx"></block></block>
   <block id="5d8cb69408d9a6773459aa0a397a3003" category="list-text">在管理節點上開啟REST API UI。</block>
   <block id="4eed3af07414f10fffdba8a7ff51ca36" category="list-text">從管理服務2.21.61開始：</block>
   <block id="880c70977a68b1ec897e498bb11c7021" category="list-text">若為管理服務2.20.69或更早版本：</block>
-  <block id="e4eccb810d78b1a07fe7514cdf52eb9f" category="admonition">升級至VMware vCenter Server 7.0 U3時、Element外掛程式無法部署。若要使用Spring Framework 4解決此問題、請參閱<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
+  <block id="7b90f6ce8fb52226dc8f0be90f539892" category="paragraph">您應該在vCenter中建立NetApp的「HCC」角色、以便在安裝後手動將vCenter資產（控制器）新增至管理節點、或是修改現有的控制器。</block>
+  <block id="89e4c8f92f7c3506781613b3dbd40e89" category="list-text">從NetApp Element vCenter Server 5.0的VMware vCenter外掛程式開始使用<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block>、您可以從個別管理節點登錄Element外掛程式、以管理管理NetApp SolidFire VMware儲存叢集的每個vCenter Server（建議）。</block>
+  <block id="307d07425c54bb4aa0778a14487a9a93" category="list-text">使用NetApp Element vCenter Server 4．10及更早版本的支援程式、從其他vCenter Server管理叢集資源、使用<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block> 僅限於本機儲存叢集。</block>
+  <block id="9db4acd10c15ec173e6516c347342e25" category="admonition">您應在vCenter中建立新的NetApp HCC角色、以新增控制器子資產。這項新的NetApp HCC-角色會將管理節點服務檢視限制為僅適用於NetApp的資產。請參閱 <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
+  <block id="6b777567daa827d5b0665b94c630539f" category="inline-link">vCenter Plug-in 5.0版本說明</block>
+  <block id="6e965491616fff846a7ae36b0c989a99" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block> _新_</block>
+  <block id="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block></block>
+  <block id="d4ab00a63ae74cf5a760f97c2f37cc47" category="paragraph">成功完成配對後、您應該重新整理Volumes（磁碟區）表格、從配對磁碟區的* Actions（動作）*清單中移除* Pair*（配對）選項。如果您不重新整理表格、*配對*選項仍可供選擇。如果您再次選取*配對*選項、系統會開啟新的索引標籤、因為該磁碟區已配對、因此系統會報告<block ref="a72c919331eaecc7971bc1aee1134ebc" prefix=" " category="inline-code"></block> 元素UI頁面的「*配對Volume *」視窗中出現錯誤訊息。</block>
+  <block id="07800d7fa4e084c955b9006d30b6eed1" category="paragraph">遠端外掛程式</block>
+  <block id="b8ffa41d4e492f0fad2f13e29e1762eb" category="paragraph">8333</block>
+  <block id="5b3a5766ccd94c0ef0148e61340c831e" category="paragraph">遠端vCenter外掛程式服務</block>
+  <block id="ce02290d452fe7b936543abc774ea33a" category="list-text">管理節點12.3.2包含已啟用虛擬磁碟區（VVols）功能之儲存叢集的安全防護措施。如果您的儲存叢集已位於元件123、且VVols功能已啟用、則應升級至12.3.2。</block>
+  <block id="1291d04b420cee74581d131dee5acf86" category="paragraph">您應該升級NetApp Element 至vCenter Server 5.0的VMware vCenter外掛程式、讓您能夠使用VMware vCenter 7.0 Update 3部署外掛程式、而無需套用因應措施。</block>
+  <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">使用適用於vCenter Server 4.x的Element外掛程式、當您升級至VMware vCenter Server 7.0 Update 3時、外掛程式無法部署。若要使用Spring Framework 4解決此問題、請參閱<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
+  <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">針對已註冊NetApp Element 的VMware vCenter Server適用的VMware vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。</block>
+  <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">此升級程序涵蓋下列升級案例。</block>
+  <block id="ec78c54d60054bc44ae2e26c00313bdb" category="admonition">管理服務2.22.7包含NetApp Element VMware vCenter Server 5.0的VMware vCenter外掛程式、其中包含遠端外掛程式。如果您使用Element外掛程式、則應升級至5.0版、以符合VMware指令、該指令會移除對本機外掛程式的支援。<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>。如果您不使用外掛程式、這是選擇性的升級。</block>
+  <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter外掛程式5.0或更新版本</block>
+  <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">從Element Plug-in for VMware vCenter Server 5.0開始、此升級程序涵蓋下列升級案例：</block>
+  <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">您正在升級至Element Plug-in for vCenter Server 5.0。</block>
+  <block id="b5bcaf2164ee5f3d1a22b016747f08e1" category="list-text">您正在升級至8.0或7.0 HTML5 vSphere Web Client。</block>
+  <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">vCenter 5.0及更新版本的Element外掛程式與vCenter Server 6.7及6.5不相容。</block>
+  <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">當您從Element Plug-in for vCenter Server 4.x升級至5.0時、已使用外掛程式設定的叢集將會遺失、因為無法將資料從vCenter執行個體複製到遠端外掛程式。您必須將叢集重新新增至遠端外掛程式。這是從本機外掛程式升級至遠端外掛程式的一次性活動。</block>
+  <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter外掛程式4．10或更早版本</block>
+  <block id="523b0480434215d8d59b3dce41707a7e" category="paragraph">對於vCenter Server 4.10或更早版本的Element外掛程式、此升級程序涵蓋下列升級案例：</block>
+  <block id="524f8acc9609df7272285a19757aefcb" category="list-text">您正在升級至Element Plug-in for vCenter Server 4.10、4.9、4.8、4.7、4.6、 4.5或4.4。</block>
+  <block id="c0e80cf197d1adf76fef790848a92f8f" category="list-text">外掛程式與VMware vCenter Server 8.0 for Element Plug-in for VMware vCenter Server 4.x不相容</block>
+  <block id="a95f4f0d2a0a7e7a472e3b6c6d23d07c" category="list-text">* vCenter Server*：您的vCenter外掛程式4.x或5.x版已在vCenter Server中註冊。從登錄公用程式 <block ref="0e0152f7592ffa53464a10c6a48053e7" prefix="(" category="inline-code"></block>）、選取* Registration Status（登錄狀態）*、填寫必要欄位、然後選取* Check Status（檢查狀態）*以確認vCenter外掛程式已登錄、以及目前安裝的版本編號。</block>
+  <block id="aac8ad795776bcaba9b87cb70791d2d1" category="list-text">*管理節點升級*：</block>
+  <block id="9163ac7fa12bb2150fecf2f1b174db4d" category="list-text">從Element vCenter外掛程式5.0開始、您執行的管理節點已經存在 <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> 至12.3.x版或更新版本。</block>
+  <block id="5e3078320e7b08b85d42398585874ce3" category="list-text">對於Element vCenter外掛程式4.4到4.10、您執行的是已有的管理節點 <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> 至版本11.3或更新版本。vCenter外掛程式4.4或更新版本需要11.3或更新版本的管理節點、其模組化架構可提供個別服務。您的管理節點必須以設定的IP位址或DHCP位址來開啟電源。</block>
+  <block id="924861571eeb51fd5eb1d806da0f0e5e" category="list-text">*元素儲存設備升級*：</block>
+  <block id="b9ad9c0000e5c2b012be9c9ba83b7cff" category="list-text">從Element vCenter外掛程式5.0開始、您的叢集執行NetApp Element 的是VMware軟體12.3.x或更新版本。</block>
+  <block id="02738f63a80a594ad3ab131f3a7298f2" category="list-text">對於Element vCenter外掛程式4.10或更早版本、您的叢集執行NetApp Element 的是VMware軟體11.3或更新版本。</block>
+  <block id="e8b1bdd38a7601206cf400f05fbdc57d" category="paragraph">從vCenter Server 5：0的元素外掛開始：</block>
+  <block id="05c0e13a813e930c3eab807f98959379" category="paragraph">vCenter Server 4．10或更早版本的Element外掛程式：</block>
+  <block id="23fa7915a24406758b2d7b2b274fe1f3" category="list-text">（適用於內部伺服器/黑點）視您的Element Plug-in for vCenter版本而定、外掛程式Json檔案或外掛程式ZIP的自訂URL：</block>
+  <block id="1e35767408ad5bd29ecc61c301c556ef" category="list-text">從Element Plug-in for vCenter Server 5.0開始、這是外掛程式Json檔案的自訂URL。</block>
+  <block id="b9d11c83e937a9ece9e8b7051bc68606" category="admonition">如果您使用HTTP或HTTPS伺服器（黑網站）或修改Json檔案名稱或網路設定、您可以選取*自訂URL*來自訂URL。如需自訂URL的其他組態步驟、請參閱Element Plug-In for vCenter Server文件、瞭解如何修改內部（暗站）HTTP伺服器的vCenter內容。</block>
+  <block id="ba85baaa049f62983a89ac7da1647abd" category="list-text">對於vCenter Server 4.10或更早版本的元素外掛程式、則為外掛程式ZIP的自訂URL。</block>
+  <block id="d471727ba1fb423986701d5307906d08" category="list-text">確認外掛程式擴充點顯示在vSphere Web Client的*捷徑*索引標籤和側邊面板中。</block>
+  <block id="290b380ec7760347344e9055b68f217d" category="paragraph">從Element Plug-in for vCenter Server 5.0開始、NetApp Element 就是「VMware遠端外掛程式」的延伸點：</block>
+  <block id="3c4718429a8a2991d56e6e719c1942df" category="image-alt">說明在元素外掛程式5.10或更新版本成功升級或安裝之後的外掛程式擴充點</block>
+  <block id="7491d78d51f3545fc9fe30d2249bc196" category="paragraph">Element Plug-In for vCenter Server 4.10或更早版本、NetApp Element 不支援「組態與管理」擴充點：</block>
+  <block id="85406fb94df2ff523b7477f229b1c9c8" category="image-alt">說明在元素外掛程式4.10或更早版本成功升級或安裝之後的外掛程式擴充點</block>
+  <block id="93c82fa50530ab1db18373f37f38e453" category="inline-link-macro">管理服務2.22.7注意事項（NetApp Element VMware vCenter Server 5.0.37版的VMware vCenter外掛程式）</block>
+  <block id="08051f25eb15067f82271c19a19ded03" category="list-text"><block ref="08051f25eb15067f82271c19a19ded03" category="inline-link-macro-rx"></block></block>
 </blocks>

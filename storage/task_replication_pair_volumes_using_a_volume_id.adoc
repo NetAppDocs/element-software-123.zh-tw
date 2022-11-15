@@ -49,7 +49,7 @@ NOTE: 您可以在配對程序之後指派複寫來源和目標。複寫來源�
 確認配對之後、兩個叢集便會開始連接磁碟區進行配對。在配對過程中、您可以在* Volume Pair*視窗的* Volume Status *（* Volume Pair*）欄中看到訊息。Volume配對會顯示「PausedMisconfigured」、直到指派Volume配對來源和目標為止。
 
 +
-成功完成配對後、建議您重新整理Volumes（磁碟區）表格、從配對磁碟區的* Actions（動作）*清單中移除* Pair*（配對）選項。如果您不重新整理表格、*配對*選項仍可供選擇。如果您再次選取「*配對*」選項、就會開啟新的索引標籤、而且由於磁碟區已配對、系統會在Element UI頁面的「*配對Volume *」視窗中報告「磁碟區配對失敗：xVolume AlreadyPhed」錯誤訊息。
+成功完成配對後、您應該重新整理Volumes（磁碟區）表格、從配對磁碟區的* Actions（動作）*清單中移除* Pair*（配對）選項。如果您不重新整理表格、*配對*選項仍可供選擇。如果您再次選取*配對*選項、系統會開啟新的索引標籤、因為該磁碟區已配對、因此系統會報告 `StartVolumePairing Failed: xVolumeAlreadyPaired` 元素UI頁面的「*配對Volume *」視窗中出現錯誤訊息。
 
 
 

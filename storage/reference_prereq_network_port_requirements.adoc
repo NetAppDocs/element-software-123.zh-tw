@@ -189,6 +189,9 @@ repo.netapp.com
 
 
 
+| 管理節點 | 儲存節點BMC / IPMI | 623 udp | RMCP連接埠。這是管理已啟用IPMI的系統所需的。 
+
+
  a| 
 管理節點
  a| 
@@ -231,6 +234,9 @@ SNMP伺服器
  a| 
 SNMP輪詢
 
+
+
+| 儲存節點BMC / IPMI | 管理節點 | 623 udp | RMCP連接埠。這是管理已啟用IPMI的系統所需的。 
 
 
  a| 

@@ -12363,4 +12363,6 @@
   <block id="bac407daf00ae86b0f95e89cf84eeac1" category="section-title">[sys_upgrade ]系統升級順序</block>
   <block id="a31b6eafc73ca0db90a0d96e6fb9dc93" category="paragraph-title">健全狀況檢查選項</block>
   <block id="63f488c7bb829c89f024839d6aa602f4" category="section-title">[Custom_pd]]自訂保護網域</block>
+  <block id="29d5a1c31c94981fab1916121b43f763" category="cell">儲存節點BMC / IPMI</block>
+  <block id="291dd45cc603b1047e92bf5a13259357" category="cell">RMCP連接埠。這是管理已啟用IPMI的系統所需的。</block>
 </blocks>

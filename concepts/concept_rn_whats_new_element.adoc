@@ -217,5 +217,5 @@ Element 123 SolidFire 會使用磁碟機的智慧型健全狀況資料、定期�
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"^]
 * http://docs.netapp.com/sfe-122/index.jsp["適用於舊版的VMware及Element軟體文件中心SolidFire"^]
 * https://www.netapp.com/us/documentation/hci.aspx["「資源」頁面NetApp HCI"^]
-* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["適用於更新及更新的韌體與驅動程式版本NetApp HCI NetApp Element"^]
+* link:../hardware/fw_storage_nodes.html["支援的儲存韌體版本SolidFire 、適用於不支援的儲存節點"] _新_
 

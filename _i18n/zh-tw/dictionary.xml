@@ -9326,9 +9326,6 @@
   <block id="7402074664fcb3503f94b26301713adb" category="admonition">叢集SSL憑證會自動套用至新增至叢集的所有新節點。從叢集移除的任何節點都會還原為自我簽署的憑證、而且所有使用者定義的憑證和金鑰資訊都會從節點移除。</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">您可以在聯絡NetApp支援部門並完成初步步驟之後、關閉整個叢集的電源。</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">關閉叢集電源</block>
-  <block id="7e75e710e04194aacb5b7f056ec5e471" category="paragraph">執行下列動作、準備叢集以關機：</block>
-  <block id="7bf4e8d030b2c47061505b2052e7e3c8" category="list-text">停止所有I/O</block>
-  <block id="c1fc137e8581e89d2a694ed758b29c11" category="list-text">中斷所有iSCSI工作階段的連線。</block>
   <block id="52774163f10fbc297ca1a2188d7b81c9" category="list-text">瀏覽至叢集上的管理虛擬IP（MVIP）位址、以開啟Element UI。</block>
   <block id="ecb5391ff71658726fe4fbade2f9af5e" category="list-text">請注意節點清單中所列的節點。</block>
   <block id="7a9ac18ef12501dac2ab0cc718dd03a4" category="list-text">使用叢集中每個節點ID上指定的halt選項來執行「關機API」方法。</block>
@@ -12295,7 +12292,6 @@
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter外掛程式5.0或更新版本</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">從Element Plug-in for VMware vCenter Server 5.0開始、此升級程序涵蓋下列升級案例：</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">您正在升級至Element Plug-in for vCenter Server 5.0。</block>
-  <block id="b5bcaf2164ee5f3d1a22b016747f08e1" category="list-text">您正在升級至8.0或7.0 HTML5 vSphere Web Client。</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">vCenter 5.0及更新版本的Element外掛程式與vCenter Server 6.7及6.5不相容。</block>
   <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">當您從Element Plug-in for vCenter Server 4.x升級至5.0時、已使用外掛程式設定的叢集將會遺失、因為無法將資料從vCenter執行個體複製到遠端外掛程式。您必須將叢集重新新增至遠端外掛程式。這是從本機外掛程式升級至遠端外掛程式的一次性活動。</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter外掛程式4．10或更早版本</block>
@@ -12655,11 +12651,23 @@
   <block id="6488398a09e5e3619c68849839032852" category="list-text">Linux：您有一些Linux系統背景。</block>
   <block id="88a314dd47a5b577c9b424a096c7a9e8" category="list-text">網路：您熟悉伺服器網路和網路儲存設備、包括IP位址、網路遮罩和閘道。</block>
   <block id="229a83df3c23d08a8495591aab99bf5b" category="paragraph">部署及安裝RTFI國際標準化組織（ISO）映像、並執行RTFI程序：</block>
-  <block id="4761cf42d3167c91f942aaa5770bce7b" category="list-text"><block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block></block>
-  <block id="8e03dc636d7913fabfabd316d5e54ac0" category="list-text"><block ref="8e03dc636d7913fabfabd316d5e54ac0" category="inline-xref-macro-rx"></block></block>
-  <block id="82deed01641c36ab7f885c50d27dcaea" category="list-text"><block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block></block>
   <block id="fe87b6b5d8e86013cf5abe3db7879c77" category="list-text">安全清除所有選取的磁碟機。</block>
-  <block id="98f034cb87c1c327b13fbbbb31bc622b" category="paragraph">如需建立USB金鑰或使用BMC執行RTFI程序的相關資訊、請參閱 <block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block>。</block>
   <block id="a386fc287fd28e52c07d586cfb7aa08b" category="admonition">所有資料和組態詳細資料都會在程序啟動後從節點永久清除。如果您選擇不繼續、系統會將您導向至 <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>。</block>
   <block id="d9730da4fb3635f5ccd1c078266c9334" category="paragraph">如果您在RTFI程序期間遇到錯誤訊息、請參閱 <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>。</block>
+  <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">您正在升級至8.0或7.0 HTML5 vSphere Web Client。</block>
+  <block id="57d4d715f0b6238380a88647e5064ab7" category="paragraph">請執行下列程序來關閉整個叢集的電源。</block>
+  <block id="69824b5487e4b72a56fe97cb153b7404" category="list-text">（選用）聯絡NetApp支援部門、以協助您完成初步步驟。</block>
+  <block id="f901f3a344a86528165d6bab6500fbc5" category="list-text">確認所有I/O都已停止。</block>
+  <block id="f0b8c58f8c65aac7a69a51384ac1a649" category="list-text">中斷所有iSCSI工作階段的連線：</block>
+  <block id="391aec42faef3b52d4eaaefa153733b2" category="paragraph">重新啟動叢集時、您必須遵循特定步驟來驗證所有節點是否都已上線：</block>
+  <block id="56312700a2d03ce6cacae049f3294807" category="list-text">確認所有的「嚴重」嚴重性和<block ref="945c53fff9195b4e69a31c30b6a268c6" prefix=" " category="inline-code"></block> 叢集故障已解決。</block>
+  <block id="6331b65d2bb9f0f39b6e8331e5b2c669" category="list-text">等待10至15分鐘、讓叢集穩定運作。</block>
+  <block id="301bf6ea727a40a8d5cc8608cc0c41d7" category="list-text">開始啟動主機以存取資料。</block>
+  <block id="c192e3c2dbd374233d4685406db01520" category="paragraph">如果您想在開啟節點電源並在維護後驗證節點是否正常運作時、留出更多時間、請聯絡技術支援部門以協助延遲資料同步、以避免不必要的Bin同步。</block>
+  <block id="eef615f9029df3b19885b836d67d03a3" category="inline-link">如何在NetApp Solidfire / HCI儲存叢集上正常關機並開機</block>
+  <block id="b8c22947a9d726cf79f399d361ecc7a2" category="paragraph"><block ref="b8c22947a9d726cf79f399d361ecc7a2" category="inline-link-rx"></block></block>
+  <block id="51de7a2a44178422229997edab051ac7" category="list-text"><block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block></block>
+  <block id="8f047e2b521fd8a37be46c7a429ab25b" category="list-text"><block ref="8f047e2b521fd8a37be46c7a429ab25b" category="inline-xref-macro-rx"></block></block>
+  <block id="c2350b958761f326a00bd673fc30fdae" category="list-text"><block ref="c2350b958761f326a00bd673fc30fdae" category="inline-xref-macro-rx"></block></block>
+  <block id="4de84bc0dceded350b6aa7db34f7e00d" category="paragraph">如需建立USB金鑰或使用BMC執行RTFI程序的相關資訊、請參閱 <block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block>。</block>
 </blocks>

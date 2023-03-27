@@ -7141,11 +7141,9 @@
   <block id="b142e9d9b67c7c4504bd1ab09fd15db2" category="admonition">如需最新的管理服務版本注意事項、說明各服務套裝組合的主要服務、新功能、錯誤修正及因應措施、請參閱<block ref="51c56ce961e981301a44342800a6fcbd" category="inline-link-rx"></block></block>
   <block id="1f760966967601f6feb32cc62bb11ca3" category="list-text">選取介面右上角附近的*升級*。</block>
   <block id="be441559765f3e52d513b155b4b59981" category="list-text">隨即顯示EULA。向下捲動、選取*我接受目前及所有未來更新*、然後選取*儲存*。</block>
-  <block id="06194f109ff7ed4270c1e5f89cbe9e74" category="admonition">當您接受EULA時、系統會記錄所有未來更新、並啟用自動下載功能。您將會收到NetApp軟體更新與升級的更新、您可以自行決定是否安裝、也可以方便地安裝。您可以停用與NetApp線上軟體儲存庫的網路連線、以停用自動下載功能。</block>
   <block id="a5237c2b3436db5dc67ab53b053d3ec9" category="paragraph">您可以使用NetApp混合雲控制UI或管理節點REST API來更新管理服務：</block>
   <block id="7d6cae0c176b060b3eb918e8fc3a8a88" category="list-text"><block ref="8b810af37d36ecef3e8ce0cfd28cc60b" category="inline-xref-macro-rx"></block> （建議方法）</block>
   <block id="45d5739efe933eabe3dda4a4ba6b61b1" category="list-text"><block ref="b795f7048c0a3127327e392f4c115728" category="inline-xref-macro-rx"></block></block>
-  <block id="610172e2b0e7d4051f0d0b230bd8c722" category="list-text"><block ref="79f95b99cf6c6dc511dd13bb08f1454f" category="inline-xref-macro-rx"></block></block>
   <block id="2325934efda1befa076510008b0f7646" category="section-title">使用混合雲控制更新管理服務</block>
   <block id="6dd42a6a80b9ea41a3c15d5cbf5c3528" category="paragraph">您可以使用NetApp混合式雲端控制來更新NetApp管理服務。</block>
   <block id="c3e2bcb5601498c3470bd272236342a3" category="paragraph">管理服務套裝組合可在主要版本之外提供增強的功能與修正程式。</block>
@@ -7158,30 +7156,14 @@
   <block id="6b85e8fee9865d4ab62dcfcd4f941582" category="inline-link">管理服務版本說明</block>
   <block id="f4b19cd96a813fb177542ed57f6d27aa" category="admonition">如需每個服務套裝組合版本的可用服務清單、請參閱<block ref="b7b8dc48337abf993d8909e2c4d32cb1" category="inline-link-rx"></block>。</block>
   <block id="9c3b6a2840d81e74fa978e35f9fda09e" category="list-text">在「升級」頁面上、選取「*管理服務*」索引標籤。</block>
-  <block id="2a67be48fd33aed34d5d9b95445a0c20" category="paragraph">「管理服務」索引標籤會顯示管理服務軟體的目前和可用版本。</block>
-  <block id="25026455f4896275dc71ea344eae7273" category="inline-link-macro">Proxy組態</block>
-  <block id="6d991bb9237f73dba10797ec25468d86" category="admonition">如果您的安裝無法存取網際網路、則只會顯示目前的軟體版本。如果您的安裝具有外部連線功能、但無法存取NetApp線上儲存庫、請檢查您的 <block ref="3fa2d0476e68824edbcf4c56be4ac531" category="inline-link-macro-rx"></block>。</block>
-  <block id="b48c8e3e654392e94eba7ff80f2a9810" category="list-text">如果您的安裝可以存取網際網路、而且有可用的管理服務升級、請選取*開始升級*。</block>
-  <block id="88cc6eac67699034974d69a75c774238" category="list-text">如果您的安裝無法存取網際網路、請執行下列動作：</block>
   <block id="3a91ea590517ccc87ccaf6cbda3ac55c" category="list-text">請依照頁面上的指示、下載管理服務升級套件並將其儲存至您的電腦。</block>
   <block id="59ab5341afeb797e4cbab599e21e347f" category="list-text">選取*瀏覽*以找出您儲存的套件並上傳。</block>
   <block id="30c2b654de6b157d3965b69e2e973b9c" category="paragraph">升級開始後、您可以在此頁面上看到升級狀態。在升級期間、您可能會失去與NetApp混合雲控制的連線、而必須重新登入才能查看升級結果。</block>
   <block id="e1ab7975bc85b8e4a805e35bfd948176" category="section-title">使用管理節點API更新管理服務</block>
-  <block id="f64b52761fbac72e8bfdd229b3a113f1" category="paragraph">使用者最好能從NetApp混合雲控制系統執行管理服務更新。不過、您可以從管理節點使用REST API UI手動更新管理服務。</block>
   <block id="9a452c7dc2442a21923d0c9fff059919" category="list-text">在管理節點上開啟REST API UI：「https://&lt;ManagementNodeIP&gt;/mnode`</block>
-  <block id="fe1085046bceaf490556bf74e0f01c15" category="list-text">（選用）確認管理節點服務的可用版本：「Get /services / versions」（取得/服務/版本）</block>
-  <block id="0edefa8da79067ac4b94f9b1b2a9af8c" category="list-text">（選用）取得最新版本的詳細資訊：「Get /services /versions /latest」（取得/服務/版本/最新版本）</block>
-  <block id="b4851bdc860d51294258bcfa6507a2f6" category="list-text">（選用）取得特定版本的詳細資訊：「Get /services / versions /｛version｝/info」</block>
-  <block id="bf5a6801d77133c83554e3433950d36e" category="list-text">執行下列其中一個管理服務更新選項：</block>
-  <block id="0da74aa7d2a1855d917aaf432d2d3ca4" category="list-text">執行此命令以更新至管理節點服務的最新版本：「PUT /services / update / latest」</block>
-  <block id="0663ec28ae182530f1f365d17c98c119" category="list-text">執行此命令以更新至管理節點服務的特定版本：「PUT /services / update /｛version｝」</block>
-  <block id="f488e48b4d2bc7d793f0e09cb03654ee" category="list-text">執行「Get/services / update / Status（取得/服務/更新/狀態）」以監控更新狀態。</block>
   <block id="0e4f8b996ad3d1d666cae0ca65696890" category="paragraph">成功的更新會傳回類似下列範例的結果：</block>
-  <block id="e620d1115b8f26b9e2c66f46d34832bc" category="section-title">使用管理節點API更新適用於黑點的管理服務</block>
   <block id="c202282c44af53d5ea8a677636541731" category="paragraph">使用者最好能從NetApp混合雲控制系統執行管理服務更新。不過、您可以使用REST API、將管理服務的服務套件更新手動上傳、擷取及部署至管理節點。您可以從管理節點的REST API UI執行每個命令。</block>
   <block id="3601cad086244ec56eee653db5e2b0a3" category="list-text">您已部署NetApp Element 了一個版本為11.3或更新版本的軟件管理節點。</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支援網站</block>
-  <block id="9d89df9ed11d9d07aa2a21fce8623b87" category="list-text">您已從下載服務套件更新<block ref="1c68cef0c53db6ec1d50d3b221c314cd" category="inline-link-rx"></block> 至可在黑暗環境中使用的裝置。</block>
   <block id="54521ea545972501500b09f85df8ba55" category="list-text">使用以下命令「PUT /services / upload」、在管理節點上上上傳並擷取服務套件組合</block>
   <block id="4963e624e3688c6904a816aa37c6c7cc" category="list-text">在管理節點上部署管理服務：「放置/服務/部署」</block>
   <block id="c512caf817d81cdc178fb65c97607344" category="list-text">監控更新狀態：「Get /services / update/Status（取得/服務/更新/狀態）」</block>
@@ -7332,27 +7314,22 @@
   <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">如需使用NetApp混合式雲端控制及其因應措施升級儲存叢集的潛在問題、請參閱<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>。</block>
   <block id="021194ed35c1ca85c5ddd9daaf8630c3" category="admonition">每個儲存節點大約需要30分鐘的升級程序。如果您要將元素儲存叢集升級至版本2.76以上的儲存韌體、則只有在新韌體寫入節點時、個別儲存節點才會在升級期間重新開機。</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">在「*升級*」頁面上、選取「*儲存設備*」。</block>
-  <block id="41248545ed2949a832d88f9ea8c00917" category="admonition">「*儲存設備*」索引標籤會列出您安裝時所需的儲存叢集。如果NetApp混合雲控制無法存取叢集、則不會顯示在「*升級*」頁面上。如果叢集執行元件12或更新版本、您會看到這些叢集目前列出的韌體套裝組合版本。如果單一叢集中的節點上有不同的韌體版本、或是在升級過程中、您會在*目前的韌體產品組合版本*欄中看到*多個*。您可以選取*多重*來瀏覽至*節點*頁面、以比較韌體版本。如果所有叢集都執行的元件版本早於12.0、您將看不到任何韌體套裝軟體版本編號的相關資訊。如果叢集是最新的且/或沒有可用的升級套件、則不會顯示* Element *和* Firmwareonly *索引標籤。升級進行時、也不會顯示這些索引標籤。如果顯示* Element *（元素*）索引標籤、但未顯示*韌體Only（僅限韌體）*索引標籤、則沒有可用的韌體套件。</block>
   <block id="f1bd2e17b5412e4b45851ad42541f684" category="list-text">從下列選項中選擇、然後執行適用於您叢集的一組步驟：</block>
-  <block id="042b4c254a65c4222ecfd8eda19de8fb" category="cell">您的管理節點具有外部連線功能。</block>
   <block id="c2478fbc134086873c832f9086152247" category="list-text">選取您要升級的叢集旁的下拉式箭頭。</block>
   <block id="e0d814d8ce005e1e08731f39dc4cff27" category="list-text">選取*僅限韌體*、然後從可用的升級版本中選取。</block>
   <block id="c132ec9989c2f6d64865e3b80e0712f9" category="list-text">選擇*開始升級*。</block>
   <block id="b9088c022e9648ce7ddea6e6d4a7d2a2" category="admonition">升級期間*升級狀態*會變更、以反映程序的狀態。它也會因應您採取的行動而變更、例如暫停升級、或升級傳回錯誤。請參閱 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
   <block id="1c1f68c70e4604204e19388cd8dedfa2" category="admonition">在升級進行期間、您可以離開頁面、稍後再返回頁面、繼續監控進度。如果叢集列收合、頁面不會動態更新狀態和目前版本。叢集列必須展開以更新表格、否則您可以重新整理頁面。</block>
   <block id="f7c462da794bbac0b6cb931507af8070" category="paragraph">您可以在升級完成後下載記錄。</block>
-  <block id="8fce94dc58f1bdc7de438659f9a9a00b" category="cell">您的管理節點位於黑暗站台內、沒有外部連線功能。</block>
   <block id="308f16f303adc416b27b236c19797514" category="list-text">選擇*瀏覽*上傳您下載的升級套件。</block>
   <block id="9f3e44fdaf4628028bd071e9fdf42636" category="list-text">等待上傳完成。進度列會顯示上傳狀態。</block>
   <block id="4109e9de1e5e5e6a88e7ab1943736894" category="admonition">如果您離開瀏覽器視窗、檔案上傳將會遺失。</block>
-  <block id="929933851dc2ac970fff1ef0a8351b29" category="paragraph">檔案成功上傳及驗證後、畫面上會顯示一則訊息。驗證可能需要幾分鐘的時間。如果您在此階段離開瀏覽器視窗、檔案上傳會保留下來。您可以在升級完成後下載記錄。如需各種升級狀態變更的相關資訊、請參閱 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
   <block id="d3e7182b84a940e7db18b7fb84516b9d" category="section-title">升級狀態變更</block>
   <block id="03f25bbad83c64043f813d6fad6846de" category="paragraph">以下是使用者介面中「*升級狀態*」欄在升級前、期間及之後顯示的不同狀態：</block>
   <block id="6d34e3d06ec7dfd7e469ec4d37b9ae1d" category="cell">升級狀態</block>
   <block id="e519a1ecd0afa6828cea3c07f7d09b4a" category="cell">最新</block>
   <block id="79767150703c682eb62b32792815ff4b" category="cell">叢集已升級至可用的最新元素版本、或韌體已升級至最新版本。</block>
   <block id="6fc59d6889d5ac60b02946bb6b8b8898" category="cell">無法偵測</block>
-  <block id="5d1b774bcdd716279a4e1f6c45c21ae4" category="cell">當NetApp混合雲控制系統無法連線至線上軟體儲存庫時、會顯示此狀態、而非*可用版本*。當儲存服務API傳回的升級狀態不在可能的升級狀態列舉清單中時、也會顯示此狀態。</block>
   <block id="a5d11b04812fa774f9a940e366eac9ac" category="cell">提供版本</block>
   <block id="d9ce4c41aa5560b51aa0d618e34742a8" category="cell">有更新版本的Element和/或儲存韌體可供升級。</block>
   <block id="c9413dd7682a45da9ecc9efa8cea47d7" category="cell">進行中</block>
@@ -7371,14 +7348,7 @@
   <block id="e0cac02c93ade1b7ecc2eb64907171a8" category="admonition">在更新節點時中止叢集升級、可能會導致磁碟機無法正常移除節點。如果未正常移除磁碟機、在升級期間重新新增磁碟機將需要NetApp支援人員手動介入。節點執行韌體更新或更新後同步活動可能需要較長時間。如果升級進度似乎停滯、請聯絡NetApp支援部門以尋求協助。</block>
   <block id="3aff5fc3a8e8d7210a56cf227b42a6e8" category="section-title">使用NetApp混合雲控制API升級儲存韌體</block>
   <block id="13381b43a34c53873fa3ea94ea881f65" category="paragraph">您可以使用API將叢集中的儲存節點升級至最新的Element軟體版本。您可以使用自己選擇的自動化工具來執行API。此處記錄的API工作流程使用管理節點上可用的REST API UI作為範例。</block>
-  <block id="8c641b6be2c77d41b861c68406aa882e" category="list-text">視連線而定、執行下列其中一項：</block>
-  <block id="99d815c1264bfc1b74f7a653fb83e659" category="list-text">驗證儲存庫連線：</block>
   <block id="85bb06226f2384b478691f49e53204fc" category="list-text">關閉授權視窗。</block>
-  <block id="132a5b6da037e3c0aba1107add99cd58" category="list-text">從REST API UI中、選取*「Get Resi/Packages/site-repository/ connection*」。</block>
-  <block id="7ac2eb4e7073a0bed37085ee1d0656de" category="list-text">如果傳回代碼200、請前往下一步。如果沒有連線到遠端儲存庫、請建立連線或使用Dark站台選項。</block>
-  <block id="ecd4792b2445292557fc3b37de2cda15" category="list-text">尋找升級套件ID：</block>
-  <block id="bd91bfdcf4a916f6b8c00c25da13251b" category="list-text">從REST API UI中、選取* Get /packags*。</block>
-  <block id="fa296e9495ac8602647feef1c1f92880" category="list-text">從回應中、複製並儲存韌體套件ID以供後續步驟使用。</block>
   <block id="814733d416c95bcc389df46e42881e26" category="inline-link">下載頁面</block>
   <block id="9b8271bf8ee401fbab82cfd673a6efe7" category="list-text">將儲存韌體升級套件下載至管理節點可存取的裝置、前往Element軟體<block ref="42e6de607bd49922ef2d21825951aede" category="inline-link-rx"></block> 並下載最新的儲存韌體映像。</block>
   <block id="3d849e77fb6435c594cb34aff5254c7a" category="list-text">將儲存韌體升級套件上傳至管理節點：</block>
@@ -7435,12 +7405,8 @@
   <block id="18efefbb7dfc549a016b6c88a83bd60d" category="admonition">如果您要將H610S系列節點升級至Element 12.3.x、且節點執行的元件版本早於11.8、則需要執行其他升級步驟（<block ref="705f7add14cc7784392a1a0405b32daa" category="inline-xref-macro-rx"></block>）。如果您執行的是元素11.8或更新版本、則不需要執行其他升級步驟（階段2）。</block>
   <block id="1a1c6d70aec56ed56fdc5c3ac8162a8b" category="section-title">使用NetApp混合雲控制UI來升級元素儲存設備</block>
   <block id="a544a5293c147dec832e983a6fbad504" category="paragraph">您可以使用NetApp混合雲控制UI來升級儲存叢集。</block>
-  <block id="1fe3f0a86f12c07fb4f3cf17d971d675" category="list-text">如果您的管理節點未連線至網際網路、您已從下列位置下載套件：</block>
-  <block id="106cc5a0e6a0bb3c0776b3ba8fb64337" category="inline-link">Element軟體升級套件（.tar.gz）、適用於SolidFire 各種儲存叢集</block>
-  <block id="49e349363aad0972c82ddaf25dd30f70" category="paragraph"><block ref="49e349363aad0972c82ddaf25dd30f70" category="inline-link-rx"></block></block>
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">對於非H610S平台、每個節點的升級程序約需30分鐘。</block>
   <block id="eced5161fd4b5a5d98480da44ccabc87" category="paragraph">「*儲存設備*」索引標籤會列出您安裝時所需的儲存叢集。如果NetApp混合雲控制無法存取叢集、則不會顯示在「*升級*」頁面上。</block>
-  <block id="28915945fea0308bbd2cdf191b79dd68" category="list-text">選取您要升級之叢集旁的下拉式箭頭、然後從* Element *索引標籤下可用的升級版本中選取。</block>
   <block id="effc57e6ad213336e96f00439b792658" category="paragraph">檔案成功上傳及驗證後、畫面上會顯示一則訊息。驗證可能需要幾分鐘的時間。如果您在此階段離開瀏覽器視窗、檔案上傳會保留下來。</block>
   <block id="2b96c3916188bec9de822541d9cf623f" category="cell">您正在升級執行元素11.8之前版本的H610S叢集。</block>
   <block id="b6d17024c4c99e0348e4d802e2508b6b" category="list-text">選取您要升級之叢集旁的下拉式箭頭、然後從可用的升級版本中選取。</block>
@@ -7448,11 +7414,9 @@
   <block id="2351c1e27093e71da7b231f5059cc476" category="list-text">完成中所需的其他步驟（階段2）<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>並在UI中確認您已完成階段2。</block>
   <block id="d215420632f75acd5be40e1f61fad92e" category="paragraph">您可以在升級完成後下載記錄。如需各種升級狀態變更的相關資訊、請參閱 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
   <block id="80744cb20ac19a71c799d04e9142c0f5" category="cell">叢集已升級至可用的最新元素版本。</block>
-  <block id="00bdf0ae9f642cb5870113a82a86b5ba" category="cell">當NetApp混合雲控制系統無法連線至線上軟體儲存庫時、會顯示此狀態、而非*可用版本*。如果您有外部連線功能、但仍看到此訊息、請檢查您的 <block ref="3fa2d0476e68824edbcf4c56be4ac531" category="inline-link-macro-rx"></block>。</block>
   <block id="c25db468e3487f49a3fe8a8fd3ee6fca" category="cell">完成後續追蹤</block>
   <block id="35be88b3f15b8f03a1b80ac136a5039d" category="cell">僅適用於從11.8之前的元素版本升級的H610S節點。完成升級程序的階段1之後、此狀態會提示您執行升級的階段2（請參閱<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>）。完成階段2並確認您已完成、狀態會變更為*最新*。</block>
   <block id="c46945f40a6b2e92964b73d6d398f9d3" category="section-title">使用NetApp混合雲控制API來升級元素儲存設備</block>
-  <block id="92c655ce479b4404b3a51afa0527fd9b" category="list-text">從回應中、複製並儲存套件ID以供後續步驟使用。</block>
   <block id="1ed5061d3b76fa0c219c1f1d3b386470" category="list-text">將儲存升級套件下載至管理節點可存取的裝置。</block>
   <block id="592247e1218ecdf894b0dc3bf1e2b0c6" category="paragraph">移至Element軟體<block ref="42e6de607bd49922ef2d21825951aede" category="inline-link-rx"></block> 並下載最新的儲存節點映像。</block>
   <block id="ca9b271bda1fd83c0839a53fe115bfdb" category="list-text">將儲存升級套件上傳至管理節點：</block>
@@ -8645,13 +8609,9 @@
   <block id="1aa8b758f81e4b362f8fc94cd4c2a3ba" category="paragraph">建立一個支援功能的軟體叢集時、叢集會建立一個獨特的自我簽署安全通訊端層（SSL）憑證和私密金鑰、用於透過元素UI、每節點UI或API進行所有HTTPS通訊。NetApp ElementElement軟體支援自我簽署的憑證、以及由信任的憑證授權單位（CA）核發和驗證的憑證。</block>
   <block id="774ce4e623f683d68865c30ea0ac37fa" category="paragraph">您可以使用下列API方法取得有關預設SSL憑證的詳細資訊、並進行變更。</block>
   <block id="cddbead568984bbddd14181e555c89ec" category="inline-link-macro">《軟件API參考》NetApp Element</block>
-  <block id="5a1085897e38e4e51b92668061c6497c" category="paragraph">如需每種方法的相關資訊、請參閱 <block ref="27df1ddfd415d14d906f38bd54bde22c" category="inline-link-macro-rx"></block>。</block>
   <block id="c7d6aa2232acd143092ba0d52cae5ba8" category="list-text">* GetSSLCertificate *</block>
-  <block id="04b9e2887637b86b8614c4021d65bb52" category="paragraph">您可以使用此方法擷取目前安裝之SSL憑證的相關資訊、包括所有憑證詳細資料。</block>
   <block id="855a3dbbd51c2fdec4e1d006b91d6323" category="list-text">* SetSSLCertificate *</block>
-  <block id="42eb9a81f7de36c9246dce8d9177d0de" category="paragraph">您可以使用此方法將叢集和每節點SSL憑證設定為您提供的憑證和私密金鑰。系統會驗證憑證和私密金鑰、以防止套用無效的憑證。</block>
   <block id="84295a797b60702f81143ab1aa871f82" category="list-text">*遠端SSLCertificate *</block>
-  <block id="a302712f1b09c9dcdfc7d5808cb5fe30" category="paragraph">此方法會移除目前安裝的SSL憑證和私密金鑰。然後叢集會產生新的自我簽署憑證和私密金鑰。</block>
   <block id="7402074664fcb3503f94b26301713adb" category="admonition">叢集SSL憑證會自動套用至新增至叢集的所有新節點。從叢集移除的任何節點都會還原為自我簽署的憑證、而且所有使用者定義的憑證和金鑰資訊都會從節點移除。</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">您可以在聯絡NetApp支援部門並完成初步步驟之後、關閉整個叢集的電源。</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">關閉叢集電源</block>
@@ -9177,13 +9137,6 @@
   <block id="ff888c386cbf7561a41674237043ab02" category="summary">您可能需要允許下列TCP連接埠通過資料中心的邊緣防火牆、以便從遠端管理系統、並允許資料中心外部的用戶端連線至資源。視您使用系統的方式而定、可能不需要其中一些連接埠。</block>
   <block id="bbb9ca100f5b4a2074b8caeaaf4b1ae0" category="paragraph">您可能需要允許下列TCP連接埠通過資料中心的邊緣防火牆、以便從遠端管理系統、並允許資料中心外部的用戶端連線至資源。視您使用系統的方式而定、可能不需要其中一些連接埠。</block>
   <block id="2f5dc9e1194b10f0920c3f6b85205b99" category="paragraph">除非另有說明、否則所有連接埠均為TCP、且應允許NetApp Support Server、管理節點和執行Element軟體的節點之間進行雙向通訊。</block>
-  <block id="95f27799ddeb01b37a606c94f6349232" category="paragraph">NetApp混合雲控制網路UI和API可從NetApp線上軟體儲存庫下載軟體套件。因此、部分URL或IP位址可能會根據內容傳輸網路解析為其他URL或IP位址。如有可能、您應與網路工程師合作、使用下列一般步驟、將這些URL或IP位址新增至防火牆規則：</block>
-  <block id="468e2827e5dc0169c965a021b0f015d8" category="list-text">使用wGet或Curl公用程式存取URL（例如support-sg-nawest.netapp.com）。</block>
-  <block id="887a9d2ae67bb61c76d5d0032a4b7b0f" category="list-text">如下列範例所示、檢查連線能力：</block>
-  <block id="9b6b0ba6c58622cfc8a6178412a0e4bf" category="image-alt">檢查連接埠連線能力</block>
-  <block id="17dc6266a36d140e3656a007ab0a9fce" category="list-text">無法存取URL（與support-sg-nawest.netapp.com不同）。</block>
-  <block id="cca942e088eb1473b2eb9de24822300b" category="list-text">編輯防火牆規則以允許新的URL。</block>
-  <block id="fc0bbd3b7c620ea524d15f50953b65de" category="list-text">重複上述步驟、直到存取嘗試成功為止。</block>
   <block id="1f2681a91e9e795d6ebb1d5828cd1182" category="admonition">在管理節點、執行Element軟體的節點和叢集MVIP之間啟用ICMP。</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">下表使用下列縮寫：</block>
   <block id="60175d30ed8f8459b2f835b923bb4ee5" category="list-text">MIP：管理IP位址、每節點位址</block>
@@ -9200,13 +9153,6 @@
   <block id="b20a6c801c401908aa3c96f370665e05" category="paragraph">DNS查詢</block>
   <block id="c203d8a151612acf12457e4d67635a95" category="paragraph">442-44</block>
   <block id="3576cff8b205debb58711ff360f51ffd" category="paragraph">使用者介面和API存取儲存節點和元件軟體升級</block>
-  <block id="27639a1d6103dcea8efd114fa6c08ad8" category="paragraph">新版本通知：</block>
-  <block id="ab3ee28175c91fc275541983d197ab00" category="list-text">https://support.netapp.com/aods/`</block>
-  <block id="202ff041fdb9a5ee3579e8cb7984ef6b" category="paragraph">軟體下載：</block>
-  <block id="9fc75d41716cfd46199787dcf77473a1" category="list-text">https://support-sg-emea.netapp.com`</block>
-  <block id="a1b1a9120bbc7238c7b6088d7223d194" category="list-text">https://support-sg-naeast.netapp.com`</block>
-  <block id="219033cd316af31663b173765be6dd78" category="list-text">https://support-sg-nawest.netapp.com`</block>
-  <block id="d747a3883d729833b05cf76084503b96" category="paragraph">管理節點服務升級</block>
   <block id="0c29e1667ad297897573438219b3e1c6" category="paragraph">repo.netapp.com</block>
   <block id="43416d1cebc089588a77207470ee9f35" category="paragraph">提供必要元件的存取權限、以便在內部部署中安裝/更新。</block>
   <block id="b7328847f651fa46bcdd00a86f903b6a" category="paragraph">見證節點</block>
@@ -11524,7 +11470,6 @@
   <block id="a76e77cdf9ddd9de47f6767bd156c68a" category="summary">Element系統使用NetApp Element 不完整的API作為其功能的基礎。元素UI可讓您在使用介面時、檢視系統上各種類型的即時API活動。有了API記錄、您就能檢視使用者啟動和背景系統API活動、以及在您目前檢視的頁面上所撥打的API呼叫。</block>
   <block id="eb78259501a2ba2c5586f9c5378b0722" category="paragraph">有了支援的軟體、您可以選擇在叢集上啟用聯邦資訊處理標準（FIPS）140-2操作模式。NetApp Element啟用此模式會啟動NetApp密碼編譯安全模組（NCSM）、並將FIPS 140-2 Level 1認證加密用於透過HTTPS傳輸至NetApp Element 整套UI和API的所有通訊。</block>
   <block id="9bcbeef20d899b1f6c3b91bed9318949" category="summary">您可以從NetApp Element 「資訊保護」索引標籤建立SnapMirror關係、此索引標籤位於「資訊保護」UI中。必須啟用SnapMirror功能、才能在使用者介面中看到這一點。</block>
-  <block id="04c9a1dceaa7848075695a7a05510e89" category="paragraph">您可以使用NetApp Element NetApp API變更叢集中儲存節點的預設SSL憑證和私密金鑰。</block>
   <block id="75cf134eb28470632a8ed825c6876dfa" category="paragraph">偵測到連結失敗後停用從屬控制器之前的等待時間（以毫秒為單位）。</block>
   <block id="dbc5bb01b5e0b9429317021ba7f41a80" category="paragraph">以毫秒為單位的頻率、用於檢查MII連結狀態是否有連結故障。</block>
   <block id="3580d7d6eae3196ebe1486dd612a7945" category="paragraph">偵測到連結之後、在啟用從屬控制器之前等待的時間（以毫秒為單位）。</block>
@@ -11583,24 +11528,17 @@
   <block id="307d07425c54bb4aa0778a14487a9a93" category="list-text">使用NetApp Element vCenter Server 4．10及更早版本的支援程式、從其他vCenter Server管理叢集資源、使用<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block> 僅限於本機儲存叢集。</block>
   <block id="9db4acd10c15ec173e6516c347342e25" category="admonition">您應在vCenter中建立新的NetApp HCC角色、以新增控制器子資產。這項新的NetApp HCC-角色會將管理節點服務檢視限制為僅適用於NetApp的資產。請參閱 <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
   <block id="6b777567daa827d5b0665b94c630539f" category="inline-link">vCenter Plug-in 5.0版本說明</block>
-  <block id="6e965491616fff846a7ae36b0c989a99" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block> _新_</block>
   <block id="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block></block>
   <block id="d4ab00a63ae74cf5a760f97c2f37cc47" category="paragraph">成功完成配對後、您應該重新整理Volumes（磁碟區）表格、從配對磁碟區的* Actions（動作）*清單中移除* Pair*（配對）選項。如果您不重新整理表格、*配對*選項仍可供選擇。如果您再次選取*配對*選項、系統會開啟新的索引標籤、因為該磁碟區已配對、因此系統會報告<block ref="a72c919331eaecc7971bc1aee1134ebc" prefix=" " category="inline-code"></block> 元素UI頁面的「*配對Volume *」視窗中出現錯誤訊息。</block>
   <block id="07800d7fa4e084c955b9006d30b6eed1" category="paragraph">遠端外掛程式</block>
   <block id="b8ffa41d4e492f0fad2f13e29e1762eb" category="paragraph">8333</block>
   <block id="5b3a5766ccd94c0ef0148e61340c831e" category="paragraph">遠端vCenter外掛程式服務</block>
   <block id="ce02290d452fe7b936543abc774ea33a" category="list-text">管理節點12.3.2包含已啟用虛擬磁碟區（VVols）功能之儲存叢集的安全防護措施。如果您的儲存叢集已位於元件123、且VVols功能已啟用、則應升級至12.3.2。</block>
-  <block id="1291d04b420cee74581d131dee5acf86" category="paragraph">您應該升級NetApp Element 至vCenter Server 5.0的VMware vCenter外掛程式、讓您能夠使用VMware vCenter 7.0 Update 3部署外掛程式、而無需套用因應措施。</block>
   <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">使用適用於vCenter Server 4.x的Element外掛程式、當您升級至VMware vCenter Server 7.0 Update 3時、外掛程式無法部署。若要使用Spring Framework 4解決此問題、請參閱<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">針對已註冊NetApp Element 的VMware vCenter Server適用的VMware vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。</block>
-  <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">此升級程序涵蓋下列升級案例。</block>
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter外掛程式5.0或更新版本</block>
-  <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">從Element Plug-in for VMware vCenter Server 5.0開始、此升級程序涵蓋下列升級案例：</block>
-  <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">您正在升級至Element Plug-in for vCenter Server 5.0。</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">vCenter 5.0及更新版本的Element外掛程式與vCenter Server 6.7及6.5不相容。</block>
-  <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">當您從Element Plug-in for vCenter Server 4.x升級至5.0時、已使用外掛程式設定的叢集將會遺失、因為無法將資料從vCenter執行個體複製到遠端外掛程式。您必須將叢集重新新增至遠端外掛程式。這是從本機外掛程式升級至遠端外掛程式的一次性活動。</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter外掛程式4．10或更早版本</block>
-  <block id="523b0480434215d8d59b3dce41707a7e" category="paragraph">對於vCenter Server 4.10或更早版本的Element外掛程式、此升級程序涵蓋下列升級案例：</block>
   <block id="524f8acc9609df7272285a19757aefcb" category="list-text">您正在升級至Element Plug-in for vCenter Server 4.10、4.9、4.8、4.7、4.6、 4.5或4.4。</block>
   <block id="c0e80cf197d1adf76fef790848a92f8f" category="list-text">外掛程式與VMware vCenter Server 8.0 for Element Plug-in for VMware vCenter Server 4.x不相容</block>
   <block id="a95f4f0d2a0a7e7a472e3b6c6d23d07c" category="list-text">* vCenter Server*：您的vCenter外掛程式4.x或5.x版已在vCenter Server中註冊。從登錄公用程式 <block ref="0e0152f7592ffa53464a10c6a48053e7" prefix="(" category="inline-code"></block>）、選取* Registration Status（登錄狀態）*、填寫必要欄位、然後選取* Check Status（檢查狀態）*以確認vCenter外掛程式已登錄、以及目前安裝的版本編號。</block>
@@ -11623,7 +11561,6 @@
   <block id="1381491a5bb8087f95db0601150c5c28" category="paragraph">儲存節點BMC/IPMI H410和H600系列</block>
   <block id="ad097a4f1c93214faa0a1ca354a82225" category="paragraph">623 udp</block>
   <block id="483602128e75be96f5280855d8065878" category="paragraph">遠端管理控制傳輸協定連接埠。這是管理已啟用IPMI的系統所需的。</block>
-  <block id="3ef00ef1af91bf9fe0b72f4052a67f59" category="list-text">vCenter Server 5.0元素外掛程式的vCenter外掛程式登錄頁面：</block>
   <block id="1875d143de1e9be70dc9e780b41377fe" category="list-text">vCenter Server 4．10或更早版本之Element Plug-in的vCenter外掛程式登錄頁面：</block>
   <block id="b8b146fd1e1ecdf074536a02bfe40871" category="list-text">（適用於內部伺服器/黑點）視您的Element Plug-in for vCenter版本而定、外掛程式Json檔案或外掛程式ZIP的自訂URL：</block>
   <block id="1993643c12bb4ee547f04d8d85f8c4bf" category="list-text">從Element Plug-in for vCenter Server 5.0開始、NetApp Element 畫面會出現「VMware遠端外掛程式」擴充點：</block>
@@ -11976,4 +11913,41 @@
   <block id="bddb591f0b60efba3de48f954b55f287" category="inline-link-macro">管理服務2.23.64注意事項（NetApp Element VMware vCenter Server 5.1.12適用的VMware vCenter外掛程式）</block>
   <block id="2926dc5780f42141aca045c0001024a5" category="list-text"><block ref="2926dc5780f42141aca045c0001024a5" category="inline-link-macro-rx"></block></block>
   <block id="ea52eab386a36623963eee64d8468c76" category="list-text">管理服務2.22.7包含vCenter Server 5.0的Element外掛程式、其中包含遠端外掛程式。如果您使用Element外掛程式、則應升級至管理服務2.22.7或更新版本、以符合VMware指令、該指令會移除對本機外掛程式的支援。<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>。</block>
+  <block id="f77430f8b3c4f14f1dcd175dca1d54cf" category="paragraph">您應該升級NetApp Element 至適用於vCenter Server 5.0或更新版本的VMware vCenter 7.0外掛程式、讓您能夠使用VMware vCenter 7.0 Update 3部署外掛程式、而無需套用因應措施。</block>
+  <block id="4af99aa6c1be006a7c064cb06b9464ac" category="cell">執行元素11.8及更新版本的所有叢集</block>
+  <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">此升級程序涵蓋下列升級案例：</block>
+  <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">您正在升級至Element Plug-in for vCenter Server 5.1或5.0。</block>
+  <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">當您從Element Plug-in for vCenter Server 4.x升級至5.x時、已使用外掛程式設定的叢集將會遺失、因為無法將資料從vCenter執行個體複製到遠端外掛程式。您必須將叢集重新新增至遠端外掛程式。這是從本機外掛程式升級至遠端外掛程式的一次性活動。</block>
+  <block id="4edf62fd94cfb84b727afbee52aa8128" category="list-text">vCenter Server 5.x元素外掛程式的vCenter外掛程式登錄頁面：</block>
+  <block id="0ac35a688d7a23e1caba58dbbf08c4d7" category="paragraph">「*儲存設備*」索引標籤會列出您安裝時所需的儲存叢集。如果NetApp混合雲控制無法存取叢集、則不會顯示在「*升級*」頁面上。如果叢集執行元件12或更新版本、您會看到這些叢集目前列出的韌體套裝組合版本。如果單一叢集中的節點上有不同的韌體版本、或是在升級過程中、您會在*目前的韌體產品組合版本*欄中看到*多個*。您可以選取*多重*來瀏覽至*節點*頁面、以比較韌體版本。如果所有叢集都執行的元件版本早於12.0、您將看不到任何韌體套裝軟體版本編號的相關資訊。</block>
+  <block id="df3b4418989705f2099ec054a495c6ff" category="paragraph">如果叢集是最新的且/或沒有可用的升級套件、則不會顯示* Element *和* Firmwareonly *索引標籤。升級進行時、也不會顯示這些索引標籤。如果顯示* Element *（元素*）索引標籤、但未顯示*韌體Only（僅限韌體）*索引標籤、則沒有可用的韌體套件。</block>
+  <block id="c7f3047b6654f1cb88fcfe6e47c92593" category="cell">當儲存服務API傳回的升級狀態不在可能的升級狀態列舉清單中時、就會顯示此狀態。</block>
+  <block id="f3239c80004833605a44320f76f29a78" category="paragraph">變更預設SSL憑證：</block>
+  <block id="00b6f5df795659d436d482ffd81033aa" category="inline-link-macro">變更管理節點的預設SSL憑證</block>
+  <block id="fe6a80fba2305243dd21703b873b6d51" category="list-text"><block ref="fe6a80fba2305243dd21703b873b6d51" category="inline-link-macro-rx"></block></block>
+  <block id="96c37e9c5684e9f2a7ffd6a79512cde2" category="paragraph">您可以使用NetApp Element 效益分析API來變更管理節點的預設SSL憑證和私密金鑰。</block>
+  <block id="d311117e36e090462c70d49316078938" category="paragraph">當您設定管理節點時、它會建立獨特的自我簽署安全通訊端層（SSL）憑證和私密金鑰、以元素UI、每節點UI或API的方式、用於所有HTTPS通訊。Element軟體支援自我簽署的憑證、以及由信任的憑證授權單位（CA）核發和驗證的憑證。</block>
+  <block id="8fff04b1c0c323ac1aac0d43f5e6b4f8" category="list-text">* GetNodeSSLCertificate *</block>
+  <block id="a07612f154836b90b33c91e3d4becfe8" category="inline-link-macro">GetNodeSSLCertificate方法</block>
+  <block id="e33d1822bd6d1efb8885f0c9f078767e" category="paragraph">您可以使用 <block ref="fc5ae91d2a3def87eb640426dd21d6c3" category="inline-link-macro-rx"></block> 擷取目前安裝之SSL憑證的相關資訊、包括所有憑證詳細資料。</block>
+  <block id="58f6e4a954eca307131e675eba49accc" category="list-text">* SetNodeSSLCertificate *</block>
+  <block id="123b81eef3f2300f60e089e9078ee7c3" category="inline-link-macro">SetNodeSSLCertificate方法</block>
+  <block id="d229d7ad000aef94c4fc9c92a09ef2f9" category="paragraph">您可以使用 <block ref="a3f906e270f396b1e0abeb1e4b45aabc" category="inline-link-macro-rx"></block> 可將叢集和每節點SSL憑證設為您提供的憑證和私密金鑰。系統會驗證憑證和私密金鑰、以防止套用無效的憑證。</block>
+  <block id="6f54d04f05c4e4a65ca53b1028d1207b" category="list-text">*遠端節點SSLCertificate *</block>
+  <block id="9b65a6a78c1794a21bc06b75e90962bb" category="inline-link-macro">RemoveNodeSSLCertificate方法</block>
+  <block id="54788257ab6665219d3b197c0c0ab2b3" category="paragraph">這 <block ref="7a6d88cb46fe8190180be6d3bbd02863" category="inline-link-macro-rx"></block> 移除目前安裝的SSL憑證和私密金鑰。然後叢集會產生新的自我簽署憑證和私密金鑰。</block>
+  <block id="347d913828eec37c0c4915a8bd604f8a" category="list-text"><block ref="347d913828eec37c0c4915a8bd604f8a" category="inline-link-macro-rx"></block></block>
+  <block id="f056eadecebc58790da8eb91b5211492" category="inline-link">在Element Software中設定自訂SSL憑證有哪些要求？</block>
+  <block id="e3b4df69e2fe4e8545e5e0240eada6a2" category="list-text"><block ref="e3b4df69e2fe4e8545e5e0240eada6a2" category="inline-link-rx"></block></block>
+  <block id="71d77d19e87db163a8fa4db90c83237d" category="inline-link-macro">GetSSLCertificate方法</block>
+  <block id="3e9585ef7d0edda1489dd7d9051efee2" category="paragraph">您可以使用 <block ref="785a154069def4382c407c46cd76511f" category="inline-link-macro-rx"></block> 擷取目前安裝之SSL憑證的相關資訊、包括所有憑證詳細資料。</block>
+  <block id="d071ee449f970ae83d3efc8c36fdd3db" category="inline-link-macro">SetSSLCertificate方法</block>
+  <block id="af9aeedb67a7383e9ed9027d9cae0347" category="paragraph">您可以使用 <block ref="77081d68df13899db5539e9bf47c2e76" category="inline-link-macro-rx"></block> 可將叢集和每節點SSL憑證設為您提供的憑證和私密金鑰。系統會驗證憑證和私密金鑰、以防止套用無效的憑證。</block>
+  <block id="b3f80d8c01527878ecb6d9da0acbee6c" category="inline-link-macro">遠端SSLCertificate方法</block>
+  <block id="a6c060b483d31ea611debe971d6648f2" category="paragraph">。 <block ref="0e7e722b98bf8cba65c74d44d6ffe2e6" category="inline-link-macro-rx"></block> 移除目前安裝的SSL憑證和私密金鑰。然後叢集會產生新的自我簽署憑證和私密金鑰。</block>
+  <block id="b59339c29a0a5c439aaf31d01a32ea3a" category="list-text"><block ref="b59339c29a0a5c439aaf31d01a32ea3a" category="inline-link-macro-rx"></block></block>
+  <block id="54db42757b5d75d2f660dc70f35850cf" category="inline-link">vCenter Plug-in 5.1版本說明</block>
+  <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _新_</block>
+  <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
+  <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">使用API之後、您必須重新開機管理節點。</block>
 </blocks>

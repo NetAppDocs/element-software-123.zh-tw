@@ -17,19 +17,17 @@ summary: 您可以使用NetApp Element NetApp API變更叢集中儲存節點的�
 
 您可以使用下列API方法取得有關預設SSL憑證的詳細資訊、並進行變更。
 
-如需每種方法的相關資訊、請參閱 link:../api/index.html["《軟件API參考》NetApp Element"]。
-
 * * GetSSLCertificate *
 +
-您可以使用此方法擷取目前安裝之SSL憑證的相關資訊、包括所有憑證詳細資料。
+您可以使用 link:../api/reference_element_api_getsslcertificate.html["GetSSLCertificate方法"] 擷取目前安裝之SSL憑證的相關資訊、包括所有憑證詳細資料。
 
 * * SetSSLCertificate *
 +
-您可以使用此方法將叢集和每節點SSL憑證設定為您提供的憑證和私密金鑰。系統會驗證憑證和私密金鑰、以防止套用無效的憑證。
+您可以使用 link:../api/reference_element_api_setsslcertificate.html["SetSSLCertificate方法"] 可將叢集和每節點SSL憑證設為您提供的憑證和私密金鑰。系統會驗證憑證和私密金鑰、以防止套用無效的憑證。
 
 * *遠端SSLCertificate *
 +
-此方法會移除目前安裝的SSL憑證和私密金鑰。然後叢集會產生新的自我簽署憑證和私密金鑰。
+。 link:../api/reference_element_api_removesslcertificate.html["遠端SSLCertificate方法"] 移除目前安裝的SSL憑證和私密金鑰。然後叢集會產生新的自我簽署憑證和私密金鑰。
 
 
 
@@ -40,6 +38,8 @@ NOTE: 叢集SSL憑證會自動套用至新增至叢集的所有新節點。從�
 
 == 如需詳細資訊、請參閱
 
+* link:../mnode/reference_change_mnode_default_ssl_certificate.html["變更管理節點的預設SSL憑證"]
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_are_the_requirements_around_setting_custom_SSL_certificates_in_Element_Software%3F["在Element Software中設定自訂SSL憑證有哪些要求？"^]
 * https://www.netapp.com/data-storage/solidfire/documentation["「元件與元素資源」頁面SolidFire"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
 

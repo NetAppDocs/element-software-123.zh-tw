@@ -1268,7 +1268,6 @@
   <block id="177512b9add0b40c38dad61838bf7d79" category="section-title">資產管理</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="6740b5cf3dc8479800bac9edc86cd31a" category="inline-link-macro">使用REST API來收集元素系統記錄</block>
-  <block id="e6f552ff8b981823a09e603dcf005093" category="list-text"><block ref="e6f552ff8b981823a09e603dcf005093" category="inline-link-macro-rx"></block></block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
   <block id="0b9f382bf593a3a25e5173264b3e45f0" category="summary">您可以使用REST API UI、將NetApp混合雲控制設定為使用多個vCenter。</block>
@@ -1753,7 +1752,6 @@
   <block id="91e02cd2b8621d0c05197f645668c5c4" category="paragraph">網路</block>
   <block id="382b0f5185773fa0f67a8ed8056c7759" category="paragraph">不適用</block>
   <block id="d25b1313ce24472d1605226c513ef95a" category="paragraph">這會導致系統將資料從節點的磁碟機移轉至叢集中的其他磁碟機。此程序所需的時間取決於必須移轉的資料量。</block>
-  <block id="f450dc1f11b420ef61c997b620a5ddf3" category="inline-link-macro">更換Dell R640的磁碟機</block>
   <block id="cef2ee48106a0a7790ec9a773798ee14" category="inline-link-macro">在Element軟體UI中使用基本選項</block>
   <block id="feabbbf9b5afb31194daf0d8e3ff75dc" category="inline-link-macro">使用Volume</block>
   <block id="661a6e0397d4dd97cf4921386753f84c" category="inline-link-macro">使用虛擬磁碟區</block>
@@ -2869,7 +2867,6 @@
   <block id="cbf736cf2cf084245cf2ef853366ba11" category="paragraph">idpConfigInfos</block>
   <block id="c54f92fa106774d26ba461cc1c497aae" category="paragraph">第三方IDP組態的相關資訊。</block>
   <block id="0c2fa1c0ffa320e7273124b77aabbd2b" category="inline-link-macro">idpConfigInfo</block>
-  <block id="a29f9fdde9669fd7ca1ae6b4127f82b8" category="paragraph"><block ref="9c26e58197dbaa39e74144e77ff06a0e" category="inline-link-macro-rx"></block> 陣列</block>
   <block id="195863009ffa903e83ad7fd7e7db63b1" category="paragraph">12.0</block>
   <block id="fa2bf27789f0fe1397f3deffc7b58351" category="summary">您可以使用GetLldpConfig方法、為儲存叢集的每個節點取得連結層探索傳輸協定（LLDP）組態。</block>
   <block id="bf28260a9de577bfe685f146dfd88a6b" category="doc">GetLldpConfig</block>
@@ -2966,7 +2963,6 @@
   <block id="3b16867b7d374321cf9761a2d81e09bd" category="paragraph">您可以使用「listActiveAuthSessions」方法列出所有作用中的已驗證工作階段。只有擁有系統管理存取權限的使用者才能呼叫此方法。</block>
   <block id="bfe739376bae3a5336f58e3971531253" category="paragraph">驗證工作階段的工作階段資訊。</block>
   <block id="9a43554262146ce04817985e50c7f70c" category="inline-link-macro">驗證工作階段資訊</block>
-  <block id="b1bff35225b1453efa974801b476caff" category="paragraph"><block ref="b1bff35225b1453efa974801b476caff" category="inline-link-macro-rx"></block></block>
   <block id="e87980629351383341485cfdfeb606cb" category="summary">NetApp工程設計使用GetRawStats API方法來測試新功能。從GetRawStats傳回的資料不會記錄下來、而且會頻繁變更、而且無法保證準確無誤。您不應使用GetRawStats來收集效能資料、或是與執行Element軟體的儲存叢集進行任何其他管理整合。</block>
   <block id="a73bc9a5a0fae468432503496b62e312" category="paragraph">NetApp工程部門使用「GetRawStats」API方法來測試新功能。從「GetRawStats」傳回的資料不會記錄下來、經常變更、而且無法保證準確無誤。您不應使用「GetRawStats」來收集效能資料、或是與執行Element軟體的儲存叢集進行任何其他管理整合。</block>
   <block id="9637eae4ee7bc2abe1d9f563adbcc5a0" category="paragraph">使用下列支援的API方法擷取統計資訊：</block>
@@ -3083,7 +3079,6 @@
   <block id="d87a2a63d480d1602f49d51e523e44af" category="paragraph">要儲存的IDP中繼資料。</block>
   <block id="a4926df300a1048acda1c427456917dd" category="paragraph">用於識別SAML 2.0單一登入的IDP供應商名稱。</block>
   <block id="9b275bed2e2d0a90045fbe660777ccf3" category="paragraph">第三方身分識別供應商（IDP）組態的相關資訊。</block>
-  <block id="9c26e58197dbaa39e74144e77ff06a0e" category="paragraph"><block ref="9c26e58197dbaa39e74144e77ff06a0e" category="inline-link-macro-rx"></block></block>
   <block id="28d9275d84165bcfaf517fc9295daed7" category="summary">API（儲存叢集、儲存叢集建立和每節點）中使用三種類型的要求端點。您應該永遠使用Element軟體版本所支援的最新端點。</block>
   <block id="be44f93d7d9fb3d2c5ce921893855afd" category="doc">要求端點</block>
   <block id="b67a024bd682849c3714e5dfb9b7ec90" category="paragraph">API中使用三種類型的要求端點（儲存叢集、儲存叢集建立和每個節點）。您應該永遠使用Element軟體版本所支援的最新端點。</block>
@@ -3498,7 +3493,6 @@
   <block id="fa086ddf62bedd344204fceb97eb97b1" category="paragraph">kmipKeyServer</block>
   <block id="86d9b0ecb31e3598bf29d711f80152ec" category="paragraph">包含新修改金鑰伺服器詳細資料的物件。</block>
   <block id="64ce33c3af0564919d68824260f9d7c0" category="inline-link-macro">KeyServerKmip</block>
-  <block id="0971c717c82e5a2659fd8ee2d73d170d" category="paragraph"><block ref="0971c717c82e5a2659fd8ee2d73d170d" category="inline-link-macro-rx"></block></block>
   <block id="e57b956af31e98e7384b69e0e0cfc5a6" category="summary">您可以使用Update BulkVolume Status方法來更新以StartBulkVolume Read或StartBulkVolume Write方法啟動的大量Volume工作狀態。</block>
   <block id="0cbc9b3eac70901cd08c76ae7fb284c1" category="paragraph">您可以使用「Update BulkVolume Status」（更新磁碟區狀態）方法、更新以「TartBulkVolume Read」或「TartBulkVolume Write」方法啟動的大量磁碟區工作狀態。</block>
   <block id="793d0e43b349664cfa7cefddafcc4b57" category="paragraph">初始化期間指派的金鑰 <block ref="9bb219cd6da4ef0df4e030d5d41c36e3" category="inline-xref-macro-rx"></block> 或 <block ref="436fc063b8d3f9dee672b110fe1b81a1" category="inline-xref-macro-rx"></block> 工作階段：</block>
@@ -3931,7 +3925,6 @@
   <block id="b140fd3c0111005bcfc14eb207c72b2d" category="paragraph">保護網域</block>
   <block id="8182124863c7746cec9195a8d74456c3" category="paragraph">節點所屬的保護網域清單。</block>
   <block id="c6faecb3ce8f08fb0dfc3519050b8527" category="inline-link-macro">保護網域</block>
-  <block id="4a7c9a0bc1a3ed41374850a08662f9a1" category="paragraph"><block ref="4a7c9a0bc1a3ed41374850a08662f9a1" category="inline-link-macro-rx"></block></block>
   <block id="486bc69230658e08ce12ba2d95da9e00" category="summary">Element軟體Web UI使用QuiesceSnapMirrorRelationship方法、停用SnapMirror關係未來的資料傳輸。如果傳輸進行中、關係狀態會變成「靜止」、直到傳輸完成為止。如果目前的傳輸中止、將不會重新啟動。您可以使用ResumeSnapMirrorRelationationationship API方法、為關係重新啟用資料傳輸。</block>
   <block id="b5f2b78953aa7cee09ffda3ec8b3be41" category="doc">QuiesceSnapMirrorRelationationationation</block>
   <block id="b0a8dcb84595b6fd40c5eb92018dc58f" category="paragraph">Element軟體Web UI使用「QuiesceSnapMirrorRelationship」方法、停用SnapMirror關係未來的資料傳輸。如果傳輸進行中、關係狀態會變成「靜止」、直到傳輸完成為止。如果目前的傳輸中止、將不會重新啟動。您可以使用「ResumeSnapMirrorRelationationship」API方法、重新啟用關係的資料傳輸。</block>
@@ -4420,7 +4413,6 @@
   <block id="03ca6818409054c6f788f8f1512a9a83" category="paragraph">如果省略、傳回的KMIP金鑰伺服器將不會根據是否指派KMIP金鑰提供者來篩選。</block>
   <block id="2c1426081603fa11f6ec5fe617919158" category="paragraph">kmipKeyServers</block>
   <block id="24fdfa87efc0bd3dccff05037bf0a5e8" category="paragraph">已建立的KMIP金鑰伺服器完整清單。</block>
-  <block id="0a2a9e2ac4719c4ac6cdb0954649f468" category="paragraph"><block ref="0971c717c82e5a2659fd8ee2d73d170d" category="inline-link-macro-rx"></block> 陣列</block>
   <block id="dc8e1ac2cbed3593426fc5ed056fe30f" category="summary">您可以使用清單服務方法、列出叢集上執行之節點、磁碟機、目前軟體及其他服務的服務資訊。</block>
   <block id="f87f240ad01adcfddd869079ea264ac0" category="paragraph">您可以使用「清單服務」方法、列出叢集上執行之節點、磁碟機、目前軟體及其他服務的服務資訊。</block>
   <block id="10cd395cf71c18328c863c08e78f3fd0" category="paragraph">服務</block>
@@ -4868,7 +4860,6 @@
   <block id="c02c1eaada945237018f916bc8da84ad" category="paragraph">此方法沒有輸入參數。</block>
   <block id="78acf42d4e20f5f2468d1e65f57abf33" category="paragraph">保護網域配置</block>
   <block id="05a5c63fcd5e41bcca1f51f811155ae8" category="paragraph">節點清單、每個節點及其相關的保護網域。</block>
-  <block id="239e7b7fda84773161e54a846a2d1cd4" category="paragraph">的JSON.清單 <block ref="900764c76dfb916163ee11006f145e7d" category="inline-link-macro-rx"></block> 物件：</block>
   <block id="7c17df20b03d4e07f2afa43f69f48864" category="summary">您可以使用CopyVolume方法、將現有磁碟區的資料內容覆寫為另一個磁碟區（或快照）的資料內容。目的地Volume的屬性（例如IQN、QoS設定、大小、帳戶和Volume存取群組成員資格）不會變更。目的地Volume必須已經存在、而且必須與來源Volume大小相同。</block>
   <block id="825fdf7532e30c4cbf3dca22b2c62e9c" category="paragraph">您可以使用「CopyVolume」（複本磁碟區）方法、以其他磁碟區（或快照）的資料內容覆寫現有磁碟區的資料內容。目的地Volume的屬性（例如IQN、QoS設定、大小、帳戶和Volume存取群組成員資格）不會變更。目的地Volume必須已經存在、而且必須與來源Volume大小相同。</block>
   <block id="35abaf19b268121e929df1ba58c67e4a" category="paragraph">最好是用戶端在作業開始之前卸載目的地Volume。如果在作業期間修改目的地Volume、變更將會遺失。此作業可能需要多長時間才能完成。您可以使用 <block ref="2853137f7040863ca18b1480311d2902" category="inline-xref-macro-rx"></block> 判斷程序何時完成的方法、以及 <block ref="5bf2a4d1d336cc32b103ae2eace84bf1" category="inline-xref-macro-rx"></block> 以查看複本的進度。</block>
@@ -5292,7 +5283,6 @@
   <block id="c398d0b5db2ad6bd0f494cea5b8f4088" category="paragraph">kmipKeyProvider</block>
   <block id="158fc117241750b333d9029fcd379a0b" category="paragraph">包含新建立金鑰提供者詳細資料的物件。</block>
   <block id="af6fa3b56666058ff3f8eacb74577a16" category="inline-link-macro">KeyProviderKmip</block>
-  <block id="318d6ed2c493a66e91fc7d1db5a0f022" category="paragraph"><block ref="318d6ed2c493a66e91fc7d1db5a0f022" category="inline-link-macro-rx"></block></block>
   <block id="c30ff6c5fbeef539fbe50ceced3d3adb" category="summary">您可以使用「停用維護模式」方法、將儲存節點從維護模式中移出。只有在完成維護且節點已上線之後、才應停用維護模式。</block>
   <block id="378e5721fe469e91f2b09f34b8b43581" category="paragraph">您可以使用「顯示維護模式」方法、將儲存節點從維護模式中移出。只有在完成維護且節點已上線之後、才應停用維護模式。</block>
   <block id="8ca0a895c8a8de3852bfe9bc2855eb91" category="paragraph">您可以使用Getynprynet方法擷取此asyncdyle、並判斷維護模式轉換何時完成。</block>
@@ -6113,7 +6103,6 @@
   <block id="315d01d864941b08b015bd9724f5b4e7" category="paragraph">如果省略、則不會根據傳回的KMIP金鑰提供者是否已指派KMIP金鑰伺服器來篩選。</block>
   <block id="2d956871963e704854b5e24781df3ac6" category="paragraph">kmipKeyProviders</block>
   <block id="daed31255d43e1a9cb8957ea4827280f" category="paragraph">已建立的KMIP金鑰提供者清單。</block>
-  <block id="9e1dc08162fd6287c4fb2fdc4c4a9a0f" category="paragraph"><block ref="318d6ed2c493a66e91fc7d1db5a0f022" category="inline-link-macro-rx"></block> 陣列</block>
   <block id="d07ccd2d77f5001f167b3b44147d3a36" category="summary">您可以使用GetRemoteLoggingHist方法來取得目前的記錄伺服器清單。</block>
   <block id="d181f64248152c2f348f049cf48ef93e" category="paragraph">您可以使用「GetRemoteLoggingHosers」方法來取得目前的記錄伺服器清單。</block>
   <block id="5f4f0ec0918e318616593eade2ab0e45" category="paragraph">遠端系統</block>
@@ -6131,9 +6120,7 @@
   <block id="f7fbdcd0f959ea03f9c9fe10c1f436f5" category="paragraph">您可以使用「EnablEncryptionAtRest」方法、在叢集上啟用閒置的進階加密標準（AES）256位元加密、讓叢集能夠管理用於每個節點磁碟機的加密金鑰。此功能預設為未啟用。</block>
   <block id="b6da302462725db65b08725e21534c35" category="inline-link-macro">取得叢集資訊方法</block>
   <block id="df55ce8d5994202037ca7f6b8add22fc" category="inline-link-macro">取得叢集用來加密閒置資料的資訊方法</block>
-  <block id="8645b3842f2ebbd31ef1556eca13e734" category="admonition">若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 <block ref="266af3c6722606b03dffbc748cf8f335" category="inline-link-macro-rx"></block>。您可以使用「GetSoftwareEncryptionAtRestInfo」 <block ref="71cd4d0c7a8355e8bd1074b7039cdde9" category="inline-link-macro-rx"></block>。</block>
   <block id="9a3e77d40a36fc6582491b29c79ad64a" category="inline-link-macro">建立叢集方法</block>
-  <block id="54345a69ac071e42416d101550699426" category="admonition">此方法無法在閒置時啟用軟體加密。這只能使用來完成 <block ref="156163f61ad8e976859b5234666eb7c2" category="inline-link-macro-rx"></block> 將「enableSoftwareEncryptionAtRest」設為「true」。</block>
   <block id="79c6818b5a784bd2a9784bba4752ebda" category="paragraph">在閒置時啟用加密時、叢集會自動在叢集中每個節點的磁碟機內部管理加密金鑰。</block>
   <block id="06dd8c5540d025434b69c38d303f3e8a" category="paragraph">如果指定了keyProviderID、則會根據金鑰提供者的類型產生和擷取密碼。這通常是使用金鑰管理互通性傳輸協定（KMIP）金鑰伺服器（KMIP金鑰提供者）來完成。執行此作業之後、指定的供應商會被視為作用中、且在使用「disableEncryptionAtRest」方法停用靜止加密之前、無法刪除。</block>
   <block id="0a78a222fd5e48d5331001cedecde88d" category="admonition">如果您的節點類型的型號以「-NE」結尾、則「EnablEncryptionAtRest」方法呼叫將會失敗、並回應「不允許加密」。叢集偵測到非加密節點"。</block>
@@ -7852,9 +7839,7 @@
   <block id="829222e37a81e6723ec1c8312f0896ff" category="doc">管理服務SolidFire 、適用於整合式All Flash儲存設備</block>
   <block id="83221d7a8e6873bb96d6fbbd9afcf8e8" category="inline-link-macro">管理節點</block>
   <block id="a818b18784f90669084d24af8a7d4d6b" category="paragraph">從Element 11.3版本開始、*管理服務*就裝載在上 <block ref="5faa37a8cb9b8f7bb17a5a6af86182c8" category="inline-link-macro-rx"></block>，可在主要版本之外更快更新特定的軟體服務。</block>
-  <block id="33613f9e26b4d3202f0d812df6bedba3" category="paragraph">管理服務可為SolidFire 不完整的Flash儲存設備提供集中和延伸的管理功能。這些服務包括 <block ref="53cac838271c3c6f19adc6b835ed9d5f" category="inline-link-macro-rx"></block>、系統遙測、記錄和服務更新、以及針對Element Plug-in for vCenter的QoSSIOC服務。Active IQ</block>
   <block id="257409197ae1a07404e333be63986ac6" category="inline-link-macro">管理服務版本</block>
-  <block id="4651d824b0048b0eb592cc60e9dd3977" category="admonition">深入瞭解 <block ref="873adfb4e707b3b5ed2423771a9400e1" category="inline-link-macro-rx"></block>。</block>
   <block id="e2593695976e95f81a24db98be39ed45" category="summary">包含獨立式硬體元件（磁碟機和節點）的整個支援系統、可透過在每個節點上獨立執行的更新軟體、將其整合到單一儲存資源池中。SolidFire NetApp Element此統一化叢集可作為單一儲存系統供外部用戶端使用、並透過Element軟體UI、API及其他管理工具、以單一實體的形式進行管理。</block>
   <block id="03531bbe6b454e3015b4001ed6ef7590" category="paragraph">包含獨立硬體元件（磁碟機和節點）的支援系統、可將其整合至儲存資源池中、並在每個節點上獨立執行相關的支援軟體。SolidFire NetApp Element此單一儲存系統是以單一實體的形式、使用Element軟體UI、API及其他管理工具進行管理。</block>
   <block id="91d2228a1dd7c829ac2836205775867a" category="paragraph">包含下列硬體元件的一套系統：SolidFire</block>
@@ -7959,11 +7944,6 @@
   <block id="893da6ab703ccebc0128c2188fce2dfa" category="section-title">改善故障磁碟機的行為</block>
   <block id="bc8064d6976a4ae417d9071be509d014" category="paragraph">Element 123 SolidFire 會使用磁碟機的智慧型健全狀況資料、定期檢查各種應用程式磁碟機的健全狀況。未通過SMART健全狀況檢查的磁碟機可能會接近故障。如果磁碟機未通過SMART健全狀況檢查、磁碟機將轉換為*故障*狀態、並出現嚴重的叢集故障：「Drive with serial：&lt;序號&gt; in slides&gt;&lt;磁碟機插槽&gt;未通過智慧型整體健全狀況檢查。若要解決此問題、請更換磁碟機</block>
   <block id="f27e588d7a898f97a40bb017bc0cb67e" category="paragraph">現在可在Dell R640伺服器上使用ESXDS。SolidFire請參閱<block ref="bbf12a00ac2004a394e4a5957119453c" category="inline-link-rx"></block> 如需支援組態的詳細資訊、請參閱。</block>
-  <block id="b4eb0a7d2f620a735a49d295cf464c57" category="section-title">更新文件以供SolidFire 參考</block>
-  <block id="7b23dd0b7e8640cee7cc760aebda33b4" category="paragraph">下列新文件適用於SolidFire EESDS：</block>
-  <block id="0758acb395116abd9e0939201a27edd6" category="list-text"><block ref="cf3efad461dedbcc789786816f0318a6" category="inline-link-rx"></block>：提供更換Dell R640伺服器磁碟機的步驟。</block>
-  <block id="5ecc3fdf34ca55d0377ecf551fdb9635" category="inline-link">知識庫文章（需登入）</block>
-  <block id="4b88ce6903140a7f757c6509c06012dc" category="list-text"><block ref="a047a2b1ef295d12a54302870ed64e97" category="inline-link-rx"></block>：提供SolidFire 有關解決您的EESDS系統問題的資訊。</block>
   <block id="295216d6678c57d5badf5770238d96b5" category="section-title">針對一些已知問題的新位置SolidFire</block>
   <block id="4a5792ce9d744e9fb996d5cbb1e303d8" category="inline-link">錯誤線上工具（需要登入）</block>
   <block id="28bab3e7358cc261a7101ba6a439e4eb" category="paragraph">您現在可以在上搜尋已知問題<block ref="4010019de5d8f9d6e5f30f9d5509ab8d" category="inline-link-rx"></block>。</block>
@@ -8089,7 +8069,6 @@
   <block id="c8de9bc8a027f0e5864fb603489b44fd" category="list-text"><block ref="c8de9bc8a027f0e5864fb603489b44fd" category="inline-link-rx"></block></block>
   <block id="a0b768ade98ef6cf3df956008c966806" category="list-text"><block ref="a0b768ade98ef6cf3df956008c966806" category="inline-link-rx"></block></block>
   <block id="af149d844cc5e37dba5faa0cc28a9285" category="inline-link-macro">H610S BMC 3.84.07版本說明</block>
-  <block id="eead60ae6beeaad1ec995f62a611e1c3" category="list-text"><block ref="eead60ae6beeaad1ec995f62a611e1c3" category="inline-link-macro-rx"></block></block>
   <block id="f1d02ef71e655f874094154fe26955ae" category="summary">叢集是SolidFire 一套由節點集合所組成的不同步儲存系統中樞。叢集中必須至少有四個節點、SolidFire 才能實現不必要的儲存效率。叢集會以單一邏輯群組的形式出現在網路上、然後可作為區塊儲存設備進行存取。</block>
   <block id="c31f538ab7ed22954b3c941becbca20b" category="paragraph">建立新叢集時、會將節點初始化為叢集的通訊擁有者、並為叢集中的每個節點建立網路通訊。此程序僅會針對每個新叢集執行一次。您可以使用元素UI或API建立叢集。</block>
   <block id="01a99de421fb8a821f16fedb65844d3e" category="paragraph">您可以新增其他節點來橫向擴充叢集。新增節點時、不會中斷服務、而且叢集會自動使用新節點的效能和容量。</block>
@@ -8366,7 +8345,6 @@
   <block id="94d1207223d97d0a0a9877e887c40d29" category="inline-link-macro">變更預設IPMI密碼</block>
   <block id="a88b2ec4dd01d7fd61509f9c9d5bd481" category="list-text">對於H410C、H610C和H615C節點、 <block ref="1d4aa273a0eca9d7d120f38c4573165c" category="inline-link-macro-rx"></block>。</block>
   <block id="9ef4592bcb5c2379e3e631deeae02163" category="inline-link-macro">變更預設的ipm密碼</block>
-  <block id="c406ac81de66b241c8b18e8b786204ce" category="list-text">對於H410S和H610S節點、 <block ref="948675b0a3c0cef9123c5f0ab6b48101" category="inline-link-macro-rx"></block>。</block>
   <block id="5da96725b80167a4658f4e9057a4cb45" category="inline-link-macro">變更管理節點上的BMC認證</block>
   <block id="57137c1e68d7300587dc9d9e4c6d107c" category="list-text"><block ref="5215e9d1d5c62231ce2eff57e0d99e18" category="inline-link-macro-rx"></block>。</block>
   <block id="409517b29e406b86b0f2e96d825034ac" category="paragraph">ESXi認證</block>
@@ -9424,7 +9402,6 @@
   <block id="250f00e8767222db89298f946f97e517" category="paragraph">軟體介面是以Element API為基礎建置而成。</block>
   <block id="9767ec22fca2804b6bdbd87e39200375" category="list-text"><block ref="9767ec22fca2804b6bdbd87e39200375" category="inline-link-macro-rx"></block></block>
   <block id="d3daac97e8c69781f73bcc5512cb5c2a" category="inline-link-macro">升級儲存系統元件</block>
-  <block id="ecb20e3ca51440136d042527b042c2ee" category="list-text"><block ref="ecb20e3ca51440136d042527b042c2ee" category="inline-link-macro-rx"></block></block>
   <block id="6038a645307a76874f058ffe322fc4f6" category="list-text"><block ref="6038a645307a76874f058ffe322fc4f6" category="inline-link-macro-rx"></block></block>
   <block id="78b427ddfeadab92101bce0e26d2af15" category="list-text"><block ref="78b427ddfeadab92101bce0e26d2af15" category="inline-link-macro-rx"></block></block>
   <block id="b1d9f91038721e8f8e298ac364db6778" category="list-text"><block ref="b1d9f91038721e8f8e298ac364db6778" category="inline-link-macro-rx"></block></block>
@@ -9667,7 +9644,6 @@
   <block id="53661c1451a20d47537b1d0a00b2d7d0" category="list-text">若要檢視頁面上所有警示的詳細資料、請按一下詳細資料欄。</block>
   <block id="17597d1694bdaa4d0233e43918f0bd33" category="paragraph">系統解決警示後、所有有關警示的資訊、包括解除警示的日期、都會移至「已解決」區域。</block>
   <block id="dc679f38ed2d35dde42b872d737e46db" category="list-text"><block ref="dc679f38ed2d35dde42b872d737e46db" category="inline-xref-macro-rx"></block></block>
-  <block id="8e078db9f02bd406ca631ba2825dd629" category="list-text"><block ref="8e078db9f02bd406ca631ba2825dd629" category="inline-link-macro-rx"></block></block>
   <block id="e1f86a5a716d7daf38cbb4414809333f" category="summary">您可以使用一個叢集的MVIP與另一個叢集建立連線、配對兩個叢集以進行即時複寫。若要使用此方法、必須在兩個叢集上存取叢集管理員。叢集管理員使用者名稱和密碼可用於驗證叢集存取、然後才能配對叢集。</block>
   <block id="686d2c92d6ed72fd9b67b053a374b0be" category="list-text">按一下「*開始配對*」、然後按一下「*是*」、表示您可以存取遠端叢集。</block>
   <block id="6b3a7de325b16dd1afda64f2b5d849aa" category="list-text">輸入遠端叢集MVIP位址。</block>
@@ -9923,7 +9899,6 @@
   <block id="28ebc10ef7c343a4cf32aacf144f1590" category="list-text">對於閒置的硬體加密、您在變更加密設定之前、已確保叢集處於正常狀態。</block>
   <block id="53f1251f9f4067bb924700bbc4f4734a" category="list-text">如果您停用加密、則必須有兩個節點參與叢集、才能存取金鑰來停用磁碟機上的加密。</block>
   <block id="c7f9a749a25add142f440b6abf05f6c6" category="section-title">檢查加密的靜止狀態</block>
-  <block id="cafb235222dece370f504ef5d0d47b47" category="paragraph">若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 <block ref="b94a2f1f88f1b2af0f1632fc6ab0d549" category="inline-link-macro-rx"></block> 方法。您可以使用 <block ref="599a2456b2fb227210a4ba9b77591706" category="inline-link-macro-rx"></block> 取得叢集用來加密閒置資料的資訊方法。</block>
   <block id="189f9cc5227158e41b6756a4618d70a5" category="admonition">位於https://&lt;MVIP&gt;/`的Element軟體UI儀表板目前僅顯示硬體加密的靜止狀態加密。</block>
   <block id="6411cb076f9a57f4692e35353d26818b" category="list-text"><block ref="0536a180f702fe272c8546e4728d45b2" category="inline-xref-macro-rx"></block></block>
   <block id="4823ade0859e69629fa1e8f164c00d7d" category="list-text"><block ref="a4d311b39c82c29e83b2f7086c1e3a91" category="inline-xref-macro-rx"></block></block>
@@ -10812,8 +10787,6 @@
   <block id="e3ba29915abd7b6580d69f4dab5a9180" category="list-text"><block ref="e3ba29915abd7b6580d69f4dab5a9180" category="inline-link-rx"></block></block>
   <block id="6a5872631c0cf8f8396f83702a5d1b69" category="inline-link">更換H600S系列儲存節點的磁碟機</block>
   <block id="958c4b86b435f9f588d64cfab02d9a5d" category="list-text"><block ref="958c4b86b435f9f588d64cfab02d9a5d" category="inline-link-rx"></block></block>
-  <block id="24ed1c3d2fd5e7a8e8358705c065eee8" category="list-text"><block ref="24ed1c3d2fd5e7a8e8358705c065eee8" category="inline-link-macro-rx"></block></block>
-  <block id="f938a270ef0dee1673d32b1160f2268d" category="list-text"><block ref="f938a270ef0dee1673d32b1160f2268d" category="inline-link-macro-rx"></block></block>
   <block id="b4de17ead867a3cf0b9d11e57e562672" category="doc">機器翻譯</block>
   <block id="3c9f6e4a3154e230010cc09eb27260ad" category="summary">節點是指群組為叢集的個別硬體元件、可作為區塊儲存設備進行存取。在一個不二的儲存系統中、有兩種類型的節點SolidFire ：儲存節點和光纖通道節點。</block>
   <block id="a5599a81e172ea6d5e660325bbceb5b2" category="paragraph">建立新叢集時、會將節點初始化為叢集的通訊擁有者、並為叢集中的每個節點建立網路通訊。此程序僅會針對每個新叢集執行一次。您可以使用元素UI或API來建立叢集。</block>
@@ -11302,8 +11275,6 @@
   <block id="4e8b9c52e60070f73bcaa6e5e5ba4121" category="inline-link-macro">LDAP詳細資料</block>
   <block id="543e9c1cf295e8284006e3af49b8105a" category="paragraph"><block ref="543e9c1cf295e8284006e3af49b8105a" category="inline-link-macro-rx"></block></block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">*相關資訊*</block>
-  <block id="a1245e096ef503d7567667afaa906b60" category="paragraph"><block ref="a1245e096ef503d7567667afaa906b60" category="inline-xref-macro-rx"></block></block>
-  <block id="52dc765a830c6c6b29cc239ca9482774" category="paragraph"><block ref="52dc765a830c6c6b29cc239ca9482774" category="inline-xref-macro-rx"></block></block>
   <block id="27b50c2855e5935b991c110f8f2c985d" category="summary">您可以將啟動器對應至磁碟區集合、以進行安全存取、藉此建立磁碟區存取群組。然後、您可以使用帳戶CHAP啟動器密碼和目標密碼、將存取權限授予群組中的磁碟區。</block>
   <block id="625674c07781dca113f6cbca1243747b" category="list-text">以下列其中一種方式將啟動器新增至Volume存取群組：</block>
   <block id="f5121697b915ee3ca78973d2b9ab5038" category="paragraph">新增Fibre Channel啟動器</block>
@@ -11950,4 +11921,27 @@
   <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _新_</block>
   <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
   <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">使用API之後、您必須重新開機管理節點。</block>
+  <block id="f2803c84f404a81af41a23542245cebc" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block></block>
+  <block id="64d9e8809f33aaca7cda9d121b2b2e83" category="paragraph"><block ref="64d9e8809f33aaca7cda9d121b2b2e83" category="inline-link-macro-rx"></block></block>
+  <block id="19f47154ff3c9f0fcf8147cd2369d029" category="paragraph"><block ref="19f47154ff3c9f0fcf8147cd2369d029" category="inline-link-macro-rx"></block></block>
+  <block id="0e9706d9713372bb21a3b9f917953dbc" category="paragraph">的JSON.清單 <block ref="5820461afa2bd9ee99130d755eddf7ff" category="inline-link-macro-rx"></block> 物件：</block>
+  <block id="1e924e133c06d37b8d10cb78b719f4ce" category="paragraph"><block ref="1e924e133c06d37b8d10cb78b719f4ce" category="inline-link-macro-rx"></block></block>
+  <block id="0aa7fde71cfb5413015e45fa45075fd0" category="admonition">若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 <block ref="d274ae55f8f22fd98ab9b057453f6128" category="inline-link-macro-rx"></block>。您可以使用<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="bd5bc3e1755ad5880958398f3551c67d" category="inline-link-macro-rx"></block>。</block>
+  <block id="08e683c68442f500782b3d5486530a71" category="admonition">此方法無法在閒置時啟用軟體加密。這只能使用來完成 <block ref="d203a09ebf9d1da1010b557da816049a" category="inline-link-macro-rx"></block> 與<block ref="8a6d1a92159080729def71f4e50f41d0" prefix=" " category="inline-code"></block> 設定為<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>。</block>
+  <block id="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="paragraph"><block ref="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="inline-link-macro-rx"></block></block>
+  <block id="954e95e0241c7b3a74f9c6a194795355" category="admonition">若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 <block ref="51ab6f075e7b9b2d3276f61c0b11b186" category="inline-link-macro-rx"></block>。您可以使用<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="e5fb14b37e1fdc8a835f7ed4e33c1c63" category="inline-link-macro-rx"></block>。</block>
+  <block id="342c0e2d839abf3902ec2e2ba9a391e5" category="paragraph"><block ref="19f47154ff3c9f0fcf8147cd2369d029" category="inline-link-macro-rx"></block> 陣列</block>
+  <block id="f1e1734ea4e6ef5a6bd73e15cffa128a" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block> 陣列</block>
+  <block id="2896bd9b7f534d42f996fc5910e2ad40" category="paragraph"><block ref="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="inline-link-macro-rx"></block> 陣列</block>
+  <block id="89291581fd8be1d9caf505e74fd0773e" category="list-text"><block ref="89291581fd8be1d9caf505e74fd0773e" category="inline-link-macro-rx"></block></block>
+  <block id="a339aaae279fb4166b4ea4a6575b8e54" category="list-text"><block ref="a339aaae279fb4166b4ea4a6575b8e54" category="inline-link-macro-rx"></block></block>
+  <block id="bc392d110b36a51cd536073024a5f532" category="list-text">對於H410S和H610S節點、 <block ref="1ed294287e7a2515c794c51e2936136d" category="inline-link-macro-rx"></block>。</block>
+  <block id="dcf69453f88a169ec3e3e6fae67d435e" category="list-text"><block ref="dcf69453f88a169ec3e3e6fae67d435e" category="inline-link-macro-rx"></block></block>
+  <block id="07e6fbc1d94748a67b7280d5169aff78" category="paragraph">若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 <block ref="4ba6dd2d59030fb9ee4b6523df69086c" category="inline-link-macro-rx"></block> 方法。您可以使用 <block ref="6a83460526e11b52e54477d344b49b7d" category="inline-link-macro-rx"></block> 取得叢集用來加密閒置資料的資訊方法。</block>
+  <block id="521e8e8587c418fa92f54811f8954007" category="list-text"><block ref="521e8e8587c418fa92f54811f8954007" category="inline-link-macro-rx"></block></block>
+  <block id="ecec8bb5649856a856a861a75e4daa84" category="list-text"><block ref="ecec8bb5649856a856a861a75e4daa84" category="inline-link-macro-rx"></block></block>
+  <block id="24786d5c66286f468be80b26d8f4126b" category="list-text"><block ref="24786d5c66286f468be80b26d8f4126b" category="inline-link-rx"></block></block>
+  <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">管理服務可為SolidFire 不完整的Flash儲存設備提供集中和延伸的管理功能。這些服務包括 <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>、系統遙測、記錄和服務更新、以及針對Element Plug-in for vCenter的QoSSIOC服務。Active IQ</block>
+  <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">深入瞭解 <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>。</block>
+  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
 </blocks>

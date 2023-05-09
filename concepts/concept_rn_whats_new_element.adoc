@@ -194,16 +194,6 @@ Element 123 SolidFire 會使用磁碟機的智慧型健全狀況資料、定期�
 
 
 
-=== 更新文件以供SolidFire 參考
-
-下列新文件適用於SolidFire EESDS：
-
-* https://docs.netapp.com/us-en/element-software/esds/task_esds_r640_drive_repl.html["更換Dell R640的磁碟機"^]：提供更換Dell R640伺服器磁碟機的步驟。
-* https://kb.netapp.com/Special:Search?query=solidfire+enterprise+SDS&type=wiki["知識庫文章（需登入）"^]：提供SolidFire 有關解決您的EESDS系統問題的資訊。
-
-
-
-
 === 針對一些已知問題的新位置SolidFire
 
 您現在可以在上搜尋已知問題 https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab["錯誤線上工具（需要登入）"^]。

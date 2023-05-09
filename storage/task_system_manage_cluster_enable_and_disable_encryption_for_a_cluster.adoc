@@ -30,7 +30,7 @@ WARNING: 對於支援所有Flash的儲存叢集、在建立叢集期間必須啟
 
 == 檢查加密的靜止狀態
 
-若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"^] 方法。您可以使用 link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAt恢復 資訊"^] 取得叢集用來加密閒置資料的資訊方法。
+若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"] 方法。您可以使用 link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAt恢復 資訊"] 取得叢集用來加密閒置資料的資訊方法。
 
 
 NOTE: 位於https://<MVIP>/`的Element軟體UI儀表板目前僅顯示硬體加密的靜止狀態加密。

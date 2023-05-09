@@ -14,10 +14,10 @@ summary: 您可以使用EnablEncryptionAtRest方法、在叢集上啟用「進�
 您可以使用「EnablEncryptionAtRest」方法、在叢集上啟用閒置的進階加密標準（AES）256位元加密、讓叢集能夠管理用於每個節點磁碟機的加密金鑰。此功能預設為未啟用。
 
 
-TIP: 若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 link:../api/reference_element_api_getclusterinfo["取得叢集資訊方法"^]。您可以使用「GetSoftwareEncryptionAtRestInfo」 link:../api/reference_element_api_getsoftwareencryptionatrestinfo["取得叢集用來加密閒置資料的資訊方法"^]。
+TIP: 若要查看叢集上閒置加密和/或軟體加密的目前狀態、請使用 link:../api/reference_element_api_getclusterinfo.html["取得叢集資訊方法"]。您可以使用 `GetSoftwareEncryptionAtRestInfo` link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["取得叢集用來加密閒置資料的資訊方法"]。
 
 
-NOTE: 此方法無法在閒置時啟用軟體加密。這只能使用來完成 link:../api/reference_element_api_createcluster.html["建立叢集方法"^] 將「enableSoftwareEncryptionAtRest」設為「true」。
+NOTE: 此方法無法在閒置時啟用軟體加密。這只能使用來完成 link:../api/reference_element_api_createcluster.html["建立叢集方法"] 與 `enableSoftwareEncryptionAtRest` 設定為 `true`。
 
 在閒置時啟用加密時、叢集會自動在叢集中每個節點的磁碟機內部管理加密金鑰。
 

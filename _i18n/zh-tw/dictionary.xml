@@ -11944,4 +11944,6 @@
   <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">管理服務可為SolidFire 不完整的Flash儲存設備提供集中和延伸的管理功能。這些服務包括 <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>、系統遙測、記錄和服務更新、以及針對Element Plug-in for vCenter的QoSSIOC服務。Active IQ</block>
   <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">深入瞭解 <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>。</block>
   <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
+  <block id="a6d7169168a038dee7aae0a8f455c43a" category="list-text">當磁碟片同步進行中時、將磁碟區復原至快照可能會失敗。重試<block ref="c2e5bace81fd03914fa15aa027ee5f09" prefix=" " category="inline-code"></block> 同步完成後。</block>
+  <block id="bd74837c55aafce98fe5823bae9ee413" category="list-text">當磁碟片同步進行中時、將磁碟區復原至群組快照可能會失敗。重試<block ref="05667fca9ff503d9b750747f0075d35a" prefix=" " category="inline-code"></block> 同步完成後。</block>
 </blocks>

@@ -4,15 +4,11 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="fbcc1cb0e2a70eff701965a5f3e0d76b" category="inline-link-macro">Ember OS 12.3.注意事項</block>
   <block id="fd9a4be3d806a4349b944f9bfba66d2f" category="list-text"><block ref="fd9a4be3d806a4349b944f9bfba66d2f" category="inline-link-macro-rx"></block></block>
@@ -11607,13 +11603,10 @@
   <block id="5cfd33f46dd1f74b29ddee43372c8c66" category="cell">磁碟：Samsung PM9A3（SED）</block>
   <block id="6df3968cc040ad2cb904b1a6ba10ad7b" category="cell">推動SK Hynix PE8010（SED）</block>
   <block id="80dddcfece551adcfa2c64f7d0c7e904" category="cell">推動SK Hynix PE8010（N-SED）</block>
-  <block id="2ee8e09999beeee54d2bd467af8fa223" category="cell">*儲存韌體套裝組合2.164.0*</block>
-  <block id="d4b212557e55b6e6583c0d02ccccd6eb" category="cell">10/20/2022</block>
   <block id="9671fe0cd1cee15ffc6e623894e0c90c" category="cell">3B11.</block>
   <block id="d7d76e22f94a7f97f91de8b48bb8e450" category="cell">3.94.07</block>
   <block id="a0a080f42e6f13b3a2df133f073095dd" category="cell">122.</block>
   <block id="3be3116abb26c1d7a8c70b7b656661c2" category="cell">14.25.1020</block>
-  <block id="51de44f160b8b55c4e5d2ce02998d259" category="cell">16.32.1010</block>
   <block id="5b068a95442c7d5505b4166a77357ea5" category="cell">3.1</block>
   <block id="031d5ba5392644db94b13513e69d4e66" category="cell">2.16</block>
   <block id="b90192b2aeb39444852ac0e41788ae24" category="cell">26.2C</block>
@@ -11628,15 +11621,10 @@
   <block id="d2a3d6fbce3a3051dfc130e0011c1e3f" category="cell">EDA5900Q</block>
   <block id="bbe9047444895de971dcc65fe7f9504f" category="cell">0109.</block>
   <block id="e3ce1e09813e3376d7ce8c7a625b2470" category="cell">0108</block>
-  <block id="b480fd4504480e5139a20c8cc66fcf79" category="cell">GDC5602Q</block>
   <block id="37ac0290be70b74cc8f652c94b244484" category="cell">11092A10</block>
   <block id="223b1fa9e807b6e3241516bda5bf6d35" category="cell">110B2A10</block>
-  <block id="68ed34bb8a8f8b7d7a0942f7a94cd4f2" category="cell">*儲存韌體套裝組合2.164.0到NetApp Element 更新版本12.7*</block>
-  <block id="76b32d0df4efa424b2efa6728e2b5da7" category="cell">*儲存韌體套裝組合2.150.4 *</block>
-  <block id="b0c9867bdf153402438ba4d694d73ada" category="cell">2022年6月8日</block>
   <block id="336d5ebc5436534e61d16e63ddfca327" category="cell">-</block>
   <block id="f9eaf28d7f6afbf4436dc40e7bcd160d" category="cell">GDC5502Q</block>
-  <block id="096d3b928cb77d0fdc812bee8c099ba0" category="cell">*儲存韌體套裝組合2.150.4到NetApp Element 版本12.5*</block>
   <block id="c46a08345b2035ee8ab756b20e94f710" category="cell">*儲存韌體套裝組合2.146.2*</block>
   <block id="31fcef57c9af10cef3b1dc2e7bd7361b" category="cell">02/2/2022</block>
   <block id="a631cac3230223bc3f32cb5e4546a73f" category="cell">*儲存韌體套裝組合2.99.4到NetApp Element 更新版本12.3.2*</block>
@@ -11715,8 +11703,6 @@
   <block id="6b4633d853ed19436d779041f8ac3490" category="cell">磁碟機Toshiba Hawk-4（SED）</block>
   <block id="60d788b5461ac876fe9e656fd99ba55a" category="cell">磁碟機Toshiba Hawk-4（N-SED）</block>
   <block id="02057cc854600d68c5fb8b16e44333cb" category="cell">磁碟：Samsung PM883（SED）</block>
-  <block id="1ad071257f715e496a87659f9a2669a6" category="cell">NAT3.4</block>
-  <block id="ddfac71abd839b54517b13500ce7ecbf" category="cell">6.98.00</block>
   <block id="8a4c64b18b2091cb5c0095d83dc665a8" category="cell">ae3b8cc</block>
   <block id="469e913859ac0d58ebb420875fea4e01" category="cell">7d842bc</block>
   <block id="83e5bd753d6fbcbd60a51705cf96ac0c" category="cell">GX T54404Q</block>
@@ -11946,4 +11932,11 @@
   <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
   <block id="a6d7169168a038dee7aae0a8f455c43a" category="list-text">當磁碟片同步進行中時、將磁碟區復原至快照可能會失敗。重試<block ref="c2e5bace81fd03914fa15aa027ee5f09" prefix=" " category="inline-code"></block> 同步完成後。</block>
   <block id="bd74837c55aafce98fe5823bae9ee413" category="list-text">當磁碟片同步進行中時、將磁碟區復原至群組快照可能會失敗。重試<block ref="05667fca9ff503d9b750747f0075d35a" prefix=" " category="inline-code"></block> 同步完成後。</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>

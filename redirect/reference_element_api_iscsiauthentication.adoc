@@ -1,0 +1,8 @@
+---
+permalink: api/reference_element_api_iscsiauthentication.html 
+redirect: element-software-123/api/concept_element_api_common_objects.html 
+---
+= 
+:allow-uri-read: 
+
+

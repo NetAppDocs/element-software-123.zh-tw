@@ -1,6 +1,6 @@
 ---
 permalink: mnode/task_mnode_enable_node_troubleshooting_sessions.html 
-redirect: element-software-123/mnode/task_mnode_work_overview.html 
+redirect: element-software-123/mnode/task_mnode_enable_remote_support_connections.html 
 ---
 = 
 :allow-uri-read: 

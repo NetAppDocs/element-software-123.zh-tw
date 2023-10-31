@@ -9104,8 +9104,6 @@
   <block id="5421fac2401eb19c9cb0e5aab1e0fb46" category="list-text">使用Element API、輸入下列命令、在所有磁碟機上啟用FIPS：</block>
   <block id="9f75394f7e7400c6bd1811b84f367045" category="paragraph">「EnablFeature參數：FipsDrives」</block>
   <block id="ff888c386cbf7561a41674237043ab02" category="summary">您可能需要允許下列TCP連接埠通過資料中心的邊緣防火牆、以便從遠端管理系統、並允許資料中心外部的用戶端連線至資源。視您使用系統的方式而定、可能不需要其中一些連接埠。</block>
-  <block id="bbb9ca100f5b4a2074b8caeaaf4b1ae0" category="paragraph">您可能需要允許下列TCP連接埠通過資料中心的邊緣防火牆、以便從遠端管理系統、並允許資料中心外部的用戶端連線至資源。視您使用系統的方式而定、可能不需要其中一些連接埠。</block>
-  <block id="2f5dc9e1194b10f0920c3f6b85205b99" category="paragraph">除非另有說明、否則所有連接埠均為TCP、且應允許NetApp Support Server、管理節點和執行Element軟體的節點之間進行雙向通訊。</block>
   <block id="1f2681a91e9e795d6ebb1d5828cd1182" category="admonition">在管理節點、執行Element軟體的節點和叢集MVIP之間啟用ICMP。</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">下表使用下列縮寫：</block>
   <block id="60175d30ed8f8459b2f835b923bb4ee5" category="list-text">MIP：管理IP位址、每節點位址</block>
@@ -11942,4 +11940,6 @@
   <block id="474ed7ffbbc0fc1d58ad983e7ef700f6" category="admonition">適用於 vCenter 5.0 或更新版本的 Element 外掛程式與 vCenter Server 6.7 和 6.5 不相容。</block>
   <block id="dfd25ff244b001be7beece9729517779" category="list-text">未壓縮</block>
   <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">升級 NetApp SolidFire All Flash 儲存系統 Element 12.3.x 版</block>
+  <block id="c04c3f3380a29245247f6e8a6c77a880" category="paragraph">您可能需要允許下列 TCP 和 UDP 連接埠透過資料中心的邊緣防火牆、以便遠端管理系統、並允許資料中心外部的用戶端連線至資源。視您使用系統的方式而定、可能不需要其中一些連接埠。</block>
+  <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">除非另有說明、否則所有連接埠都是 TCP 、而且所有 TCP 連接埠都必須支援 NetApp 支援伺服器、管理節點和執行 Element 軟體的節點之間的三向信號交換通訊。例如、管理節點來源上的主機透過 TCP 連接埠 443 與儲存叢集 MVIP 目的地上的主機通訊、而目的地主機則透過任何連接埠回傳給來源主機。</block>
 </blocks>

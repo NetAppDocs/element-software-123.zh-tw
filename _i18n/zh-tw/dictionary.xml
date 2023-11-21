@@ -76,8 +76,6 @@
   <block id="305404f131cd68bdf692eb046a161981" category="list-text"><block ref="305404f131cd68bdf692eb046a161981" category="inline-link-macro-rx"></block></block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">vCenter Server的VMware vCenter外掛程式NetApp Element</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
-  <block id="631923a687ff82d68973d99b95597b47" category="inline-link">「元件與元素資源」頁面SolidFire</block>
-  <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
   <block id="2c21c71423028f346adca15ddc4fe793" category="summary">您可以使用「混合雲控制磁碟區」頁面監控系統中的磁碟區。</block>
   <block id="b1fdadb278bc33692729c07d84b4d900" category="doc">監控儲存叢集上的磁碟區</block>
   <block id="ea333cfb83363f2e94893346e3f19cdc" category="paragraph">這個系統使用Volume來配置儲存設備。SolidFire磁碟區是透過iSCSI或Fibre Channel用戶端透過網路存取的區塊裝置。您可以監控有關存取群組、帳戶、啟動器、已用容量、Snapshot資料保護狀態、iSCSI工作階段數目、以及與磁碟區相關的服務品質（QoS）原則的詳細資料。</block>
@@ -716,8 +714,6 @@
   <block id="5728f0317e6dafcb81e2d7025632bf5e" category="list-text">插入一條或兩條電源線。</block>
   <block id="8650e9e71e38ae9e93eb5c72f21a25ea" category="list-text">如果您同時更換兩個電源供應器、請移至節點正面、然後按下電源按鈕開啟節點電源。電源開啟後、電源按鈕LED會亮起恆亮的藍色。磁碟機的藍色LED和識別按鈕將開始閃爍。</block>
   <block id="24902bdac86d2032ef9b09526e7d9043" category="list-text">請依照隨附於您的包裝盒中的指示、將故障設備退回NetApp。</block>
-  <block id="1c1519037df87ff4dd08fe6e757ff03f" category="inline-link">NetApp SolidFire 資源頁面</block>
-  <block id="abc0c04174a58217258765895984ed4e" category="list-text"><block ref="abc0c04174a58217258765895984ed4e" category="inline-link-rx"></block></block>
   <block id="89e3bb4cf03209dcb9c85e2455cde9c3" category="inline-link">先前版本的NetApp SolidFire 產品及元素產品文件</block>
   <block id="461166164223a1234073a2c9d388d33a" category="list-text"><block ref="461166164223a1234073a2c9d388d33a" category="inline-link-rx"></block></block>
   <block id="00d86638d5b399e6cbf90a0c1f0dc622" category="doc">新增和移除磁碟機的最佳實務做法</block>
@@ -3814,8 +3810,6 @@
   <block id="a1ecf7be27d0987baa26a8bff8653ff6" category="list-text"><block ref="a1ecf7be27d0987baa26a8bff8653ff6" category="inline-xref-macro-rx"></block></block>
   <block id="93be4895c86d760e8bbee3a36d256dc1" category="inline-xref-macro">回應範例</block>
   <block id="c2c075d7ecfea2a1a630498ac1110e78" category="list-text"><block ref="c2c075d7ecfea2a1a630498ac1110e78" category="inline-xref-macro-rx"></block></block>
-  <block id="b0cda36836b6d8e27c36c8d9d6b48f3a" category="inline-link">「All Flash儲存資源」頁面SolidFire</block>
-  <block id="a980426853b5ccc1de52aeb0b0ae0463" category="list-text"><block ref="a980426853b5ccc1de52aeb0b0ae0463" category="inline-link-rx"></block></block>
   <block id="d25459b3c5acd2943fae1e5fda4cfa22" category="inline-link">元件與元件軟體文件中心SolidFire</block>
   <block id="024c22e90f2315636ed8d61b006ad1b5" category="list-text"><block ref="024c22e90f2315636ed8d61b006ad1b5" category="inline-link-rx"></block></block>
   <block id="7e4e02c8b3d4ecd51690d912ab9bca18" category="summary">磁碟機物件包含叢集作用中節點中個別磁碟機的相關資訊。此物件包含已新增為磁碟區中繼資料或區塊磁碟機的磁碟機、以及尚未新增且可供使用的磁碟機的詳細資料。您可以使用清單磁碟機API方法擷取此資訊。</block>
@@ -11942,4 +11936,8 @@
   <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">升級 NetApp SolidFire All Flash 儲存系統 Element 12.3.x 版</block>
   <block id="c04c3f3380a29245247f6e8a6c77a880" category="paragraph">您可能需要允許下列 TCP 和 UDP 連接埠透過資料中心的邊緣防火牆、以便遠端管理系統、並允許資料中心外部的用戶端連線至資源。視您使用系統的方式而定、可能不需要其中一些連接埠。</block>
   <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">除非另有說明、否則所有連接埠都是 TCP 、而且所有 TCP 連接埠都必須支援 NetApp 支援伺服器、管理節點和執行 Element 軟體的節點之間的三向信號交換通訊。例如、管理節點來源上的主機透過 TCP 連接埠 443 與儲存叢集 MVIP 目的地上的主機通訊、而目的地主機則透過任何連接埠回傳給來源主機。</block>
+  <block id="5858de35bb153f56bdb4f3fbd003b515" category="list-text"><block ref="5858de35bb153f56bdb4f3fbd003b515" category="inline-link-rx"></block></block>
+  <block id="e6344f017ebc6c23de294cbd0c5b3ec0" category="image-alt">LDAP 伺服器檢視的一般設定</block>
+  <block id="bf0a897972fda4244e862fc7b7474446" category="image-alt">建立新的使用者檢視</block>
+  <block id="f4029885f6f8ac69ff0c61a3a67af4dc" category="sidebar">包含硬體元件（例如磁碟機和節點）的全快閃儲存系統、這些元件會整合到儲存資源池中。SolidFire使用元素介面、 API 或其他管理工具、您可以使用 NetApp Element 軟體來管理這些儲存資源叢集。本網站包含 Element 軟體 12.3.x 的文件</block>
 </blocks>

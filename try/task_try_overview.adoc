@@ -21,5 +21,5 @@ summary: 深入瞭解協助您開始使用Element軟體的資源與工具。
 
 == 如需詳細資訊、請參閱
 
-* https://www.netapp.com/data-storage/solidfire/documentation/["「All Flash儲存資源」頁面SolidFire"^]
+* https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]
 

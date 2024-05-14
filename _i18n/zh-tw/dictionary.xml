@@ -11921,11 +11921,9 @@
   <block id="9de5606ae9b23ff6651244b85bd5dae8" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block></block>
   <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
   <block id="ce397f79b5032c3e327db3efe5a6048a" category="inline-link">vCenter Plug-in 5.2 版本資訊</block>
-  <block id="4718467fa890cd0dcf159b3d461cedbe" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block> _新_</block>
   <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
   <block id="faf6c38631911f7840c3498b4ec9f746" category="inline-link-macro">管理服務 2.24.40 注意事項（適用於 VMware vCenter Server 5.2.12 的 NetApp Element 外掛程式）</block>
   <block id="db3a980db6ffcc2055052c6c4a453020" category="list-text"><block ref="db3a980db6ffcc2055052c6c4a453020" category="inline-link-macro-rx"></block></block>
-  <block id="eea7cb3a63edf642e1f15162351dfce7" category="list-text">您正在升級至適用於 vCenter Server 5.2 、 5.1 或 5.0 的 Element 外掛程式。</block>
   <block id="c9c6a2f6fa07c1f8c580586914c37e79" category="image-alt">說明在元件外掛程式 5.1 或更新版本成功升級或安裝之後的外掛程式擴充點</block>
   <block id="f35f89119a6374d18bd89e0103590c61" category="image-alt">說明成功升級或安裝 Element Plug-in 4.10 或更早版本之後的外掛擴充點</block>
   <block id="1583ff28675a9e24a50fa1079a5dd985" category="paragraph"><block ref="43638993383f845bcd8925bd4e266bc9" prefix="" category="inline-code"></block></block>
@@ -11942,4 +11940,10 @@
   <block id="df0f8acf74958be223bdd3dabcce5038" category="inline-link">由於升級套件上傳錯誤、 SolidFire 和 HCI 升級無法啟動</block>
   <block id="b9bbae8efe5c0f15ffba3f05d619b861" category="admonition">自 2023 年 11 月起、您無法使用 NetApp 混合雲控制或 REST API 來開始元件升級、因為簽署金鑰憑證（私有和公有）已於 2023 年 11 月 5 日到期。您可以依照知識庫文件中所述的因應措施來解決此問題<block ref="43e83b9864cac922c7475bad0e74a40f" category="inline-link-rx"></block>。</block>
   <block id="9f94ad22fed97f22703d9d145f565bfb" category="paragraph">您可以使用<block ref="e7d385ef5ac889916654bf5f865952f1" prefix=" " category="inline-code"></block> 主動移除屬於叢集一部分的磁碟機的方法。您可以在減少叢集容量或準備更換即將結束服務壽命的磁碟機時、使用此方法。<block ref="e7d385ef5ac889916654bf5f865952f1" prefix=" " category="inline-code"></block> 在叢集中的其他節點上建立區塊資料的第三個複本、並等待同步完成、然後再將磁碟機移至「可用」清單。「可用」清單中的磁碟機會從系統中完全移除、而且沒有執行中的服務或作用中資料。</block>
+  <block id="d3c4a89052a32dd9783dd119f30d6d47" category="inline-link">vCenter Plug-in 5.3 版本資訊</block>
+  <block id="0c21440ced3ddae10d1eea32870fdf02" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block> _新_</block>
+  <block id="6bd87cf3d55c2ead3ab585e965bea4db" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block></block>
+  <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">您正在升級至適用於 vCenter Server 5.3 、 5.2 、 5.1 或 5.0 的 Element 外掛程式。</block>
+  <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">管理服務 2.25.42 注意事項（適用於 VMware vCenter Server 5.2.9 的 NetApp Element 外掛程式）</block>
+  <block id="4d67cefe38dafa645f353279e4fbc37b" category="list-text"><block ref="4d67cefe38dafa645f353279e4fbc37b" category="inline-link-macro-rx"></block></block>
 </blocks>

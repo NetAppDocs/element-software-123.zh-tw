@@ -10,8 +10,10 @@ settings:
   versions:
   - version-number: '12.3'
     url: "/element-software-123"
-  - version-number: 12.5 and later
+  - version-number: '12.7'
     url: "/element-software"
+  - version-number: '12.5'
+    url: "/element-software-125"
   langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
